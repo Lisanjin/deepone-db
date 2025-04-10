@@ -1,148 +1,231 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>キャラクター一覧表</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<div class="filter-container">
-  <label for="filter-select">呼び名で絞り込み：</label>
-  <select id="filter-select">
-    <option value="all">すべて表示</option>
-  </select>
-</div>
+  <div class="filter-container">
+    <label for="filter-select">呼び名で絞り込み：</label>
+    <select id="filter-select">
+      <option value="all">すべて表示</option>
+    </select>
+  </div>
 
-<table id="character-table">
-  <caption>キャラクター一覧表</caption>
-  <thead id="table-head">
-    <!-- 表头由 JS 插入 -->
-  </thead>
-  <tbody id="table-body">
-    <!-- 表体由 JS 插入 -->
-  </tbody>
-</table>
-<script src="js/get_path.js"></script>
-<script>
-  const displayFields = {
-    "characterId": "番号",
-    "icon" :"头像",
-    "name": "名前",
-    "skinName": "衣装名",
-    "text": "紹介",
-    "rarity": "レアリティ",
-    "attribute": "属性"
-  };
+  <table id="character-table">
+    <caption>キャラクター一覧表</caption>
+    <thead id="table-head">
+      <!-- 表头由 JS 插入 -->
+    </thead>
+    <tbody id="table-body">
+      <!-- 表体由 JS 插入 -->
+    </tbody>
+  </table>
+  <script src="js/get_path.js"></script>
+  <script>
+    const displayFields = {
+      "characterId": "番号",
+      "icon": "头像",
+      "name": "名前",
+      "skinName": "衣装名",
+      "text": "紹介",
+      "rarity": "レアリティ",
+      "attribute": "属性"
+    };
 
-  const rarityMap = {
-    0: "無",
-    1: "N",
-    2: "R",
-    3: "SR",
-    4: "SSR"
-  };
+    const rarityMap = {
+      0: "無",
+      1: "N",
+      2: "R",
+      3: "SR",
+      4: "SSR"
+    };
 
-  const attributeMap = {
-    1: "火",
-    2: "水",
-    3: "風",
-    4: "雷",
-    5: "光",
-    6: "闇"
-  };
+    const attributeMap = {
+      1: "火",
+      2: "水",
+      3: "風",
+      4: "雷",
+      5: "光",
+      6: "闇"
+    };
 
-  const tableHead = document.getElementById("table-head");
-  const tableBody = document.getElementById("table-body");
-  const filterSelect = document.getElementById("filter-select");
+    const tableHead = document.getElementById("table-head");
+    const tableBody = document.getElementById("table-body");
+    const filterSelect = document.getElementById("filter-select");
 
-  let allCharacters = []; // 全キャラデータ保持
+    let allCharacters = []; // 全キャラデータ保持
 
-  // 表头生成函数
-  function generateTableHead() {
-    tableHead.innerHTML = "";
-    const headRow = document.createElement("tr");
-    for (const key in displayFields) {
-      const th = document.createElement("th");
-      th.textContent = displayFields[key];
-      headRow.appendChild(th);
-    }
-    tableHead.appendChild(headRow);
-  }
-  function get_icon_src(id){
-    const path = "character/"+id+"/image/thumb.png";
-    const res_obj = GenerateMd5(path);
-    const res_MD5 = res_obj.getMD5();
-    const res_path=get_real_path(res_MD5);
-    return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/"+res_path+res_MD5+".png";
-  }
-
-  // 表体生成函数
-  function generateTableBody(characters) {
-    tableBody.innerHTML = "";
-    characters.forEach(character => {
-      const row = document.createElement("tr");
+    // 表头生成函数
+    function generateTableHead() {
+      tableHead.innerHTML = "";
+      const headRow = document.createElement("tr");
       for (const key in displayFields) {
-        const td = document.createElement("td");
-
-        if (key === "rarity") {
-          td.textContent = rarityMap[character[key]] ?? character[key];
-        } else if (key === "attribute") {
-          td.textContent = attributeMap[character[key]] ?? character[key];
-        } else if (key === "icon") {
-          const img = document.createElement("img");
-          img.src = get_icon_src(character["characterId"]); // 假设头像的 URL 存在 'icon' 属性中
-          td.appendChild(img);
-        } else {
-          td.textContent = character[key] !== undefined ? character[key] : "-";
-        }
-
-        row.appendChild(td);
+        const th = document.createElement("th");
+        th.textContent = displayFields[key];
+        headRow.appendChild(th);
       }
-      tableBody.appendChild(row);
+      tableHead.appendChild(headRow);
+    }
+    function get_icon_src(id) {
+      const path = "character/" + id + "/image/thumb.png";
+      const res_obj = GenerateMd5(path);
+      const res_MD5 = res_obj.getMD5();
+      const res_path = get_real_path(res_MD5);
+      return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".png";
+    }
+    function get_main_card_src(id) {
+      const path = "character/" + id + "/image/main.png";
+      const res_obj = GenerateMd5(path);
+      const res_MD5 = res_obj.getMD5();
+      const res_path = get_real_path(res_MD5);
+      return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".png";
+    }
+    function get_stand_card_src(id) {
+      const path = "character/" + id + "/image/stand.png";
+      const res_obj = GenerateMd5(path);
+      const res_MD5 = res_obj.getMD5();
+      const res_path = get_real_path(res_MD5);
+      return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".png";
+    }
+
+    // 表体生成函数
+    function generateTableBody(characters) {
+      tableBody.innerHTML = "";
+      characters.forEach(character => {
+        const row = document.createElement("tr");
+        for (const key in displayFields) {
+          const td = document.createElement("td");
+
+          // 设置单元格内容
+          if (key === "rarity") {
+            td.textContent = rarityMap[character[key]] ?? character[key];
+          } else if (key === "attribute") {
+            td.textContent = attributeMap[character[key]] ?? character[key];
+          } else if (key === "icon") {
+            const img = document.createElement("img");
+            img.src = get_icon_src(character["characterId"]);
+            td.appendChild(img);
+          } else {
+            td.textContent = character[key] !== undefined ? character[key] : "-";
+          }
+
+          // 添加点击事件监听器
+          td.addEventListener("click", () => {
+            showPopup(character);
+          });
+
+          row.appendChild(td);
+        }
+        tableBody.appendChild(row);
+      });
+    }
+
+    // 筛选选项生成函数
+    function populateFilterOptions(characters) {
+      const shortNames = new Set(characters.map(c => c.shortName).filter(n => n));
+      shortNames.forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        filterSelect.appendChild(option);
+      });
+    }
+
+    // 监听筛选选择
+    filterSelect.addEventListener("change", () => {
+      const selected = filterSelect.value;
+      const filtered = selected === "all"
+        ? allCharacters
+        : allCharacters.filter(c => c.shortName === selected);
+      generateTableBody(filtered);
     });
+
+    // 加载 JSON 数据并初始化
+    fetch('masterdata/character_MasterCharacterMainData.json')
+      .then(res => res.json())
+      .then(data => {
+        allCharacters = data.CharacterMain;
+        generateTableHead();
+        generateTableBody([]);
+        populateFilterOptions(allCharacters);
+      })
+      .catch(err => {
+        console.error("データ読み込みエラー:", err);
+        const errorRow = document.createElement("tr");
+        const td = document.createElement("td");
+        td.colSpan = Object.keys(displayFields).length;
+        td.textContent = "キャラクターデータの読み込みに失敗しました。";
+        td.style.color = "red";
+        errorRow.appendChild(td);
+        tableBody.appendChild(errorRow);
+      });
+
+      function showPopup(character) {
+  // 如果已有弹窗，先移除整个 overlay
+  const existing = document.getElementById("popup-overlay");
+  if (existing) {
+    existing.remove();
   }
 
-  // 筛选选项生成函数
-  function populateFilterOptions(characters) {
-    const shortNames = new Set(characters.map(c => c.shortName).filter(n => n));
-    shortNames.forEach(name => {
-      const option = document.createElement("option");
-      option.value = name;
-      option.textContent = name;
-      filterSelect.appendChild(option);
-    });
-  }
+  // 创建遮罩层
+  const overlay = document.createElement("div");
+  overlay.id = "popup-overlay";
+  overlay.style.position = "fixed";
+  overlay.style.top = "0";
+  overlay.style.left = "0";
+  overlay.style.width = "100vw";
+  overlay.style.height = "100vh";
+  overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+  overlay.style.zIndex = "999";
+  overlay.style.display = "flex";
+  overlay.style.alignItems = "center";
+  overlay.style.justifyContent = "center";
 
-  // 监听筛选选择
-  filterSelect.addEventListener("change", () => {
-    const selected = filterSelect.value;
-    const filtered = selected === "all"
-      ? allCharacters
-      : allCharacters.filter(c => c.shortName === selected);
-    generateTableBody(filtered);
+  // 点击遮罩层关闭
+  overlay.addEventListener("click", () => {
+    overlay.remove();
   });
 
-  // 加载 JSON 数据并初始化
-  fetch('masterdata/character_MasterCharacterMainData.json')
-    .then(res => res.json())
-    .then(data => {
-      allCharacters = data.CharacterMain;
-      generateTableHead();
-      generateTableBody([]);
-      populateFilterOptions(allCharacters);
-    })
-    .catch(err => {
-      console.error("データ読み込みエラー:", err);
-      const errorRow = document.createElement("tr");
-      const td = document.createElement("td");
-      td.colSpan = Object.keys(displayFields).length;
-      td.textContent = "キャラクターデータの読み込みに失敗しました。";
-      td.style.color = "red";
-      errorRow.appendChild(td);
-      tableBody.appendChild(errorRow);
-    });
-</script>
+  // 创建弹窗本体
+  const popup = document.createElement("div");
+  popup.id = "popup-window";
+  popup.style.background = "#fff";
+  popup.style.padding = "20px";
+  popup.style.border = "1px solid #ccc";
+  popup.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
+  popup.style.zIndex = "1000";
+  popup.style.position = "relative";
+
+  // 防止点击弹窗本体时关闭
+  popup.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+
+  // 添加头像图片
+  const main_card_img = document.createElement("img");
+  main_card_img.src = get_main_card_src(character["characterId"]);
+  main_card_img.alt = character.name || "Character";
+  // main_card_img.style.maxWidth = "300px";
+  main_card_img.style.display = "block";
+  main_card_img.style.margin = "0 auto";
+
+  main_card_img.onerror = () => {
+    main_card_img.onerror = null; // 防止死循环
+    main_card_img.src = get_stand_card_src(character["characterId"]);
+  };
+
+  popup.appendChild(main_card_img);
+  overlay.appendChild(popup);
+  document.body.appendChild(overlay);
+}
+
+  </script>
 
 </body>
+
 </html>
