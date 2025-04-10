@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>キャラクター一覧表</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .filter-container {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    select {
+      padding: 6px 10px;
+      font-size: 1em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 95%;
+      margin: auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f5f5f5;
+    }
+    td:first-child {
+      font-weight: bold;
+      background-color: #fafafa;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="filter-container">
+  <label for="filter-select">呼び名で絞り込み：</label>
+  <select id="filter-select">
+    <option value="all">すべて表示</option>
+  </select>
+</div>
+
+<table id="character-table">
+  <caption>キャラクター一覧表</caption>
+  <thead id="table-head">
+    <!-- 表头由 JS 插入 -->
+  </thead>
+  <tbody id="table-body">
+    <!-- 表体由 JS 插入 -->
+  </tbody>
+</table>
+
+<script>
+  const displayFields = {
+    "characterId": "番号",
+    "name": "名前",
+    "skinName": "衣装名",
+    "text": "紹介",
+    "rarity": "レアリティ",
+    "attribute": "属性"
+  };
+
+  const rarityMap = {
+    0: "無",
+    1: "N",
+    2: "R",
+    3: "SR",
+    4: "SSR"
+  };
+
+  const attributeMap = {
+    1: "火",
+    2: "水",
+    3: "風",
+    4: "雷",
+    5: "光",
+    6: "闇"
+  };
+
+  const tableHead = document.getElementById("table-head");
+  const tableBody = document.getElementById("table-body");
+  const filterSelect = document.getElementById("filter-select");
+
+  let allCharacters = []; // 全キャラデータ保持
+
+  // 表头生成函数
+  function generateTableHead() {
+    tableHead.innerHTML = "";
+    const headRow = document.createElement("tr");
+    for (const key in displayFields) {
+      const th = document.createElement("th");
+      th.textContent = displayFields[key];
+      headRow.appendChild(th);
+    }
+    tableHead.appendChild(headRow);
+  }
+
+  // 表体生成函数
+  function generateTableBody(characters) {
+    tableBody.innerHTML = "";
+    characters.forEach(character => {
+      const row = document.createElement("tr");
+      for (const key in displayFields) {
+        const td = document.createElement("td");
+        
+        if (key === "rarity") {
+          td.textContent = rarityMap[character[key]] ?? character[key];
+        } else if (key === "attribute") {
+          td.textContent = attributeMap[character[key]] ?? character[key];
+        } else {
+          td.textContent = character[key] !== undefined ? character[key] : "-";
+        }
+
+        row.appendChild(td);
+      }
+      tableBody.appendChild(row);
+    });
+  }
+
+  // 筛选选项生成函数
+  function populateFilterOptions(characters) {
+    const shortNames = new Set(characters.map(c => c.shortName).filter(n => n));
+    shortNames.forEach(name => {
+      const option = document.createElement("option");
+      option.value = name;
+      option.textContent = name;
+      filterSelect.appendChild(option);
+    });
+  }
+
+  // 监听筛选选择
+  filterSelect.addEventListener("change", () => {
+    const selected = filterSelect.value;
+    const filtered = selected === "all"
+      ? allCharacters
+      : allCharacters.filter(c => c.shortName === selected);
+    generateTableBody(filtered);
+  });
+
+  // 加载 JSON 数据并初始化
+  fetch('masterdata/character_MasterCharacterMainData.json')
+    .then(res => res.json())
+    .then(data => {
+      allCharacters = data.CharacterMain;
+      generateTableHead();
+      generateTableBody(allCharacters);
+      populateFilterOptions(allCharacters);
+    })
+    .catch(err => {
+      console.error("データ読み込みエラー:", err);
+      const errorRow = document.createElement("tr");
+      const td = document.createElement("td");
+      td.colSpan = Object.keys(displayFields).length;
+      td.textContent = "キャラクターデータの読み込みに失敗しました。";
+      td.style.color = "red";
+      errorRow.appendChild(td);
+      tableBody.appendChild(errorRow);
+    });
+</script>
+
+</body>
+</html>
