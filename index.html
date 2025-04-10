@@ -3,41 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>キャラクター一覧表</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-    }
-    .filter-container {
-      margin-bottom: 15px;
-      text-align: center;
-    }
-    select {
-      padding: 6px 10px;
-      font-size: 1em;
-    }
-    table {
-      border-collapse: collapse;
-      width: 95%;
-      margin: auto;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 6px 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #f5f5f5;
-    }
-    td:first-child {
-      font-weight: bold;
-      background-color: #fafafa;
-    }
-    caption {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -57,10 +23,11 @@
     <!-- 表体由 JS 插入 -->
   </tbody>
 </table>
-
+<script src="js/get_path.js"></script>
 <script>
   const displayFields = {
     "characterId": "番号",
+    "icon" :"头像",
     "name": "名前",
     "skinName": "衣装名",
     "text": "紹介",
@@ -102,6 +69,13 @@
     }
     tableHead.appendChild(headRow);
   }
+  function get_icon_src(id){
+    const path = "character/"+id+"/image/thumb.png";
+    const res_obj = GenerateMd5(path);
+    const res_MD5 = res_obj.getMD5();
+    const res_path=get_real_path(res_MD5);
+    return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/"+res_path+res_MD5+".png";
+  }
 
   // 表体生成函数
   function generateTableBody(characters) {
@@ -110,11 +84,15 @@
       const row = document.createElement("tr");
       for (const key in displayFields) {
         const td = document.createElement("td");
-        
+
         if (key === "rarity") {
           td.textContent = rarityMap[character[key]] ?? character[key];
         } else if (key === "attribute") {
           td.textContent = attributeMap[character[key]] ?? character[key];
+        } else if (key === "icon") {
+          const img = document.createElement("img");
+          img.src = get_icon_src(character["characterId"]); // 假设头像的 URL 存在 'icon' 属性中
+          td.appendChild(img);
         } else {
           td.textContent = character[key] !== undefined ? character[key] : "-";
         }
@@ -151,7 +129,7 @@
     .then(data => {
       allCharacters = data.CharacterMain;
       generateTableHead();
-      generateTableBody(allCharacters);
+      generateTableBody([]);
       populateFilterOptions(allCharacters);
     })
     .catch(err => {
