@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>キャラクター一覧表</title>
+  <title>Deep One Database</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -109,6 +109,10 @@
           } else if (key === "icon") {
             const img = document.createElement("img");
             img.src = get_icon_src(character["characterId"]);
+            img.onerror = () => {
+              img.onerror = null;
+              img.src = "img/error.png"; // 错误时显示默认图片
+            };
             td.appendChild(img);
           } else {
             td.textContent = character[key] !== undefined ? character[key] : "-";
@@ -200,6 +204,8 @@
   popup.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
   popup.style.zIndex = "1000";
   popup.style.position = "relative";
+  popup.style.maxHeight = "80vh"; // 设置最大高度为视口高度的80%
+  popup.style.overflowY = "auto"; // 纵向溢出时启用滚动条
 
   // 防止点击弹窗本体时关闭
   popup.addEventListener("click", (e) => {
@@ -210,19 +216,70 @@
   const main_card_img = document.createElement("img");
   main_card_img.src = get_main_card_src(character["characterId"]);
   main_card_img.alt = character.name || "Character";
-  // main_card_img.style.maxWidth = "300px";
   main_card_img.style.display = "block";
   main_card_img.style.margin = "0 auto";
 
   main_card_img.onerror = () => {
-    main_card_img.onerror = null; // 防止死循环
+    main_card_img.onerror = null;
     main_card_img.src = get_stand_card_src(character["characterId"]);
   };
 
+  // 创建信息表格
+  const infoTable = document.createElement("table");
+  infoTable.style.width = "100%";
+  infoTable.style.marginTop = "20px";
+  infoTable.style.borderCollapse = "collapse";
+  infoTable.style.textAlign = "left";
+
+  const addRow = (label, value, colspan = 1) => {
+    const tr = document.createElement("tr");
+    const th = document.createElement("th");
+    th.textContent = label;
+    th.style.padding = "4px";
+    th.style.borderBottom = "1px solid #ccc";
+    const td = document.createElement("td");
+    td.textContent = value || "-";
+    td.colSpan = colspan;
+    td.style.padding = "4px";
+    td.style.borderBottom = "1px solid #ccc";
+    tr.appendChild(th);
+    tr.appendChild(td);
+    return tr;
+  };
+
+  // 第一行：最大HP, ATK, DEF
+  const statsRow = document.createElement("tr");
+  ["最大HP", "最大ATK", "最大DEF"].forEach((label, index) => {
+    const th = document.createElement("th");
+    th.textContent = label;
+    th.style.padding = "4px";
+    th.style.borderBottom = "1px solid #ccc";
+    statsRow.appendChild(th);
+
+    const td = document.createElement("td");
+    const key = ["maxHp4", "maxAtk4", "maxDef4"][index];
+    td.textContent = character[key] ?? "-";
+    td.style.padding = "4px";
+    td.style.borderBottom = "1px solid #ccc";
+    statsRow.appendChild(td);
+  });
+  infoTable.appendChild(statsRow);
+
+  infoTable.appendChild(addRow("技能", character["skillId"], 6));
+
+  // 第三行：被动技能（单独一行）
+  infoTable.appendChild(addRow("被动", character["abilityGroupId"], 6));
+
+  // 第四行：辅助技能（单独一行）
+  infoTable.appendChild(addRow("辅助技能", character["supportAbilityGroupId"], 6));
+
+  // 拼接 DOM
   popup.appendChild(main_card_img);
+  popup.appendChild(infoTable);
   overlay.appendChild(popup);
   document.body.appendChild(overlay);
 }
+
 
   </script>
 

@@ -32,34 +32,39 @@ class Do_data_utils():
         else:
             print(f"Failed to get md5 data. Status code: {response.status_code}")
             return None
-        
-    def character_getMasterCharacterMainData(self):
-        url = "https://tonofura-web-r.deepone-online.com/deep-one/api/character/getMasterCharacterMainData"
-        response = self.session.get(url)
-        if response.status_code == 200:
-            self.character_MasterCharacterMainData = msgpack.unpackb(response.content)
-            return self.character_MasterCharacterMainData
-        else:
-            print(f"Failed to get masterdata. Status code: {response.status_code}")
-            print(url)
-            return None
-        
-    def character_getMasterData(self):
-        url = "https://tonofura-web-r.deepone-online.com/deep-one/api/character/getMasterData"
-        response = self.session.get(url)
-        if response.status_code == 200:
-            self.character_MasterData = msgpack.unpackb(response.content)
-            return self.character_MasterData
-        else:
-            print(f"Failed to get masterdata. Status code: {response.status_code}")
-            print(url)
-            return None
-        
-utils = Do_data_utils()
-with open("masterdata/character_MasterData.json", "w",encoding="utf-8") as f:
-    json.dump(utils.character_getMasterData(), f, ensure_ascii=False,indent=4)
-
-with open("masterdata/character_MasterCharacterMainData.json", "w",encoding="utf-8") as f:
-    json.dump(utils.character_getMasterCharacterMainData(), f, ensure_ascii=False,indent=4)
-
     
+    def get_masterdata(self,path):
+        url = self.bass_url + path
+        response = self.session.get(url)
+        if response.status_code == 200:
+            self.masterdata[path] = msgpack.unpackb(response.content)
+            return self.masterdata[path]
+        else:
+            print(f"Failed to get masterdata. Status code: {response.status_code}")
+            print(url)
+            return None
+    
+    def save_masterdata(self,path):
+        self.get_masterdata(path)
+        if path in self.masterdata:
+            save_path = path.replace("/", "_").replace("get", "")
+            with open(f"masterdata/{save_path}.json", "w",encoding="utf-8") as f:
+                json.dump(self.masterdata[path], f, ensure_ascii=False,indent=4)
+        else:
+            print(f"Masterdata {path} not found.")
+
+utils = Do_data_utils()
+# utils.save_masterdata("character/getMasterData")
+# utils.save_masterdata("character/getMasterCharacterMainData")
+# utils.save_masterdata("character/getMasterSkillData")
+# utils.save_masterdata("character/getMasterSkillEffectData")
+# utils.save_masterdata("character/getMasterSkillEffectData2")
+
+# utils.save_masterdata("character/getMasterAbilityData")
+# utils.save_masterdata("character/getMasterAbilityEffectData")
+# utils.save_masterdata("character/getMasterAbilityEffectData2")
+# utils.save_masterdata("character/getMasterAbilityEffectData3")
+# utils.save_masterdata("character/getMasterAbilityEffectData4")
+# utils.save_masterdata("character/getMasterAbilityEffectData5")
+# utils.save_masterdata("character/getMasterAbilityEffectData6")
+

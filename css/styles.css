@@ -35,7 +35,7 @@ select {
 }
 
 select:hover {
-    border-color: #007bff;
+    border-color: #4d5863;
 }
 
 table {
@@ -53,7 +53,7 @@ td {
 }
 
 th {
-    background-color: #007bff;
+    background-color: #838383;
     color: #fff;
     font-weight: bold;
 }
