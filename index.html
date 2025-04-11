@@ -26,6 +26,7 @@
     </tbody>
   </table>
   <script src="js/get_path.js"></script>
+  <script src="js/get_ability.js"></script>
   <script>
     const displayFields = {
       "characterId": "番号",
@@ -169,116 +170,119 @@
         tableBody.appendChild(errorRow);
       });
 
-      function showPopup(character) {
-  // 如果已有弹窗，先移除整个 overlay
-  const existing = document.getElementById("popup-overlay");
-  if (existing) {
-    existing.remove();
-  }
+    function showPopup(character) {
+      // 如果已有弹窗，先移除整个 overlay
+      const existing = document.getElementById("popup-overlay");
+      if (existing) {
+        existing.remove();
+      }
 
-  // 创建遮罩层
-  const overlay = document.createElement("div");
-  overlay.id = "popup-overlay";
-  overlay.style.position = "fixed";
-  overlay.style.top = "0";
-  overlay.style.left = "0";
-  overlay.style.width = "100vw";
-  overlay.style.height = "100vh";
-  overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-  overlay.style.zIndex = "999";
-  overlay.style.display = "flex";
-  overlay.style.alignItems = "center";
-  overlay.style.justifyContent = "center";
+      // 创建遮罩层
+      const overlay = document.createElement("div");
+      overlay.id = "popup-overlay";
+      overlay.style.position = "fixed";
+      overlay.style.top = "0";
+      overlay.style.left = "0";
+      overlay.style.width = "100vw";
+      overlay.style.height = "100vh";
+      overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+      overlay.style.zIndex = "999";
+      overlay.style.display = "flex";
+      overlay.style.alignItems = "center";
+      overlay.style.justifyContent = "center";
 
-  // 点击遮罩层关闭
-  overlay.addEventListener("click", () => {
-    overlay.remove();
-  });
+      // 点击遮罩层关闭
+      overlay.addEventListener("click", () => {
+        overlay.remove();
+      });
 
-  // 创建弹窗本体
-  const popup = document.createElement("div");
-  popup.id = "popup-window";
-  popup.style.background = "#fff";
-  popup.style.padding = "20px";
-  popup.style.border = "1px solid #ccc";
-  popup.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
-  popup.style.zIndex = "1000";
-  popup.style.position = "relative";
-  popup.style.maxHeight = "80vh"; // 设置最大高度为视口高度的80%
-  popup.style.overflowY = "auto"; // 纵向溢出时启用滚动条
+      // 创建弹窗本体
+      const popup = document.createElement("div");
+      popup.id = "popup-window";
+      popup.style.background = "#fff";
+      popup.style.padding = "20px";
+      popup.style.border = "1px solid #ccc";
+      popup.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.2)";
+      popup.style.zIndex = "1000";
+      popup.style.position = "relative";
+      popup.style.maxHeight = "80vh"; // 设置最大高度为视口高度的80%
+      popup.style.overflowY = "auto"; // 纵向溢出时启用滚动条
 
-  // 防止点击弹窗本体时关闭
-  popup.addEventListener("click", (e) => {
-    e.stopPropagation();
-  });
+      // 防止点击弹窗本体时关闭
+      popup.addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
 
-  // 添加头像图片
-  const main_card_img = document.createElement("img");
-  main_card_img.src = get_main_card_src(character["characterId"]);
-  main_card_img.alt = character.name || "Character";
-  main_card_img.style.display = "block";
-  main_card_img.style.margin = "0 auto";
+      // 添加头像图片
+      const main_card_img = document.createElement("img");
+      main_card_img.src = get_main_card_src(character["characterId"]);
+      main_card_img.alt = character.name || "Character";
+      main_card_img.style.display = "block";
+      main_card_img.style.margin = "0 auto";
 
-  main_card_img.onerror = () => {
-    main_card_img.onerror = null;
-    main_card_img.src = get_stand_card_src(character["characterId"]);
-  };
+      main_card_img.onerror = () => {
+        main_card_img.onerror = null;
+        main_card_img.src = get_stand_card_src(character["characterId"]);
+      };
 
-  // 创建信息表格
-  const infoTable = document.createElement("table");
-  infoTable.style.width = "100%";
-  infoTable.style.marginTop = "20px";
-  infoTable.style.borderCollapse = "collapse";
-  infoTable.style.textAlign = "left";
+      // 创建信息表格
+      const infoTable = document.createElement("table");
+      infoTable.style.width = "100%";
+      infoTable.style.marginTop = "20px";
+      infoTable.style.borderCollapse = "collapse";
+      infoTable.style.textAlign = "left";
 
-  const addRow = (label, value, colspan = 1) => {
-    const tr = document.createElement("tr");
-    const th = document.createElement("th");
-    th.textContent = label;
-    th.style.padding = "4px";
-    th.style.borderBottom = "1px solid #ccc";
-    const td = document.createElement("td");
-    td.textContent = value || "-";
-    td.colSpan = colspan;
-    td.style.padding = "4px";
-    td.style.borderBottom = "1px solid #ccc";
-    tr.appendChild(th);
-    tr.appendChild(td);
-    return tr;
-  };
+      const addRow = (label, value, colspan = 1) => {
+        const tr = document.createElement("tr");
+        const th = document.createElement("th");
+        th.textContent = label;
+        th.style.padding = "4px";
+        th.style.borderBottom = "1px solid #ccc";
+        const td = document.createElement("td");
+        td.textContent = value || "-";
+        td.colSpan = colspan;
+        td.style.padding = "4px";
+        td.style.borderBottom = "1px solid #ccc";
+        tr.appendChild(th);
+        tr.appendChild(td);
+        return tr;
+      };
 
-  // 第一行：最大HP, ATK, DEF
-  const statsRow = document.createElement("tr");
-  ["最大HP", "最大ATK", "最大DEF"].forEach((label, index) => {
-    const th = document.createElement("th");
-    th.textContent = label;
-    th.style.padding = "4px";
-    th.style.borderBottom = "1px solid #ccc";
-    statsRow.appendChild(th);
+      // 第一行：最大HP, ATK, DEF
+      const statsRow = document.createElement("tr");
+      ["最大HP", "最大ATK", "最大DEF"].forEach((label, index) => {
+        const th = document.createElement("th");
+        th.textContent = label;
+        th.style.padding = "4px";
+        th.style.borderBottom = "1px solid #ccc";
+        statsRow.appendChild(th);
 
-    const td = document.createElement("td");
-    const key = ["maxHp4", "maxAtk4", "maxDef4"][index];
-    td.textContent = character[key] ?? "-";
-    td.style.padding = "4px";
-    td.style.borderBottom = "1px solid #ccc";
-    statsRow.appendChild(td);
-  });
-  infoTable.appendChild(statsRow);
+        const td = document.createElement("td");
+        const key = ["maxHp4", "maxAtk4", "maxDef4"][index];
+        td.textContent = character[key] ?? "-";
+        td.style.padding = "4px";
+        td.style.borderBottom = "1px solid #ccc";
+        statsRow.appendChild(td);
+      });
+      infoTable.appendChild(statsRow);
 
-  infoTable.appendChild(addRow("技能", character["skillId"], 6));
+      infoTable.appendChild(addRow("技能", character["skillId"], 6));
 
-  // 第三行：被动技能（单独一行）
-  infoTable.appendChild(addRow("被动", character["abilityGroupId"], 6));
+      // 第三行：被动技能
+      get_effect_texts(character["abilityGroupId"]).then(effectTexts => {
+        effectTexts.forEach((effectText, index) => {
+          const label = `アビリティ${index + 1}`; // 从1开始编号
+          infoTable.appendChild(addRow(label, effectText, 6));
+        });
+      });
 
-  // 第四行：辅助技能（单独一行）
-  infoTable.appendChild(addRow("辅助技能", character["supportAbilityGroupId"], 6));
 
-  // 拼接 DOM
-  popup.appendChild(main_card_img);
-  popup.appendChild(infoTable);
-  overlay.appendChild(popup);
-  document.body.appendChild(overlay);
-}
+      // 拼接 DOM
+      popup.appendChild(main_card_img);
+      popup.appendChild(infoTable);
+      overlay.appendChild(popup);
+      document.body.appendChild(overlay);
+    }
 
 
   </script>
