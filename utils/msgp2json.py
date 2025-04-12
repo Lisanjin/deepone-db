@@ -26,7 +26,7 @@ class Do_data_utils():
         response = self.session.get(url)
         if response.status_code == 200:
             self.md5_data = response.json()
-            with open("md5_data.json", "w") as f:
+            with open("masterdata/md5_data.json", "w") as f:
                 json.dump(self.md5_data, f, indent=4)
             return self.md5_data
         else:
@@ -53,6 +53,3 @@ class Do_data_utils():
                 json.dump(self.masterdata[path], f, ensure_ascii=False,indent=4)
         else:
             print(f"Masterdata {path} not found.")
-
-
-

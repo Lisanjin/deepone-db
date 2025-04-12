@@ -100,7 +100,7 @@ async function get_effect(abilityId, level = null) {
 function get_text(effects) {
   return effects.map(effect => {
     let text = effect.text;
-    text = text.replace("{0}", effect.effectValue);
+    text = text.replace("{0}", Math.abs(effect.effectValue));
     text = text.replace("{1-}", TARGET_TYPE_TEXT_CONVERT[effect.targetType]);
     text = text.replace("{1}", effect.targetValue);
     text = text.replace("{2}", effect.endValue);

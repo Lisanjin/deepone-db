@@ -27,6 +27,7 @@
   </table>
   <script src="js/get_path.js"></script>
   <script src="js/get_ability.js"></script>
+  <script src="js/get_skill.js"></script>
   <script>
     const displayFields = {
       "characterId": "番号",
@@ -266,8 +267,14 @@
       });
       infoTable.appendChild(statsRow);
 
-      infoTable.appendChild(addRow("技能", character["skillId"], 6));
+      // 第二行：技能
+      get_skill_effect_texts(character["skillId"]).then(effectTexts => {
+        get_SkillName(character["skillId"]).then(skillName => {
+          infoTable.appendChild(addRow(skillName, effectTexts, 6));
+        });
+      });
 
+      
       // 第三行：被动技能
       get_effect_texts(character["abilityGroupId"]).then(effectTexts => {
         effectTexts.forEach((effectText, index) => {
