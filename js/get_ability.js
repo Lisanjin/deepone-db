@@ -1,24 +1,10 @@
 const MasterAbilityEffectData_LENGTH = 6;
 
 const Effect_KEY_MAP = {
-  a: 'abilityId',
-  b: 'level',
-  c: 'index',
-  d: 'text',
-  e: 'shortText',
-  f: 'actionType',
-  g: 'effectType',
-  h: 'effectValue',
-  i: 'effectLimit',
-  j: 'effectConditionType',
-  k: 'effectConditionValue',
-  l: 'occurrenceRate',
-  m: 'successRate',
-  n: 'targetType',
-  o: 'targetValue',
-  p: 'endType',
-  q: 'endValue',
-  releaseDate: 'releaseDate',
+  a: 'abilityId', b: 'level', c: 'index', d: 'text', e: 'shortText', f: 'actionType',
+  g: 'effectType', h: 'effectValue', i: 'effectLimit', j: 'effectConditionType',
+  k: 'effectConditionValue', l: 'occurrenceRate', m: 'successRate', n: 'targetType',
+  o: 'targetValue', p: 'endType', q: 'endValue', releaseDate: 'releaseDate',
 };
 
 const TARGET_TYPE_TEXT_CONVERT = {
@@ -39,7 +25,8 @@ async function loadJson(url) {
   return await res.json();
 }
 
-let abilityData;
+let abilityData = null;
+let abilityEffectList = null;
 
 async function get_AbilityGroup(abilityGroupId) {
   if (!abilityData) {
@@ -49,6 +36,8 @@ async function get_AbilityGroup(abilityGroupId) {
 }
 
 async function get_AbilityEffect_list() {
+  if (abilityEffectList) return abilityEffectList;
+
   const allEffects = [];
   for (let i = 1; i <= MasterAbilityEffectData_LENGTH; i++) {
     const suffix = i === 1 ? "" : i;
@@ -59,6 +48,7 @@ async function get_AbilityEffect_list() {
     );
     allEffects.push(...effects);
   }
+  abilityEffectList = allEffects;
   return allEffects;
 }
 
@@ -121,6 +111,8 @@ async function get_effect_texts(groupId) {
   return effectTexts;
 }
 
-// console.log();
-// Example usage
-// get_effect_texts(100104).then(console.log);
+// Optional: 手动清除缓存（开发调试用）
+function clearAbilityCache() {
+  abilityData = null;
+  abilityEffectList = null;
+}

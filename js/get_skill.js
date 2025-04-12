@@ -1,24 +1,10 @@
 const MasterSkillEffectData_LENGTH = 2;
 
 const Skill_Effect_KEY_MAP = {
-  a: 'skillId',
-  b: 'level',
-  c: 'index',
-  d: 'text',
-  e: 'shortText',
-  f: 'actionType',
-  g: 'effectType',
-  h: 'effectValue',
-  i: 'effectLimit',
-  j: 'effectConditionType',
-  k: 'effectConditionValue',
-  l: 'occurrenceRate',
-  m: 'successRate',
-  n: 'targetType',
-  o: 'targetValue',
-  p: 'endType',
-  q: 'endValue',
-  releaseDate: 'releaseDate',
+  a: 'skillId', b: 'level', c: 'index', d: 'text', e: 'shortText', f: 'actionType',
+  g: 'effectType', h: 'effectValue', i: 'effectLimit', j: 'effectConditionType',
+  k: 'effectConditionValue', l: 'occurrenceRate', m: 'successRate', n: 'targetType',
+  o: 'targetValue', p: 'endType', q: 'endValue', releaseDate: 'releaseDate',
 };
 
 const Skill_TARGET_TYPE_TEXT_CONVERT = {
@@ -35,7 +21,8 @@ async function loadJson(url) {
   return await res.json();
 }
 
-let skillData;
+let skillData = null;
+let skillEffectList = null;  // 缓存 SkillEffect 数据
 
 async function get_SkillData() {
   if (!skillData) {
@@ -45,6 +32,8 @@ async function get_SkillData() {
 }
 
 async function get_SkillEffect_list() {
+  if (skillEffectList) return skillEffectList;
+
   const allEffects = [];
   for (let i = 1; i <= MasterSkillEffectData_LENGTH; i++) {
     const suffix = i === 1 ? "" : i;
@@ -55,6 +44,7 @@ async function get_SkillEffect_list() {
     );
     allEffects.push(...effects);
   }
+  skillEffectList = allEffects;
   return allEffects;
 }
 
