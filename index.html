@@ -28,7 +28,22 @@
   <script src="js/get_path.js"></script>
   <script src="js/get_ability.js"></script>
   <script src="js/get_skill.js"></script>
+  <script src="js/get_chara_text.js"></script>
   <script>
+    let currentAudio = null;
+
+    function playAudio(audioPath) {
+      // 如果有当前正在播放的音频，则先暂停并重置
+      if (currentAudio) {
+        currentAudio.pause(); // 暂停当前音频
+        currentAudio.currentTime = 0; // 重置音频位置
+      }
+
+      // 创建新的音频对象并播放
+      currentAudio = new Audio(audioPath);
+      currentAudio.play();
+    }
+
     const displayFields = {
       "characterId": "番号",
       "icon": "头像",
@@ -93,6 +108,13 @@
       const res_MD5 = res_obj.getMD5();
       const res_path = get_real_path(res_MD5);
       return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".png";
+    }
+    function get_chara_voice(id, voiceFile) {
+      const path = "character/" + id + "/sound/" + voiceFile;
+      const res_obj = GenerateMd5(path);
+      const res_MD5 = res_obj.getMD5();
+      const res_path = get_real_path(res_MD5);
+      return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".mp3";
     }
 
     // 表体生成函数
@@ -240,7 +262,7 @@
         th.style.padding = "4px";
         th.style.borderBottom = "1px solid #ccc";
         const td = document.createElement("td");
-        td.textContent = value || "-";
+        td.innerHTML = value || "-";
         td.colSpan = colspan;
         td.style.padding = "4px";
         td.style.borderBottom = "1px solid #ccc";
@@ -267,26 +289,65 @@
       });
       infoTable.appendChild(statsRow);
 
-      // 第二行：技能
-      get_skill_effect_texts(character["skillId"]).then(effectTexts => {
-        get_SkillName(character["skillId"]).then(skillName => {
-          infoTable.appendChild(addRow(skillName, effectTexts, 6));
-        });
-      });
+      // 创建一个函数来确保所有数据都加载完成后再添加到表格
+      const addRowsToTable = async () => {
+        // 第二行：技能
+        const skillEffectText = await get_skill_effect_texts(character["skillId"]);
+        const skillName = await get_SkillName(character["skillId"]);
+        infoTable.appendChild(addRow(skillName, skillEffectText, 6));
 
-      
-      // 第三行：被动技能
-      get_effect_texts(character["abilityGroupId"]).then(effectTexts => {
+        // 第三行：被动技能
+        const effectTexts = await get_effect_texts(character["abilityGroupId"]);
         effectTexts.forEach((effectText, index) => {
           const label = `アビリティ${index + 1}`; // 从1开始编号
           infoTable.appendChild(addRow(label, effectText, 6));
         });
-      });
 
+        // 第四行：文本
+        const texts = await get_Text_byId(character["characterId"]);
+        const displayedTexts = new Set(); // 用来记录已经显示过的文本
 
-      // 拼接 DOM
+        texts.forEach(text => {
+          const textContent = text.text?.trim();
+
+          const excludedTexts = ["テキスト表示なし", "未定"]; // 排除的文本列表
+
+          if (excludedTexts.includes(textContent) || displayedTexts.has(textContent)) return;
+
+          // 将当前文本加入已显示集合
+          displayedTexts.add(textContent);
+
+          const label = text.title || "テキスト";
+
+          // 使用 flex 容器来对齐文本和按钮
+          let content = `<div style="display: flex; justify-content: space-between; align-items: center;">`;
+
+          // 左边：文本内容
+          content += `<div style="white-space: pre-wrap;">${text.text || ""}</div>`;
+
+          // 右边：按钮（如果有 voiceFile）
+          if (text.voiceFile) {
+            const audioPath = get_chara_voice(character["characterId"], text.voiceFile);
+
+            content += `<div><button onclick="playAudio('${audioPath}')">▶️ 再生</button></div>`;
+          }
+
+          content += `</div>`;
+
+          infoTable.appendChild(addRow(label, content, 6));
+        });
+
+        // 添加完所有数据后再将表格添加到弹窗
+        popup.appendChild(infoTable);
+        overlay.appendChild(popup);
+        document.body.appendChild(overlay);
+      };
+
+      // 调用异步函数
+      addRowsToTable();
+
+      // 将头像图片提前添加到弹窗
       popup.appendChild(main_card_img);
-      popup.appendChild(infoTable);
       overlay.appendChild(popup);
       document.body.appendChild(overlay);
     }
