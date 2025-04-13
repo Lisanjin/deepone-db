@@ -21,3 +21,10 @@ utils = Do_data_utils()
 # utils.save_masterdata("character/getMasterTextData3")
 # utils.save_masterdata("character/getMasterTextData4")
 # utils.save_masterdata("character/getMasterTextData5")
+
+utils.save_masterdata("equipment/getMasterData")
+utils.save_masterdata("equipment/getMasterEquipmentEffectData")
+utils.save_masterdata("equipment/getMasterEquipmentEffectData2")
+
+
+

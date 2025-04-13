@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Deep One - 装備一覧</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="filter-container">
+        <input type="text" id="effect-filter" placeholder="効果キーワードを入力">
+        <label for="attribute-filter">属性で絞り込み：</label>
+        <select id="attribute-filter">
+            <option value="all">すべて表示</option>
+            <option value="1">火</option>
+            <option value="2">水</option>
+            <option value="3">風</option>
+            <option value="4">雷</option>
+            <option value="5">光</option>
+            <option value="6">闇</option>
+        </select>
+    </div>
+
+    <table id="equipment-table">
+        <caption>装備一覧</caption>
+        <thead>
+            <tr>
+                <th>アイコン</th>
+                <th>名前</th>
+                <th>説明</th>
+                <th>属性</th>
+                <th>最大HP</th>
+                <th>最大ATK</th>
+                <th>最大DEF</th>
+                <th>装備効果</th>
+            </tr>
+        </thead>
+        <tbody id="equipment-body"></tbody>
+    </table>
+
+    <script src="js/get_equipment_effect.js"></script>
+    <script src="js/get_path.js"></script>
+    <script>
+        const tableBody = document.getElementById('equipment-body');
+        const filterSelect = document.getElementById('attribute-filter');
+        const effectFilterInput = document.getElementById("effect-filter");
+
+
+        let allEquipments = [];
+
+        async function filterAndRender() {
+            const selectedAttribute = filterSelect.value;
+            const keyword = effectFilterInput.value.trim();
+
+            const filtered = [];
+            for (const eq of allEquipments) {
+                if (selectedAttribute !== "all" && eq.attribute != selectedAttribute) continue;
+
+                const effectsText = await getEquipmentEffectTexts(eq.equipmentId);
+                if (keyword && !effectsText.includes(keyword)) continue;
+
+                filtered.push(eq);
+            }
+
+            await renderTable(filtered);
+        }
+        // 文本框输入时也重新筛选（加个 debounce 可选）
+        effectFilterInput.addEventListener("input", () => {
+            clearTimeout(effectFilterInput._debounce);
+            effectFilterInput._debounce = setTimeout(filterAndRender, 300); // 300ms debounce
+        });
+
+        // 下拉菜单改变时重新筛选
+        filterSelect.addEventListener("change", filterAndRender);
+
+        const attributeMap = {
+            1: "火", 2: "水", 3: "風", 4: "雷", 5: "光", 6: "闇"
+        };
+
+        function get_equipment_icon_src(id) {
+            const path = `equipment/thumbnail/${id}.png`;
+            const res_obj = GenerateMd5(path);
+            const res_MD5 = res_obj.getMD5();
+            const res_path = get_real_path(res_MD5);
+            return "https://tonofura-r-cdn-resource.deepone-online.com/deep_one/download_game_hd/" + res_path + res_MD5 + ".png";
+        }
+
+
+        async function renderTable(equipments) {
+            tableBody.innerHTML = '';
+
+            for (const eq of equipments) {
+                const row = document.createElement('tr');
+
+                const fullName = eq.postName ? `${eq.name}（${eq.postName}）` : eq.name;
+                const effectsText = await getEquipmentEffectTexts(eq.equipmentId);
+
+                row.innerHTML = `
+          <td><img src="${get_equipment_icon_src(eq.resourceId)}" alt="icon" loading="lazy" onerror="this.src='img/error.png'"></td>
+          <td>${fullName}</td>
+          <td>${eq.text}</td>
+          <td>${attributeMap[eq.attribute] || "-"}</td>
+          <td>${eq.maxHp4 || "-"}</td>
+          <td>${eq.maxAtk4 || "-"}</td>
+          <td>${eq.maxDef4 || "-"}</td>
+          <td>${effectsText || "-"}</td>
+        `;
+
+                tableBody.appendChild(row);
+            }
+        }
+
+        filterSelect.addEventListener("change", async () => {
+            const selected = filterSelect.value;
+            const filtered = selected === "all" ? allEquipments : allEquipments.filter(eq => eq.attribute == selected);
+            await renderTable(filtered);
+        });
+
+        fetch('masterdata/equipment_MasterData.json')
+            .then(res => res.json())
+            .then(async data => {
+                allEquipments = data.EquipmentMain;
+                await renderTable(allEquipments);
+            })
+            .catch(err => {
+                tableBody.innerHTML = `<tr><td colspan="8" style="color:red;">装備データの読み込みに失敗しました。</td></tr>`;
+                console.error("装備データ読み込み失敗:", err);
+            });
+    </script>
+
+</body>
+
+</html>
