@@ -22375,7 +22375,7 @@
         {
             "characterGroupId": 1001,
             "characterId": 100180,
-            "characterType": 11,
+            "characterType": 1,
             "name": "アサカ",
             "shortName": "アサカ",
             "skinName": "ナコト写本",
@@ -25435,7 +25435,7 @@
         {
             "characterGroupId": 1022,
             "characterId": 102280,
-            "characterType": 11,
+            "characterType": 1,
             "name": "空狐",
             "shortName": "空狐",
             "skinName": "回祁者",
@@ -26455,7 +26455,7 @@
         {
             "characterGroupId": 1038,
             "characterId": 103880,
-            "characterType": 11,
+            "characterType": 1,
             "name": "天魔",
             "shortName": "天魔",
             "skinName": "血月狂刃",
@@ -28359,7 +28359,7 @@
         {
             "characterGroupId": 1001,
             "characterId": 100181,
-            "characterType": 11,
+            "characterType": 1,
             "name": "アサカ",
             "shortName": "アサカ",
             "skinName": "幻春想咲",
@@ -29855,7 +29855,7 @@
         {
             "characterGroupId": 1008,
             "characterId": 100880,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ホリィ・ハーグリーブス",
             "shortName": "ホリィ",
             "skinName": "絶縛の鎖架",
@@ -30671,7 +30671,7 @@
         {
             "characterGroupId": 1007,
             "characterId": 100780,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ジゼル・ボードウィン",
             "shortName": "ジゼル",
             "skinName": "無欠の黄金",
@@ -31623,7 +31623,7 @@
         {
             "characterGroupId": 1002,
             "characterId": 100280,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ブリジット・ボードウィン",
             "shortName": "ブリジット",
             "skinName": "絶禍双刃",
@@ -31691,7 +31691,7 @@
         {
             "characterGroupId": 1019,
             "characterId": 101980,
-            "characterType": 11,
+            "characterType": 1,
             "name": "シルヴィ・スオマライネン",
             "shortName": "シルヴィ",
             "skinName": "暗澹の渇望",
@@ -34819,7 +34819,7 @@
         {
             "characterGroupId": 1002,
             "characterId": 100281,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ブリジット・ボードウィン",
             "shortName": "ブリジット",
             "skinName": "夜黒誓剣",
@@ -35771,7 +35771,7 @@
         {
             "characterGroupId": 1003,
             "characterId": 100380,
-            "characterType": 11,
+            "characterType": 1,
             "name": "カティア・ブルンツェワ",
             "shortName": "カティア",
             "skinName": "忌血染まる救道",
@@ -36723,7 +36723,7 @@
         {
             "characterGroupId": 1038,
             "characterId": 103881,
-            "characterType": 11,
+            "characterType": 1,
             "name": "天魔",
             "shortName": "天魔",
             "skinName": "讃戯の狂騒",
@@ -37063,7 +37063,7 @@
         {
             "characterGroupId": 1001,
             "characterId": 100182,
-            "characterType": 11,
+            "characterType": 1,
             "name": "アサカ",
             "shortName": "アサカ",
             "skinName": "麗艶黒華",
@@ -37131,7 +37131,7 @@
         {
             "characterGroupId": 1002,
             "characterId": 100282,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ブリジット・ボードウィン",
             "shortName": "ブリジット",
             "skinName": "綺創剣華",
@@ -37199,7 +37199,7 @@
         {
             "characterGroupId": 1003,
             "characterId": 100381,
-            "characterType": 11,
+            "characterType": 1,
             "name": "カティア・ブルンツェワ",
             "shortName": "カティア",
             "skinName": "哀憐涸華",
@@ -38763,7 +38763,7 @@
         {
             "characterGroupId": 1005,
             "characterId": 100580,
-            "characterType": 11,
+            "characterType": 1,
             "name": "エデルガルド・アインシュタイン",
             "shortName": "エデルガルド",
             "skinName": "戦火嚼む迅駛",
@@ -38899,7 +38899,7 @@
         {
             "characterGroupId": 1013,
             "characterId": 101380,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ミルヴァ・リンドマン",
             "shortName": "ミルヴァ",
             "skinName": "絶禍の忌蝶",
@@ -39851,7 +39851,7 @@
         {
             "characterGroupId": 1032,
             "characterId": 103280,
-            "characterType": 11,
+            "characterType": 1,
             "name": "アルマ・リースフェルト",
             "shortName": "アルマ",
             "skinName": "破玻璃の愛刹",
@@ -40463,7 +40463,7 @@
         {
             "characterGroupId": 1013,
             "characterId": 101381,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ミルヴァ・リンドマン",
             "shortName": "ミルヴァ",
             "skinName": "忌狂鱗翅",
@@ -42843,7 +42843,7 @@
         {
             "characterGroupId": 1004,
             "characterId": 100480,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ダナ・ダレル・道明寺",
             "shortName": "ダナ",
             "skinName": "憎哭凶哮",
@@ -46039,7 +46039,7 @@
         {
             "characterGroupId": 1019,
             "characterId": 101981,
-            "characterType": 11,
+            "characterType": 1,
             "name": "シルヴィ・スオマライネン",
             "shortName": "シルヴィ",
             "skinName": "想奉澹華",
@@ -46107,7 +46107,7 @@
         {
             "characterGroupId": 1003,
             "characterId": 100382,
-            "characterType": 11,
+            "characterType": 1,
             "name": "カティア・ブルンツェワ",
             "shortName": "カティア",
             "skinName": "白疎む戸惑い",
@@ -48895,7 +48895,7 @@
         {
             "characterGroupId": 1041,
             "characterId": 104180,
-            "characterType": 11,
+            "characterType": 1,
             "name": "愛花",
             "shortName": "愛花",
             "skinName": "ナコト写本",
@@ -49507,7 +49507,7 @@
         {
             "characterGroupId": 1013,
             "characterId": 101382,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ミルヴァ・リンドマン",
             "shortName": "ミルヴァ",
             "skinName": "禍月狂獣",
@@ -50323,7 +50323,7 @@
         {
             "characterGroupId": 1029,
             "characterId": 102980,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ロゼット・サヴィニー",
             "shortName": "ロゼット",
             "skinName": "黒紅の騎士",
@@ -50799,7 +50799,7 @@
         {
             "characterGroupId": 1005,
             "characterId": 100581,
-            "characterType": 11,
+            "characterType": 1,
             "name": "エデルガルド・アインシュタイン",
             "shortName": "エデルガルド",
             "skinName": "遊夜揺蕩う樂嗟",
@@ -50935,7 +50935,7 @@
         {
             "characterGroupId": 1004,
             "characterId": 100481,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ダナ・ダレル・道明寺",
             "shortName": "ダナ",
             "skinName": "小夜揺曳する佳麗",
@@ -51683,7 +51683,7 @@
         {
             "characterGroupId": 1033,
             "characterId": 103380,
-            "characterType": 11,
+            "characterType": 1,
             "name": "エーリカ・リウビア",
             "shortName": "エーリカ",
             "skinName": "喪青を悼す懺雨",
@@ -52431,7 +52431,7 @@
         {
             "characterGroupId": 1043,
             "characterId": 104380,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ゼロ",
             "shortName": "ゼロ",
             "skinName": "残影灯す未来",
@@ -52567,7 +52567,7 @@
         {
             "characterGroupId": 1007,
             "characterId": 100781,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ジゼル・ボードウィン",
             "shortName": "ジゼル",
             "skinName": "遼遠に霞む朧金",
@@ -52635,7 +52635,7 @@
         {
             "characterGroupId": 1041,
             "characterId": 104181,
-            "characterType": 11,
+            "characterType": 1,
             "name": "愛花",
             "shortName": "愛花",
             "skinName": "白花色取る夕凪",
@@ -53383,7 +53383,7 @@
         {
             "characterGroupId": 1050,
             "characterId": 105080,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ユイ",
             "shortName": "ユイ",
             "skinName": "這嘲の女帝",
@@ -53451,7 +53451,7 @@
         {
             "characterGroupId": 1033,
             "characterId": 103381,
-            "characterType": 11,
+            "characterType": 1,
             "name": "エーリカ・リウビア",
             "shortName": "エーリカ",
             "skinName": "晴藍に祈る明日",
@@ -54947,7 +54947,7 @@
         {
             "characterGroupId": 1908,
             "characterId": 190880,
-            "characterType": 11,
+            "characterType": 1,
             "name": "佑姫　カスミ",
             "shortName": "カスミ",
             "skinName": "領界侵犯",
@@ -55559,7 +55559,7 @@
         {
             "characterGroupId": 1029,
             "characterId": 102981,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ロゼット・サヴィニー",
             "shortName": "ロゼット",
             "skinName": "黒紅翻る妖闇",
@@ -55899,7 +55899,7 @@
         {
             "characterGroupId": 1013,
             "characterId": 101383,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ミルヴァ・リンドマン",
             "shortName": "ミルヴァ",
             "skinName": "祈る残夜の花",
@@ -55967,7 +55967,7 @@
         {
             "characterGroupId": 1005,
             "characterId": 100582,
-            "characterType": 11,
+            "characterType": 1,
             "name": "エデルガルド・アインシュタイン",
             "shortName": "エデルガルド",
             "skinName": "廻る残夜の花",
@@ -57599,7 +57599,7 @@
         {
             "characterGroupId": 1001,
             "characterId": 100183,
-            "characterType": 11,
+            "characterType": 1,
             "name": "アサカ",
             "shortName": "アサカ",
             "skinName": "夜花笑む煌景",
@@ -57667,7 +57667,7 @@
         {
             "characterGroupId": 1041,
             "characterId": 104182,
-            "characterType": 11,
+            "characterType": 1,
             "name": "愛花",
             "shortName": "愛花",
             "skinName": "想い絆ぐ珠幸",
@@ -59299,7 +59299,7 @@
         {
             "characterGroupId": 1041,
             "characterId": 104183,
-            "characterType": 11,
+            "characterType": 1,
             "name": "愛花",
             "shortName": "愛花",
             "skinName": "黒の幻桜",
@@ -59911,7 +59911,7 @@
         {
             "characterGroupId": 1050,
             "characterId": 105081,
-            "characterType": 11,
+            "characterType": 1,
             "name": "ユイ",
             "shortName": "ユイ",
             "skinName": "春爛れる忌朽",
@@ -68237,6 +68237,135 @@
     "CharacterAlter": [
         {
             "characterId": 103355
+        },
+        {
+            "characterId": 100180
+        },
+        {
+            "characterId": 102280
+        },
+        {
+            "characterId": 103880
+        },
+        {
+            "characterId": 100181
+        },
+        {
+            "characterId": 100880
+        },
+        {
+            "characterId": 100780
+        },
+        {
+            "characterId": 100280
+        },
+        {
+            "characterId": 101980
+        },
+        {
+            "characterId": 100281
+        },
+        {
+            "characterId": 100380
+        },
+        {
+            "characterId": 103881
+        },
+        {
+            "characterId": 100182
+        },
+        {
+            "characterId": 100282
+        },
+        {
+            "characterId": 100381
+        },
+        {
+            "characterId": 100580
+        },
+        {
+            "characterId": 101380
+        },
+        {
+            "characterId": 103280
+        },
+        {
+            "characterId": 101381
+        },
+        {
+            "characterId": 100480
+        },
+        {
+            "characterId": 101981
+        },
+        {
+            "characterId": 100382
+        },
+        {
+            "characterId": 104180
+        },
+        {
+            "characterId": 101382
+        },
+        {
+            "characterId": 102980
+        },
+        {
+            "characterId": 100581
+        },
+        {
+            "characterId": 100481
+        },
+        {
+            "characterId": 103380
+        },
+        {
+            "characterId": 104380
+        },
+        {
+            "characterId": 100781
+        },
+        {
+            "characterId": 104181
+        },
+        {
+            "characterId": 105080
+        },
+        {
+            "characterId": 103381
+        },
+        {
+            "characterId": 190880
+        },
+        {
+            "characterId": 102981
+        },
+        {
+            "characterId": 101383
+        },
+        {
+            "characterId": 100582
+        },
+        {
+            "characterId": 100183
+        },
+        {
+            "characterId": 104182
+        },
+        {
+            "characterId": 104183
+        },
+        {
+            "characterId": 105081
+        },
+        {
+            "characterId": 104381
+        },
+        {
+            "characterId": 100184
+        },
+        {
+            "characterId": 104184
         }
     ]
 }
