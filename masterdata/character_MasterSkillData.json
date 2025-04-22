@@ -8993,6 +8993,58 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 195404,
+            "name": "明日に手を",
+            "effectShowType": 4,
+            "spineDirectoryPath": "195404",
+            "spineName": "c954_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 195504,
+            "name": "心隠す微笑み",
+            "effectShowType": 4,
+            "spineDirectoryPath": "195504",
+            "spineName": "c955_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 195604,
+            "name": "探偵見習い",
+            "effectShowType": 4,
+            "spineDirectoryPath": "195604",
+            "spineName": "c956_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 103520,
+            "name": "夜舞う災い",
+            "effectShowType": 4,
+            "spineDirectoryPath": "103520",
+            "spineName": "c03520_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [

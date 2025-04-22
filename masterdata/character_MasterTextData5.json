@@ -17361,6 +17361,726 @@
             "releaseDate": ""
         },
         {
+            "characterId": 195404,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "始めまして、ミリセント・フリード・レオンハルトと申します。まさか違う世界に迷い込んでしまうだなんて……まだ戸惑いもありますが、どうか、よろしくお願いします。",
+            "skinName": "normal",
+            "voiceFile": "def195404_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "異なる世界に迷い込む、という展開の物語はいくつか知っていますが、まさか自分が直面することになるなんて……不謹慎かもしれませんが、こんな経験が出来て、少しだけ胸躍るものも感じますね。",
+            "skinName": "normal",
+            "voiceFile": "def195404_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "異なる世界に迷い込む、という展開の物語はいくつか知っていますが、まさか自分が直面することになるなんて……不謹慎かもしれませんが、こんな経験が出来て、少しだけ胸躍るものも感じますね。",
+            "skinName": "normal",
+            "voiceFile": "def195404_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "わたしは、皇族といってもろくな力も持たず、自分の理想にすらまだまだ手の届かない未熟者です。ましてここは異世界なのですから、あまり肩書は気にせず、気軽に話していただけると嬉しいです。",
+            "skinName": "smile",
+            "voiceFile": "def195404_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "どんな出来事にも意味があるとは限りませんが、意味を持たせようと思わなければ、きっとあるものもなくなってしまうでしょう。この経験の中でなにかを学び、未来に活かしたい……そう思います。",
+            "skinName": "normal",
+            "voiceFile": "def195404_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "どうか、皆さん、お気をつけて。",
+            "skinName": "normal",
+            "voiceFile": "def195404_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "わたしでは、力には……。",
+            "skinName": "normal",
+            "voiceFile": "def195404_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "よかった……皆さん、ご無事でなによりです。",
+            "skinName": "normal",
+            "voiceFile": "def195404_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "こんなことになるなんて……カイさん……。",
+            "skinName": "normal",
+            "voiceFile": "def195404_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "知らない世界で手を差し伸べて頂いて、感謝しています。",
+            "skinName": "normal",
+            "voiceFile": "def195404_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "元の世界に戻っても、新しい友人と過ごした時間は、かけがえのない思い出としてこの胸に残るのでしょうね。",
+            "skinName": "normal",
+            "voiceFile": "def195404_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "きゃっ！",
+            "skinName": "normal",
+            "voiceFile": "def195404_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "ぅく……！",
+            "skinName": "normal",
+            "voiceFile": "def195404_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "はい。わたしになにかご用でしょうか？",
+            "skinName": "normal",
+            "voiceFile": "def195404_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "お時間があるなら、あなたがたのお話を聞かせて頂けませんか？",
+            "skinName": "normal",
+            "voiceFile": "def195404_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "海の底の巨大施設……こちらの世界の技術水準は、どれほど……。",
+            "skinName": "normal",
+            "voiceFile": "def195404_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "こちらの世界では、多くの娯楽が発展しているのですね。",
+            "skinName": "smile",
+            "voiceFile": "def195404_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195404,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "カイさんもシルヴィもいないなんて……少し、寂しいですね。",
+            "skinName": "sad",
+            "voiceFile": "def195404_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "はじめまして、ジーミイル共和国連邦の――と、違う世界に来てまで、立場を掲げるのも滑稽かもしれませんね。ここではなんの地位も権限も持たないソフィア・ノスコーヴァとして、どうぞよろしくお願いします。",
+            "skinName": "normal",
+            "voiceFile": "def195504_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "違う世界というのも悪いことばかりではありませんね。普段、なかなか面倒な立場で気を張ってばかりいるので、こちらでは寝首をかかれるようなことはないでしょうから、その点は安心できます。",
+            "skinName": "normal",
+            "voiceFile": "def195504_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "違う世界というのも悪いことばかりではありませんね。普段、なかなか面倒な立場で気を張ってばかりいるので、こちらでは寝首をかかれるようなことはないでしょうから、その点は安心できます。",
+            "skinName": "normal",
+            "voiceFile": "def195504_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "少々こちらの世界の歴史を調べましたが、なるほど、世界に存在する知的生命体が一種の場合、こういった変遷を遂げるのですね。実に興味深い。ここで得た知識は、私の未来に活かすことができそうです。",
+            "skinName": "normal",
+            "voiceFile": "def195504_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "私の仕事について？　おや、そのようなことに興味がおありとは……そうですね。街で困ったことが起きたら解決のために奔走する何でも屋、といったところでしょうか。広義の意味では、ですが。ふふふ。",
+            "skinName": "smile",
+            "voiceFile": "def195504_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "みなさんの邪魔はしませんよ。",
+            "skinName": "normal",
+            "voiceFile": "def195504_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "少し、下がらせて頂きます。",
+            "skinName": "normal",
+            "voiceFile": "def195504_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "ふふふ、邪魔にならないようにするのが精一杯でした。",
+            "skinName": "normal",
+            "voiceFile": "def195504_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "まさか、このようなことに……想定外ですね。",
+            "skinName": "normal",
+            "voiceFile": "def195504_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "ふふふ、どうやら私の力が必要なようですね",
+            "skinName": "normal",
+            "voiceFile": "def195504_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "ちょっとしたバカンス、というには随分と奇妙な経験ですが、悪い気分ではありませんよ。",
+            "skinName": "normal",
+            "voiceFile": "def195504_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "これは……。",
+            "skinName": "normal",
+            "voiceFile": "def195504_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "仕方ありませんね。",
+            "skinName": "normal",
+            "voiceFile": "def195504_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ルルイエの見学をしたいのですが、案内をお願いしても？",
+            "skinName": "normal",
+            "voiceFile": "def195504_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "カイ君がいない時間というのも、なんだか味気ないものですね。",
+            "skinName": "sad",
+            "voiceFile": "def195504_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "ナコト原書に魔術……なんとも刺激的な世界ですね、こちらは。",
+            "skinName": "smile",
+            "voiceFile": "def195504_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "こちらの文化や技術を一部でも持ち帰りたいものですよ、ふふふ。",
+            "skinName": "unique1",
+            "voiceFile": "def195504_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195504,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "ふふふ、貴方の女性遍歴はなかなかユニークなようですね。",
+            "skinName": "smile",
+            "voiceFile": "def195504_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "ええと……わたし、正直まだここが違う世界だなんて、信じられない気持ちもあって……とりあえず、頬を抓ってみたりとか……痛いれふ……うぅ、やっぱり夢じゃないんだ……とんでもないことになっちゃったなぁ。",
+            "skinName": "normal",
+            "voiceFile": "def195604_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "幻夢境って、すごいですね。いわゆる、異空間？　みたいなもの、って聞きましたけど、その中に雪山とか砂漠とか、いろいろな空間があって……つまり、遠出しなくてもいろんなところ観光できるってことですよね？",
+            "skinName": "normal",
+            "voiceFile": "def195604_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "幻夢境って、すごいですね。いわゆる、異空間？　みたいなもの、って聞きましたけど、その中に雪山とか砂漠とか、いろいろな空間があって……つまり、遠出しなくてもいろんなところ観光できるってことですよね？",
+            "skinName": "normal",
+            "voiceFile": "def195604_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "わたしたちの世界だと、ヒュームの中にレガシーっていう特殊な力を使える人がいるんです。なにを隠そう、このわたしもレガシーが使えまして。いざという時は、頼ってくれちゃってもいいですからね。",
+            "skinName": "normal",
+            "voiceFile": "def195604_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "先輩も若葉も一緒じゃないなんて、少し不安です。けど、戻れるって信じてますし、そのためならわたしも頑張ります。でも……帰ったら、先輩にちょっとくらいわがままを言っても許されますよね？",
+            "skinName": "normal",
+            "voiceFile": "def195604_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "わたしもやれます！",
+            "skinName": "normal",
+            "voiceFile": "def195604_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ごめんなさい、わたし……。",
+            "skinName": "normal",
+            "voiceFile": "def195604_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "どうですか？　わたし、けっこう頼りになりますよね？",
+            "skinName": "normal",
+            "voiceFile": "def195604_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "どうして、こんなことに……先輩……。",
+            "skinName": "normal",
+            "voiceFile": "def195604_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "力になれることがあれば、なんでも言ってくださいね。",
+            "skinName": "normal",
+            "voiceFile": "def195604_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "ここで過ごす時間は夢のようにも感じますけれど……きっと、忘れられない夢になると思います。",
+            "skinName": "normal",
+            "voiceFile": "def195604_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "くぅ！？",
+            "skinName": "normal",
+            "voiceFile": "def195604_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "そんな……！",
+            "skinName": "normal",
+            "voiceFile": "def195604_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "これでもわたし、けっこう家庭的なんですよ。",
+            "skinName": "normal",
+            "voiceFile": "def195604_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "わたしの先輩についてですか？　うーん……どう説明しよう。",
+            "skinName": "shy",
+            "voiceFile": "def195604_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "亜紗花さんの料理の腕前って、すごいですね……。",
+            "skinName": "surprise",
+            "voiceFile": "def195604_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ルルイエって、面白いものがたくさんありますね。",
+            "skinName": "smile",
+            "voiceFile": "def195604_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195604,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "ここが海の底だなんて……なんか、ちょっと怖いかも。",
+            "skinName": "normal",
+            "voiceFile": "def195604_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "世界は違えど、種族は違えど。生きるという、ただそれだけのことすらも大変なのは変わらないみたいだ。悪意はいつだってそこにあって、誰かを傷つける。そのことを忘れず、自分にとっての大切なものを守らないとね。",
+            "skinName": "normal",
+            "voiceFile": "def103520_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ここではないどこかの世界と接触してしまうのは、初めてではないけれど、今回もまた随分と面白いメンツが迷い込んできたな……皇族、秘密警察、それに探偵バイト。うーん、濃い。",
+            "skinName": "normal",
+            "voiceFile": "def103520_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ここではないどこかの世界と接触してしまうのは、初めてではないけれど、今回もまた随分と面白いメンツが迷い込んできたな……皇族、秘密警察、それに探偵バイト。うーん、濃い。",
+            "skinName": "normal",
+            "voiceFile": "def103520_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "この格好、あっちの世界でディザスターって呼ばれたものが着ていた衣装らしいよ。姿かたちを通して、どういう存在か少し感じるけれど……どの世界でも、人は、いろいろな理由で人を傷つけてしまうものなんだな、って。",
+            "skinName": "normal",
+            "voiceFile": "def103520_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "戦争で多く人がいなくなった……そんな話を聞いても大体の人は自分と無関係だと思ってしまう。遠い場所、縁のない話、そう思い込めた方が安心だから。けど、必ずしもそうじゃないと心に留めておいたほうがいいのに。",
+            "skinName": "normal",
+            "voiceFile": "def103520_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "私が、キミらの災いだよ。",
+            "skinName": "normal",
+            "voiceFile": "def103520_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "少し、らしくなかったかな。",
+            "skinName": "normal",
+            "voiceFile": "def103520_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "私の悪意の前に立ったのが間違いだったね。",
+            "skinName": "normal",
+            "voiceFile": "def103520_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "悪意に、振り回されてしまったかもしれないな……。",
+            "skinName": "normal",
+            "voiceFile": "def103520_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "ふふ、悪意を相手に無防備に近づきすぎじゃないかい？",
+            "skinName": "normal",
+            "voiceFile": "def103520_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "私が抱く悪意は、兄さんと――大切な家族と向かう未来を塞ぐなにかを切り裂くためのものだよ。",
+            "skinName": "normal",
+            "voiceFile": "def103520_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "うくっ！",
+            "skinName": "normal",
+            "voiceFile": "def103520_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "まったく……！",
+            "skinName": "normal",
+            "voiceFile": "def103520_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "このカッコ、いかにも悪役って感じで悪くないね。どう、兄さん。",
+            "skinName": "normal",
+            "voiceFile": "def103520_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "コートの下はハイレグとか、マニアックだな、これ。",
+            "skinName": "unique",
+            "voiceFile": "def103520_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "ふっふっふ、私の前であんまり油断してると、襲っちゃうぞー？",
+            "skinName": "smile",
+            "voiceFile": "def103520_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "人は、どうしていつも人を傷つける力ばかり求めるんだろうね。",
+            "skinName": "normal",
+            "voiceFile": "def103520_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103520,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "あちらの世界は、選択する痛みが多い世界みたいだね。",
+            "skinName": "normal",
+            "voiceFile": "def103520_19.mp3",
+            "releaseDate": ""
+        },
+        {
             "characterId": 1,
             "sceneType": 2,
             "groupType": 1,

@@ -14956,6 +14956,78 @@
             "index": 3,
             "abilityId": 10371903,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195404,
+            "index": 1,
+            "abilityId": 19540401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195404,
+            "index": 2,
+            "abilityId": 19540402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195404,
+            "index": 3,
+            "abilityId": 19540403,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195504,
+            "index": 1,
+            "abilityId": 19550401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195504,
+            "index": 2,
+            "abilityId": 19550402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195504,
+            "index": 3,
+            "abilityId": 19550403,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195604,
+            "index": 1,
+            "abilityId": 19560401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195604,
+            "index": 2,
+            "abilityId": 19560402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 195604,
+            "index": 3,
+            "abilityId": 19560403,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103520,
+            "index": 1,
+            "abilityId": 10352001,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103520,
+            "index": 2,
+            "abilityId": 10352002,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103520,
+            "index": 3,
+            "abilityId": 10352003,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -23052,7 +23124,7 @@
         {
             "abilityId": 10040801,
             "addAbilityId": 0,
-            "name": "戦闘中、味方全体の攻撃力UP/味方風属性のスキル威力UP/味方風属性以外のスキルゲージ増加量UP",
+            "name": "戦闘中、味方全体の攻撃力UP/味方風属性のスキル威力UP/味方風属性以外のスキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -23962,7 +24034,7 @@
         {
             "abilityId": 10240803,
             "addAbilityId": 0,
-            "name": "スキル使用時、自身のスキルゲージ増加量UP",
+            "name": "スキル使用時、自身のスキルゲージ上昇量UP",
             "triggerType": 17,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -28222,7 +28294,7 @@
         {
             "abilityId": 10331001,
             "addAbilityId": 10331011,
-            "name": "戦闘中、味方全体攻撃力/毎ターンスキルゲージ増加量UP",
+            "name": "戦闘中、味方全体攻撃力/毎ターンスキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -28232,7 +28304,7 @@
         {
             "abilityId": 10331011,
             "addAbilityId": 0,
-            "name": "拡張：毎ターンスキルゲージ増加量UP",
+            "name": "拡張：毎ターンスキルゲージ上昇量UP",
             "triggerType": 2,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -30052,7 +30124,7 @@
         {
             "abilityId": 10300702,
             "addAbilityId": 10300721,
-            "name": "被ダメージ時、自身スキルゲージ増加/HP69%以下時自身スキルゲージ増加量UP",
+            "name": "被ダメージ時、自身スキルゲージ増加/HP69%以下時自身スキルゲージ上昇量UP",
             "triggerType": 412,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -31092,7 +31164,7 @@
         {
             "abilityId": 10340902,
             "addAbilityId": 0,
-            "name": "スキル使用時、味方状態異常解除/自身スキルゲージ増加量UP ",
+            "name": "スキル使用時、味方状態異常解除/自身スキルゲージ上昇量UP ",
             "triggerType": 17,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -32012,7 +32084,7 @@
         {
             "abilityId": 10341031,
             "addAbilityId": 0,
-            "name": "戦闘中、自身スキルゲージ増加量UP ",
+            "name": "戦闘中、自身スキルゲージ上昇量UP ",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -32332,7 +32404,7 @@
         {
             "abilityId": 10360731,
             "addAbilityId": 0,
-            "name": "戦闘中、自身スキルゲージ増加量UP ",
+            "name": "戦闘中、自身スキルゲージ上昇量UP ",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 0,
@@ -32402,7 +32474,7 @@
         {
             "abilityId": 10331402,
             "addAbilityId": 10331421,
-            "name": "戦闘中、味方全体スキルゲージ増加量UP/スキル使用時、敵全体防御力DOWN",
+            "name": "戦闘中、味方全体スキルゲージ上昇量UP/スキル使用時、敵全体防御力DOWN",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -32502,7 +32574,7 @@
         {
             "abilityId": 10450702,
             "addAbilityId": 10450721,
-            "name": "HP60%を切った時、自身のスキルゲージ増加量UP/スキル使用時、味方全体スキルゲージ増加",
+            "name": "HP60%を切った時、自身のスキルゲージ上昇量UP/スキル使用時、味方全体スキルゲージ増加",
             "triggerType": 32,
             "triggerValue": "60",
             "invokeLimitCount": 0,
@@ -33012,7 +33084,7 @@
         {
             "abilityId": 10048003,
             "addAbilityId": 10048031,
-            "name": "戦闘中、自身スキルゲージ増加量UP/ターン開始時、自身スキルゲージ増加",
+            "name": "戦闘中、自身スキルゲージ上昇量UP/ターン開始時、自身スキルゲージ増加",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -33362,7 +33434,7 @@
         {
             "abilityId": 10400901,
             "addAbilityId": 10400911,
-            "name": "戦闘中、味方光属性攻撃力UP/PT編成により、自身スキルゲージ増加量UP",
+            "name": "戦闘中、味方光属性攻撃力UP/PT編成により、自身スキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -33532,7 +33604,7 @@
         {
             "abilityId": 19330401,
             "addAbilityId": 0,
-            "name": "戦闘中、味方攻撃力UP/味方風属性スキルゲージ増加量UP ",
+            "name": "戦闘中、味方攻撃力UP/味方風属性スキルゲージ上昇量UP ",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -33542,7 +33614,7 @@
         {
             "abilityId": 19330402,
             "addAbilityId": 19330421,
-            "name": "戦闘中、味方全体状態異常耐性UP/WAVE開始時、敵攻撃力DOWN/12ターン経過後、自身スキルゲージ増加量UP",
+            "name": "戦闘中、味方全体状態異常耐性UP/WAVE開始時、敵攻撃力DOWN/12ターン経過後、自身スキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -33592,7 +33664,7 @@
         {
             "abilityId": 19340402,
             "addAbilityId": 19340421,
-            "name": "ターン開始時、自身攻撃力UP(3回まで)/攻撃時、味方攻撃力UP/12ターン経過後、自身スキルゲージ増加量UP",
+            "name": "ターン開始時、自身攻撃力UP(3回まで)/攻撃時、味方攻撃力UP/12ターン経過後、自身スキルゲージ上昇量UP",
             "triggerType": 2,
             "triggerValue": "0",
             "invokeLimitCount": 3,
@@ -33692,7 +33764,7 @@
         {
             "abilityId": 19350402,
             "addAbilityId": 19350421,
-            "name": "HP99%以上で攻撃時、味方スキルゲージ増加/味方被ダメージ時、自身以外の味方HP回復/12ターン経過後、自身スキルゲージ増加量UP",
+            "name": "HP99%以上で攻撃時、味方スキルゲージ増加/味方被ダメージ時、自身以外の味方HP回復/12ターン経過後、自身スキルゲージ上昇量UP",
             "triggerType": 31,
             "triggerValue": "99",
             "invokeLimitCount": 0,
@@ -34182,7 +34254,7 @@
         {
             "abilityId": 10041101,
             "addAbilityId": 0,
-            "name": "戦闘中、味方風属性スキル威力/攻撃力UP/味方火属性攻撃力UP/自身スキルゲージ増加量UP",
+            "name": "戦闘中、味方風属性スキル威力/攻撃力UP/味方火属性攻撃力UP/自身スキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -34302,7 +34374,7 @@
         {
             "abilityId": 10371301,
             "addAbilityId": 10371311,
-            "name": "戦闘中、味方全体スキル威力UP/PT内に6属性のユニットがいると、自身スキルゲージ増加量UP",
+            "name": "戦闘中、味方全体スキル威力UP/PT内に6属性のユニットがいると、自身スキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -36482,7 +36554,7 @@
         {
             "abilityId": 10381002,
             "addAbilityId": 10381021,
-            "name": "戦闘中、自身スキルゲージ増加量UP/ターン開始時、味方スキル威力UP",
+            "name": "戦闘中、自身スキルゲージ上昇量UP/ターン開始時、味方スキル威力UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -36612,7 +36684,7 @@
         {
             "abilityId": 10201301,
             "addAbilityId": 0,
-            "name": "戦闘中、味方全属性のスキル威力UP/自身以外のスキルゲージ増加量UP",
+            "name": "戦闘中、味方全属性のスキル威力UP/自身以外のスキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -37632,7 +37704,7 @@
         {
             "abilityId": 10420902,
             "addAbilityId": 10420921,
-            "name": "戦闘中、自身スキルゲージ増加量UP/味方スキル使用時、追撃",
+            "name": "戦闘中、自身スキルゲージ上昇量UP/味方スキル使用時、追撃",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -37742,7 +37814,7 @@
         {
             "abilityId": 10451204,
             "addAbilityId": 0,
-            "name": "戦闘中、味方スキルゲージ増加量UP ",
+            "name": "戦闘中、味方スキルゲージ上昇量UP ",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -38292,7 +38364,7 @@
         {
             "abilityId": 10048102,
             "addAbilityId": 0,
-            "name": "戦闘中、自身スキルゲージ増加量UP",
+            "name": "戦闘中、自身スキルゲージ上昇量UP",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -39142,7 +39214,7 @@
         {
             "abilityId": 10430803,
             "addAbilityId": 10430831,
-            "name": "ターン開始時、自身スキルゲージ増加/戦闘中、自身スキルゲージ増加量UP",
+            "name": "ターン開始時、自身スキルゲージ増加/戦闘中、自身スキルゲージ上昇量UP",
             "triggerType": 2,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -39982,7 +40054,7 @@
         {
             "abilityId": 10430903,
             "addAbilityId": 10430931,
-            "name": "ターン開始時、自身スキルゲージ増加/スキル発動時、自身スキルゲージ増加量UP ",
+            "name": "ターン開始時、自身スキルゲージ増加/スキル発動時、自身スキルゲージ上昇量UP ",
             "triggerType": 2,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -40322,7 +40394,7 @@
         {
             "abilityId": 19450403,
             "addAbilityId": 19450431,
-            "name": "エイワズのルーン装備数に応じ、戦闘中自身のスキルゲージ増加量と受けるダメージ増加",
+            "name": "エイワズのルーン装備数に応じ、戦闘中自身のスキルゲージ上昇量と受けるダメージ増加",
             "triggerType": 1,
             "triggerValue": "1",
             "invokeLimitCount": 1,
@@ -42312,7 +42384,7 @@
         {
             "abilityId": 10411202,
             "addAbilityId": 10411221,
-            "name": "味方スキル使用時、自身攻撃力UP/追撃/ターン開始時、自身スキルゲージ増加量DOWN ",
+            "name": "味方スキル使用時、自身攻撃力UP/追撃/ターン開始時、自身スキルゲージ上昇量DOWN ",
             "triggerType": 18,
             "triggerValue": "0",
             "invokeLimitCount": 0,
@@ -43797,6 +43869,306 @@
             "triggerValue": "3",
             "invokeLimitCount": 1,
             "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540401,
+            "addAbilityId": 19540411,
+            "name": "戦闘中、味方全体の攻撃/防御力UP/PT編成により…",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540411,
+            "addAbilityId": 19540412,
+            "name": "拡張：火属性編成時効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540412,
+            "addAbilityId": 19540413,
+            "name": "拡張：水属性編成時効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540413,
+            "addAbilityId": 19540414,
+            "name": "拡張：風属性編成時効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540414,
+            "addAbilityId": 19540415,
+            "name": "拡張：雷属性編成時効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540415,
+            "addAbilityId": 0,
+            "name": "拡張：闇属性編成時効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540402,
+            "addAbilityId": 0,
+            "name": "味方スキル使用時、味方スキルゲージ増加/スキル威力UP",
+            "triggerType": 18,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540403,
+            "addAbilityId": 19540431,
+            "name": "ターン開始時、自身スキルゲージ増加/味方被ダメージ時、味方全体防御力UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19540431,
+            "addAbilityId": 0,
+            "name": "拡張：味方被ダメージ時効果",
+            "triggerType": 413,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550401,
+            "addAbilityId": 19550411,
+            "name": "戦闘中、味方風属性の攻撃/スキル威力UP/スキル発動時、自身状態異常解除/自身スキルゲージ上昇量UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550411,
+            "addAbilityId": 0,
+            "name": "拡張：スキル発動時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550402,
+            "addAbilityId": 19550421,
+            "name": "ターン開始時、確率攻撃跳ね返し/3ターン目以降、味方ターン終了時追撃",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550421,
+            "addAbilityId": 19550422,
+            "name": "拡張：3ターン目以降、味方ターン終了時効果",
+            "triggerType": 5,
+            "triggerValue": "3",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550422,
+            "addAbilityId": 19550423,
+            "name": "拡張：4ターン目以降、味方ターン終了時効果",
+            "triggerType": 5,
+            "triggerValue": "4",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550423,
+            "addAbilityId": 0,
+            "name": "拡張：5ターン目以降、味方ターン終了時効果",
+            "triggerType": 5,
+            "triggerValue": "5",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550403,
+            "addAbilityId": 19550431,
+            "name": "ターン開始時、自身スキルゲージ増加/ソフィアの杖装備時、自己狙われ率UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19550431,
+            "addAbilityId": 0,
+            "name": "拡張：ソフィアの杖装備時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560401,
+            "addAbilityId": 19560411,
+            "name": "戦闘中、味方水属性の攻撃/防御力UP/被弾時、自身の攻撃力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560411,
+            "addAbilityId": 0,
+            "name": "拡張：被弾時効果",
+            "triggerType": 412,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560402,
+            "addAbilityId": 19560421,
+            "name": "ターン開始時、確率で敵に封印付与/封印状態敵攻撃時、追撃",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560421,
+            "addAbilityId": 19560422,
+            "name": "拡張：偶数ターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "2",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560422,
+            "addAbilityId": 0,
+            "name": "拡張：封印状態敵攻撃時効果",
+            "triggerType": 33,
+            "triggerValue": "292",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560403,
+            "addAbilityId": 19560431,
+            "name": "ターン開始時、自身スキルゲージ増加/敵スキル発動時、自身スキルゲージ増加/スキル威力UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 19560431,
+            "addAbilityId": 0,
+            "name": "拡張：敵スキル発動時効果",
+            "triggerType": 19,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352001,
+            "addAbilityId": 10352011,
+            "name": "戦闘中、味方闇属性のスキル威力UP/2ターン目以降、1ターンおきに先制攻撃",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352011,
+            "addAbilityId": 0,
+            "name": "拡張：2ターン目以降、1ターンおきのターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "2",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352002,
+            "addAbilityId": 10352021,
+            "name": "味方ターン開始時敵全体に先制攻撃/敵スキル発動時、自身攻撃/スキル威力UP ",
+            "triggerType": 4,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352021,
+            "addAbilityId": 0,
+            "name": "拡張：敵スキル発動時効果",
+            "triggerType": 19,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352003,
+            "addAbilityId": 10352031,
+            "name": "ターン開始時、自身スキルゲージ増加/戦闘中、味方全体スキル威力UP ",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352031,
+            "addAbilityId": 0,
+            "name": "拡張：戦闘中効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
             "releaseDate": ""
         }
     ],
@@ -46686,6 +47058,60 @@
             "conditionGroup": 1,
             "conditionType": 101,
             "conditionValue": "0,0,0,0,0,1"
+        },
+        {
+            "abilityId": 19540411,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "1,0,0,0,0,0"
+        },
+        {
+            "abilityId": 19540412,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,1,0,0,0,0"
+        },
+        {
+            "abilityId": 19540413,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,1,0,0,0"
+        },
+        {
+            "abilityId": 19540414,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,0,1,0,0"
+        },
+        {
+            "abilityId": 19540415,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,0,0,0,1"
+        },
+        {
+            "abilityId": 19550431,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1472:1:0"
+        },
+        {
+            "abilityId": 19560402,
+            "conditionGroup": 1,
+            "conditionType": 1,
+            "conditionValue": "1:0:2"
+        },
+        {
+            "abilityId": 19560421,
+            "conditionGroup": 1,
+            "conditionType": 1,
+            "conditionValue": "2:0:2"
+        },
+        {
+            "abilityId": 10352011,
+            "conditionGroup": 1,
+            "conditionType": 1,
+            "conditionValue": "2:0:2"
         }
     ]
 }
