@@ -15028,6 +15028,60 @@
             "index": 3,
             "abilityId": 10352003,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181510,
+            "index": 1,
+            "abilityId": 18151001,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181510,
+            "index": 2,
+            "abilityId": 18151002,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181510,
+            "index": 3,
+            "abilityId": 18151003,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104311,
+            "index": 1,
+            "abilityId": 10431101,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104311,
+            "index": 2,
+            "abilityId": 10431102,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104311,
+            "index": 3,
+            "abilityId": 10431103,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181605,
+            "index": 1,
+            "abilityId": 18160501,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181605,
+            "index": 2,
+            "abilityId": 18160502,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181605,
+            "index": 3,
+            "abilityId": 18160503,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -44170,6 +44224,186 @@
             "invokeLimitCount": 1,
             "abilityFortifyType": 23,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 18151001,
+            "addAbilityId": 18151011,
+            "name": "戦闘中、味方闇属性攻撃/防御力UP/PT編成により…",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18151011,
+            "addAbilityId": 0,
+            "name": "拡張：タバサ編成時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18151002,
+            "addAbilityId": 18151021,
+            "name": "スキル発動時、味方全体状態異常解除/スキル威力UP/プチ装備中…",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18151021,
+            "addAbilityId": 0,
+            "name": "拡張：プチ装備中効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18151003,
+            "addAbilityId": 18151031,
+            "name": "戦闘中、味方全体状態異常耐性UP/ターン開始時、味方闇属性スキルゲージ増加",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18151031,
+            "addAbilityId": 0,
+            "name": "拡張：ターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10431101,
+            "addAbilityId": 0,
+            "name": "戦闘中、味方風属性攻撃力UP/味方風・水・光属性防御力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10431102,
+            "addAbilityId": 10431121,
+            "name": "被ダメージ時、味方風属性攻撃力UP/味方被ダメージ時、味方全体被ダメージカット",
+            "triggerType": 412,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10431121,
+            "addAbilityId": 0,
+            "name": "拡張：味方被ダメージ時効果 ",
+            "triggerType": 413,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10431103,
+            "addAbilityId": 0,
+            "name": "ターン開始時、自身スキルゲージ増加/味方全体スキル威力UP ",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160501,
+            "addAbilityId": 18160511,
+            "name": "味方ターン開始時、味方水属性の攻撃力UP/敵ターン開始時、味方水属性の防御力UP/治切丸装備中…",
+            "triggerType": 4,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160511,
+            "addAbilityId": 18160512,
+            "name": "拡張：敵ターン開始時効果 ",
+            "triggerType": 6,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160512,
+            "addAbilityId": 0,
+            "name": "拡張：治切丸装備中効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160502,
+            "addAbilityId": 18160521,
+            "name": "HP80%以上攻撃時、味方全体スキル威力UP/HP90%以下攻撃時、追撃 /HP50%以下攻撃時、自身HP回復",
+            "triggerType": 31,
+            "triggerValue": "80",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160521,
+            "addAbilityId": 18160522,
+            "name": "拡張：HP90%以下攻撃時効果 ",
+            "triggerType": 32,
+            "triggerValue": "90",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160522,
+            "addAbilityId": 0,
+            "name": "拡張：HP50%以下攻撃時効果 ",
+            "triggerType": 32,
+            "triggerValue": "50",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160503,
+            "addAbilityId": 18160531,
+            "name": "ターン開始時、自身スキルゲージ増加/罹祓白刃装備時…",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160531,
+            "addAbilityId": 0,
+            "name": "拡張：罹祓白刃装備時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -47112,6 +47346,30 @@
             "conditionGroup": 1,
             "conditionType": 1,
             "conditionValue": "2:0:2"
+        },
+        {
+            "abilityId": 18151011,
+            "conditionGroup": 1,
+            "conditionType": 131,
+            "conditionValue": "1020:1"
+        },
+        {
+            "abilityId": 18151021,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1326:1:0"
+        },
+        {
+            "abilityId": 18160512,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1331:1:0"
+        },
+        {
+            "abilityId": 18160531,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1476:1:0"
         }
     ]
 }

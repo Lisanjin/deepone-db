@@ -9045,6 +9045,45 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 181510,
+            "name": "夕映えの慈愛",
+            "effectShowType": 4,
+            "spineDirectoryPath": "181510",
+            "spineName": "c81510_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104311,
+            "name": "逡巡なき掌",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104311",
+            "spineName": "c04311_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 181605,
+            "name": "厄切る怜刃",
+            "effectShowType": 4,
+            "spineDirectoryPath": "181605",
+            "spineName": "c81605_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [
