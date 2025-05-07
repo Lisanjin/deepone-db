@@ -51479,6 +51479,138 @@
             "conditionValue2": 1,
             "storyId": 18160505,
             "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470601,
+            "contentType": 2,
+            "conditionType1": 0,
+            "conditionValue1": 0,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 10470601,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470602,
+            "contentType": 2,
+            "conditionType1": 1,
+            "conditionValue1": 15,
+            "conditionType2": 3,
+            "conditionValue2": 10470601,
+            "storyId": 10470602,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470603,
+            "contentType": 2,
+            "conditionType1": 1,
+            "conditionValue1": 30,
+            "conditionType2": 3,
+            "conditionValue2": 10470602,
+            "storyId": 10470603,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470604,
+            "contentType": 1,
+            "conditionType1": 1,
+            "conditionValue1": 80,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 5030766,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470605,
+            "contentType": 3,
+            "conditionType1": 1,
+            "conditionValue1": 50,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 10470604,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104706,
+            "contentsId": 10470606,
+            "contentType": 3,
+            "conditionType1": 1,
+            "conditionValue1": 100,
+            "conditionType2": 2,
+            "conditionValue2": 1,
+            "storyId": 10470605,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438101,
+            "contentType": 2,
+            "conditionType1": 0,
+            "conditionValue1": 0,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 10438101,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438102,
+            "contentType": 2,
+            "conditionType1": 1,
+            "conditionValue1": 15,
+            "conditionType2": 3,
+            "conditionValue2": 10438101,
+            "storyId": 10438102,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438103,
+            "contentType": 2,
+            "conditionType1": 1,
+            "conditionValue1": 30,
+            "conditionType2": 3,
+            "conditionValue2": 10438102,
+            "storyId": 10438103,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438104,
+            "contentType": 1,
+            "conditionType1": 1,
+            "conditionValue1": 80,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 5030767,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438105,
+            "contentType": 3,
+            "conditionType1": 1,
+            "conditionValue1": 50,
+            "conditionType2": 0,
+            "conditionValue2": 0,
+            "storyId": 10438104,
+            "releaseDate": ""
+        },
+        {
+            "contentsGroupId": 104381,
+            "contentsId": 10438106,
+            "contentType": 3,
+            "conditionType1": 1,
+            "conditionValue1": 100,
+            "conditionType2": 2,
+            "conditionValue2": 1,
+            "storyId": 10438105,
+            "releaseDate": ""
         }
     ],
     "CharacterFavorite": [
@@ -62352,6 +62484,34 @@
             "addType": 3,
             "value": 8,
             "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "favoriteItemId": 501001,
+            "addType": 3,
+            "value": 4,
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "favoriteItemId": 501002,
+            "addType": 3,
+            "value": 8,
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "favoriteItemId": 503001,
+            "addType": 3,
+            "value": 4,
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "favoriteItemId": 503002,
+            "addType": 3,
+            "value": 8,
+            "releaseDate": ""
         }
     ],
     "CharacterLevel": [
@@ -72363,6 +72523,26 @@
             "spineDirectoryPath": "181605",
             "aniName": "attack",
             "hitEffectName": "gr_ef_hit_water",
+            "hitEffectAniName": "02",
+            "releaseDate": ""
+        },
+        {
+            "normalAttackId": 104706,
+            "effectShowType": 2,
+            "effectShowValue": 0.7,
+            "spineDirectoryPath": "104706",
+            "aniName": "attack",
+            "hitEffectName": "gr_ef_hit_wind",
+            "hitEffectAniName": "02",
+            "releaseDate": ""
+        },
+        {
+            "normalAttackId": 104381,
+            "effectShowType": 2,
+            "effectShowValue": 0.7,
+            "spineDirectoryPath": "104381",
+            "aniName": "attack",
+            "hitEffectName": "gr_ef_hit_wind",
             "hitEffectAniName": "02",
             "releaseDate": ""
         }

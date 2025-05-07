@@ -15082,6 +15082,42 @@
             "index": 3,
             "abilityId": 18160503,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104706,
+            "index": 1,
+            "abilityId": 10470601,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104706,
+            "index": 2,
+            "abilityId": 10470602,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104706,
+            "index": 3,
+            "abilityId": 10470603,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104381,
+            "index": 1,
+            "abilityId": 10438101,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104381,
+            "index": 2,
+            "abilityId": 10438102,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104381,
+            "index": 3,
+            "abilityId": 10438103,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -44404,6 +44440,106 @@
             "invokeLimitCount": 1,
             "abilityFortifyType": 20,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 10470601,
+            "addAbilityId": 10470611,
+            "name": "戦闘中、味方全体スキル威力UP/スキル使用時、PT内に6属性のユニットがいると、自身以外の味方全体スキルゲージ増加",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10470611,
+            "addAbilityId": 0,
+            "name": "拡張：PT編成によるスキル使用時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10470602,
+            "addAbilityId": 10470621,
+            "name": "スキル使用時、自身スキルゲージ増加/味方スキル使用時、味方全体スキル威力UP",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10470621,
+            "addAbilityId": 0,
+            "name": "拡張：味方スキル使用時効果",
+            "triggerType": 18,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10470603,
+            "addAbilityId": 10470631,
+            "name": "ターン開始時、自身スキルゲージ増加/攻撃時、味方全体状態異常解除",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10470631,
+            "addAbilityId": 0,
+            "name": "拡張：攻撃時効果",
+            "triggerType": 11,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10438101,
+            "addAbilityId": 0,
+            "name": "戦闘中、味方全体のHP/攻撃/防御力/状態異常耐性UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10438102,
+            "addAbilityId": 10438121,
+            "name": "スキル発動時、自身以外の味方全体スキル威力UP/戦闘不能攻撃を受けるとき…",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10438121,
+            "addAbilityId": 0,
+            "name": "拡張：根性",
+            "triggerType": 433,
+            "triggerValue": "1",
+            "invokeLimitCount": 3,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10438103,
+            "addAbilityId": 0,
+            "name": "ターン開始時、自身以外の味方全体HP回復/自身スキルゲージ増加",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -47370,6 +47506,12 @@
             "conditionGroup": 1,
             "conditionType": 172,
             "conditionValue": "1476:1:0"
+        },
+        {
+            "abilityId": 10470611,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "1,1,1,1,1,1"
         }
     ]
 }

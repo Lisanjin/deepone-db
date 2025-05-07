@@ -9084,6 +9084,32 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 104706,
+            "name": "寄り添う夢片",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104706",
+            "spineName": "c04706_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104381,
+            "name": "愛象る想粋",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104381",
+            "spineName": "c04381_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [

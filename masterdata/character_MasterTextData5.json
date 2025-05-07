@@ -18931,6 +18931,366 @@
             "releaseDate": ""
         },
         {
+            "characterId": 104706,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "同じ高さに立って、そばで見守って、少しずつ人のうちにあるものを理解しはじめているのだという確信がある。この感覚を、なんと表現すればいいのかしら……それもまだ、私にはわからないわ。",
+            "skinName": "normal",
+            "voiceFile": "def104706_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ペルフェはずいぶんとルルイエに馴染んだようね。まあ、本人は認めないのでしょうけれど。口惜しいけれど、ナコト原書から完全に切り離された彼女は、もしかしたら私よりも人の理解に近しいのかもしれないわね。",
+            "skinName": "normal",
+            "voiceFile": "def104706_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ペルフェはずいぶんとルルイエに馴染んだようね。まあ、本人は認めないのでしょうけれど。口惜しいけれど、ナコト原書から完全に切り離された彼女は、もしかしたら私よりも人の理解に近しいのかもしれないわね。",
+            "skinName": "normal",
+            "voiceFile": "def104706_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "私はいつか愛を……人を理解し、求めたものを得て、ナコト原書の座へと帰るのかしら。ああ、不可解だわ。この感情を、どう言い表せばいいのか分からない……こんなふうに未来を想うことなど、これまでなかったのに。",
+            "skinName": "normal",
+            "voiceFile": "def104706_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "あなたたちを見ていると、時々、つい手出しをしたくなる。見守り、見定めると決めているのに、私が手出しをするのはおかしな話よ。そう、本来そんなことはすべきではない……それは、分かっているのだけれど。",
+            "skinName": "normal",
+            "voiceFile": "def104706_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "一体、なにがしたいのかしら……。",
+            "skinName": "normal",
+            "voiceFile": "def104706_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "あとは任せるわ。",
+            "skinName": "normal",
+            "voiceFile": "def104706_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "あまり私が手助けするのは、どうかと思うのだけれど。",
+            "skinName": "normal",
+            "voiceFile": "def104706_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "これ以上この器が傷つくことを、私は望まない。",
+            "skinName": "normal",
+            "voiceFile": "def104706_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "私に頼らずとも、あなたたちならやれるはずだけれど……。",
+            "skinName": "normal",
+            "voiceFile": "def104706_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "私は、あなたと共にある……いつかの未来を想いながら、今が続くことを願っているのよ。",
+            "skinName": "normal",
+            "voiceFile": "def104706_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "他愛ないわ。",
+            "skinName": "normal",
+            "voiceFile": "def104706_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "なるほど……。",
+            "skinName": "normal",
+            "voiceFile": "def104706_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "最近、調子はどう……なんて、我ながら曖昧な質問ね。",
+            "skinName": "normal",
+            "voiceFile": "def104706_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あなたたちといる時、胸がざわつくことがある。これは一体……。",
+            "skinName": "sad",
+            "voiceFile": "def104706_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "こうして言葉を交わす時間は、そうね、悪くはないのかもしれない。",
+            "skinName": "smile",
+            "voiceFile": "def104706_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "私はあまり、あなたの手助けをすべきではないのだけれど……。",
+            "skinName": "sad",
+            "voiceFile": "def104706_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104706,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "誰かになにかを与えたい……それは、どのような感情なのかしら。",
+            "skinName": "normal",
+            "voiceFile": "def104706_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "私は、かつて、どこかにいた誰かの残した想い残し。母体錬成術式からこぼれた残滓。何にもなれないゼロ……それでも、あなたたちのそばにいたいと、そう思ってもいいのかしら。",
+            "skinName": "normal",
+            "voiceFile": "def104381_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "私はあなたたちに、なにもしてあげられていない。それなのに、どうしてあなたたちはそんなにも慕ってくれるの。その気持ちは嬉しくて、けれど少し重たくて……これから、私も同じだけのものを返していけるかしら。",
+            "skinName": "sad",
+            "voiceFile": "def104381_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "私はあなたたちに、なにもしてあげられていない。それなのに、どうしてあなたたちはそんなにも慕ってくれるの。その気持ちは嬉しくて、けれど少し重たくて……これから、私も同じだけのものを返していけるかしら。",
+            "skinName": "sad",
+            "voiceFile": "def104381_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "何度も何度も消えては戻ってきて……我ながらしつこいわね。けれど、だからこそこの幸せな日々をあなたたちと共に過ごせるのだもの。どれほど不格好でも、しつこくしがみついてよかったわ。",
+            "skinName": "normal",
+            "voiceFile": "def104381_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "あの……あまり、そんなじっと見ないで欲しいのだけど……こんな格好、私に似合うとは思えないし……だから、その……きゃっ！　な、なんでいきなり手を握って……ああもう、あなたって子は。キザなんだから。",
+            "skinName": "shy",
+            "voiceFile": "def104381_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "およびじゃないわね。",
+            "skinName": "normal",
+            "voiceFile": "def104381_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "まだ、やれるはずなのに……。",
+            "skinName": "normal",
+            "voiceFile": "def104381_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "あなたたちの前で格好の悪いところは見せられないわ。",
+            "skinName": "normal",
+            "voiceFile": "def104381_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "あの子たちのために、私はまだ、こんなところで……。",
+            "skinName": "normal",
+            "voiceFile": "def104381_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたたちを傍で見守ることが出来る。それだけで幸せすぎるわ。",
+            "skinName": "normal",
+            "voiceFile": "def104381_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "これからは、あなたたちと一緒にいる。だから、頼ってね。まあ、頼りないかもしれないけれど。",
+            "skinName": "normal",
+            "voiceFile": "def104381_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "くぅっ！？",
+            "skinName": "normal",
+            "voiceFile": "def104381_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "まったく……！",
+            "skinName": "normal",
+            "voiceFile": "def104381_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "このドレス、露出が……あ、いえ、なんでもない……うぅ。",
+            "skinName": "shy",
+            "voiceFile": "def104381_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あなたたちが笑顔でいる。それ以上に望むことはないわ。",
+            "skinName": "smile",
+            "voiceFile": "def104381_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "その……アイカやソーカとは、どう接したものかしら……。",
+            "skinName": "sad",
+            "voiceFile": "def104381_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "フラウは亜紗花に料理を教わってるそうね。私も教わろうかしら。",
+            "skinName": "normal",
+            "voiceFile": "def104381_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104381,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "ノルンが愚痴ってたわよ。あの子に意地悪するのもほどほどにね。",
+            "skinName": "normal",
+            "voiceFile": "def104381_19.mp3",
+            "releaseDate": ""
+        },
+        {
             "characterId": 1,
             "sceneType": 2,
             "groupType": 1,
