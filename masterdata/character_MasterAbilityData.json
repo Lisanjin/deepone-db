@@ -15118,6 +15118,96 @@
             "index": 3,
             "abilityId": 10438103,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104113,
+            "index": 1,
+            "abilityId": 10411301,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104113,
+            "index": 2,
+            "abilityId": 10411302,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104113,
+            "index": 3,
+            "abilityId": 10411303,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181606,
+            "index": 1,
+            "abilityId": 18160601,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181606,
+            "index": 2,
+            "abilityId": 18160602,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 181606,
+            "index": 3,
+            "abilityId": 18160603,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101318,
+            "index": 1,
+            "abilityId": 10131801,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101318,
+            "index": 2,
+            "abilityId": 10131802,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101318,
+            "index": 3,
+            "abilityId": 10131803,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200022,
+            "index": 1,
+            "abilityId": 20002201,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200022,
+            "index": 2,
+            "abilityId": 20002202,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200022,
+            "index": 3,
+            "abilityId": 20002203,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200023,
+            "index": 1,
+            "abilityId": 20002301,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200023,
+            "index": 2,
+            "abilityId": 20002302,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 200023,
+            "index": 3,
+            "abilityId": 20002303,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -44540,6 +44630,386 @@
             "invokeLimitCount": 0,
             "abilityFortifyType": 21,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 10411301,
+            "addAbilityId": 10411311,
+            "name": "戦闘中、味方光属性の攻撃力UP/自身スキル威力UP/3ターン目以降、戦闘中自身の被ダメージカット",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10411311,
+            "addAbilityId": 0,
+            "name": "拡張：3ターン目開始時効果",
+            "triggerType": 2,
+            "triggerValue": "3",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10411302,
+            "addAbilityId": 0,
+            "name": "攻撃時、味方光属性スキルゲージ増加/敵全体の強化効果解除/自身攻撃力UP",
+            "triggerType": 11,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10411303,
+            "addAbilityId": 10411331,
+            "name": "戦闘中、味方光属性に対してHPに応じて攻撃/防御力UP/ターン開始時、自身スキルゲージ増加",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10411331,
+            "addAbilityId": 0,
+            "name": "拡張：ターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160601,
+            "addAbilityId": 18160611,
+            "name": "味方ターン開始時、味方水属性の攻撃力UP/PT編成により…/HP29%以下攻撃時、自身HP回復",
+            "triggerType": 4,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160611,
+            "addAbilityId": 18160612,
+            "name": "拡張：ミルヴァ編成時効果",
+            "triggerType": 4,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160612,
+            "addAbilityId": 0,
+            "name": "拡張：HP29%以下攻撃時効果 ",
+            "triggerType": 32,
+            "triggerValue": "29",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160602,
+            "addAbilityId": 18160621,
+            "name": "HP30%以上攻撃時、味方全体スキルゲージ増加 /HP70%以上攻撃時、味方全体スキル威力UP/HP95%以下攻撃時、追撃",
+            "triggerType": 31,
+            "triggerValue": "30",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160621,
+            "addAbilityId": 18160622,
+            "name": "拡張：HP70%以上攻撃時効果 ",
+            "triggerType": 31,
+            "triggerValue": "70",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160622,
+            "addAbilityId": 0,
+            "name": "拡張：HP95%以下攻撃時効果 ",
+            "triggerType": 32,
+            "triggerValue": "95",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160603,
+            "addAbilityId": 18160631,
+            "name": "ターン開始時、自身スキルゲージ増加/敵ターン開始時、味方水属性の防御力UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 18160631,
+            "addAbilityId": 0,
+            "name": "拡張：敵ターン開始時効果 ",
+            "triggerType": 6,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131801,
+            "addAbilityId": 10131811,
+            "name": "戦闘中、味方風属性の攻撃力UP/スキル発動時、中確率で敵全体に毒・麻痺・混乱・命中率DOWN付与",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131811,
+            "addAbilityId": 0,
+            "name": "拡張：スキル発動時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131802,
+            "addAbilityId": 10131821,
+            "name": "ターン開始時、自身スキル威力UP/毒・混乱状態の敵攻撃時…/麻痺・命中率DOWN状態の敵攻撃時…/",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131821,
+            "addAbilityId": 10131822,
+            "name": "拡張：毒・混乱状態敵攻撃時効果",
+            "triggerType": 33,
+            "triggerValue": "281,285",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131822,
+            "addAbilityId": 0,
+            "name": "拡張：麻痺・命中率DOWN状態敵攻撃時効果",
+            "triggerType": 33,
+            "triggerValue": "282,286",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131803,
+            "addAbilityId": 10131831,
+            "name": "戦闘中、自身HP回復/スキル発動時、自身スキルゲージ増加",
+            "triggerType": 11,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10131831,
+            "addAbilityId": 0,
+            "name": "拡張：スキル発動時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002201,
+            "addAbilityId": 20002211,
+            "name": "戦闘中、味方全体防御力UP/PT編成により味方全体攻撃力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002211,
+            "addAbilityId": 20002212,
+            "name": "拡張：火属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002212,
+            "addAbilityId": 20002213,
+            "name": "拡張：水属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002213,
+            "addAbilityId": 20002214,
+            "name": "拡張：風属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002214,
+            "addAbilityId": 20002215,
+            "name": "拡張：雷属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002215,
+            "addAbilityId": 20002216,
+            "name": "拡張：光属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002216,
+            "addAbilityId": 0,
+            "name": "拡張：闇属性の仲間",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002202,
+            "addAbilityId": 20002221,
+            "name": "味方スキル使用時、味方全体スキルゲージ増加/戦闘中、味方全体HP回復量UP",
+            "triggerType": 18,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002221,
+            "addAbilityId": 0,
+            "name": "拡張：戦闘中効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002203,
+            "addAbilityId": 20002231,
+            "name": "ターン開始時及びターン終了時、味方全体HP回復",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002231,
+            "addAbilityId": 0,
+            "name": "拡張：ターン終了時回復",
+            "triggerType": 3,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002301,
+            "addAbilityId": 20002311,
+            "name": "戦闘中、味方闇/光属性の攻撃力UP/ターン開始時、先制攻撃",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002311,
+            "addAbilityId": 0,
+            "name": "拡張：ターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002302,
+            "addAbilityId": 20002321,
+            "name": "HP65%以上で攻撃時、自身スキルゲージ増加/HP75%以下で攻撃時、追撃/スキル発動時、確率で敵全体に浸食付与",
+            "triggerType": 31,
+            "triggerValue": "65",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002321,
+            "addAbilityId": 20002322,
+            "name": "拡張：HP75%以下攻撃時効果",
+            "triggerType": 32,
+            "triggerValue": "75",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002322,
+            "addAbilityId": 0,
+            "name": "拡張：スキル発動時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002303,
+            "addAbilityId": 20002331,
+            "name": "戦闘中、味方全体スキル威力UP/敵討伐時、自身スキルゲージ増加",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 20002331,
+            "addAbilityId": 0,
+            "name": "拡張：敵討伐時効果 ",
+            "triggerType": 16,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -47512,6 +47982,54 @@
             "conditionGroup": 1,
             "conditionType": 101,
             "conditionValue": "1,1,1,1,1,1"
+        },
+        {
+            "abilityId": 18160601,
+            "conditionGroup": 1,
+            "conditionType": 132,
+            "conditionValue": "1013:1"
+        },
+        {
+            "abilityId": 18160611,
+            "conditionGroup": 1,
+            "conditionType": 131,
+            "conditionValue": "1013:1"
+        },
+        {
+            "abilityId": 20002211,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "1,0,0,0,0,0"
+        },
+        {
+            "abilityId": 20002212,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,1,0,0,0,0"
+        },
+        {
+            "abilityId": 20002213,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,1,0,0,0"
+        },
+        {
+            "abilityId": 20002214,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,0,1,0,0"
+        },
+        {
+            "abilityId": 20002215,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,0,0,2,0"
+        },
+        {
+            "abilityId": 20002216,
+            "conditionGroup": 1,
+            "conditionType": 101,
+            "conditionValue": "0,0,0,0,0,2"
         }
     ]
 }

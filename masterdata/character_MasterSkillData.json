@@ -9110,6 +9110,71 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 104113,
+            "name": "心綻ぶ白花",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104113",
+            "spineName": "c04113_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 181606,
+            "name": "想求む青穹",
+            "effectShowType": 4,
+            "spineDirectoryPath": "181606",
+            "spineName": "c81606_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 101318,
+            "name": "笑顔咲く揺碧",
+            "effectShowType": 4,
+            "spineDirectoryPath": "101318",
+            "spineName": "c01318_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 200022,
+            "name": "明日願う双心",
+            "effectShowType": 4,
+            "spineDirectoryPath": "200022",
+            "spineName": "c200021_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 200023,
+            "name": "明日願う双心",
+            "effectShowType": 4,
+            "spineDirectoryPath": "200023",
+            "spineName": "c200021_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [
