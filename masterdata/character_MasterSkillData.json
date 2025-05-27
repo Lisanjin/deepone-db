@@ -9175,6 +9175,45 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 100184,
+            "name": "魅夜に舞う華",
+            "effectShowType": 4,
+            "spineDirectoryPath": "100184",
+            "spineName": "c00184_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104216,
+            "name": "綺想示す舞姫",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104216",
+            "spineName": "c04216_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 101614,
+            "name": "煌華の麗舞",
+            "effectShowType": 4,
+            "spineDirectoryPath": "101614",
+            "spineName": "c01614_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 3,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [

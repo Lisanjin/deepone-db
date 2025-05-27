@@ -15208,6 +15208,60 @@
             "index": 3,
             "abilityId": 20002303,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 100184,
+            "index": 1,
+            "abilityId": 10018401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 100184,
+            "index": 2,
+            "abilityId": 10018402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 100184,
+            "index": 3,
+            "abilityId": 10018403,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104216,
+            "index": 1,
+            "abilityId": 10421601,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104216,
+            "index": 2,
+            "abilityId": 10421602,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104216,
+            "index": 3,
+            "abilityId": 10421603,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101614,
+            "index": 1,
+            "abilityId": 10161401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101614,
+            "index": 2,
+            "abilityId": 10161402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 101614,
+            "index": 3,
+            "abilityId": 10161403,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -45010,6 +45064,156 @@
             "invokeLimitCount": 0,
             "abilityFortifyType": 23,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 10018401,
+            "addAbilityId": 10018411,
+            "name": "戦闘中、味方火属性攻撃/防御力UP/サポート編成により…",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10018411,
+            "addAbilityId": 0,
+            "name": "拡張：サポートに亜紗花編成時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10018402,
+            "addAbilityId": 10018421,
+            "name": "スキル発動時、自身スキルゲージ増加/味方火属性スキル威力UP/醸艶の薄織装備中…",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10018421,
+            "addAbilityId": 0,
+            "name": "拡張：醸艶の薄織装備中効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10018403,
+            "addAbilityId": 10018431,
+            "name": "ターン開始時、自身スキルゲージ増加/敵討伐時、追撃",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10018431,
+            "addAbilityId": 0,
+            "name": "拡張：敵討伐時効果 ",
+            "triggerType": 16,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10421601,
+            "addAbilityId": 10421611,
+            "name": "戦闘中、味方水属性スキル威力UP/可憐秘す透布装備時…",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10421611,
+            "addAbilityId": 0,
+            "name": "拡張：可憐秘す透布装備時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10421602,
+            "addAbilityId": 10421621,
+            "name": "スキル発動時、自身スキル威力UP/クリティカル発生時、追撃",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10421621,
+            "addAbilityId": 0,
+            "name": "拡張：クリティカル発生時効果",
+            "triggerType": 20,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10421603,
+            "addAbilityId": 0,
+            "name": "ターン開始時、先制攻撃/自身スキルゲージ増加",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10161401,
+            "addAbilityId": 0,
+            "name": "戦闘中、味方雷属性の攻撃力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 16,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10161402,
+            "addAbilityId": 0,
+            "name": "クリティカル発生時、味方全体スキルゲージ増加/自身クリティカル率UP",
+            "triggerType": 20,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 16,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10161403,
+            "addAbilityId": 10161431,
+            "name": "水属性敵攻撃時、自身スキルゲージ増加/戦闘中、自身クリティカル率UP",
+            "triggerType": 21,
+            "triggerValue": "2",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 16,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10161431,
+            "addAbilityId": 0,
+            "name": "拡張：戦闘中効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 16,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -48030,6 +48234,24 @@
             "conditionGroup": 1,
             "conditionType": 101,
             "conditionValue": "0,0,0,0,0,2"
+        },
+        {
+            "abilityId": 10018411,
+            "conditionGroup": 1,
+            "conditionType": 137,
+            "conditionValue": "1001:1"
+        },
+        {
+            "abilityId": 10018421,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1480:1:0"
+        },
+        {
+            "abilityId": 10421611,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1481:1:0"
         }
     ]
 }
