@@ -9214,6 +9214,32 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 3,
             "releaseDate": ""
+        },
+        {
+            "skillId": 105106,
+            "name": "雫煌めく空",
+            "effectShowType": 4,
+            "spineDirectoryPath": "105106",
+            "spineName": "c05106_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104184,
+            "name": "笑顔躍る晴雨",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104184",
+            "spineName": "c04184_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [

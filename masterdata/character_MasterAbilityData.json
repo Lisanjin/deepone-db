@@ -15262,6 +15262,42 @@
             "index": 3,
             "abilityId": 10161403,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105106,
+            "index": 1,
+            "abilityId": 10510601,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105106,
+            "index": 2,
+            "abilityId": 10510602,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105106,
+            "index": 3,
+            "abilityId": 10510603,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104184,
+            "index": 1,
+            "abilityId": 10418401,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104184,
+            "index": 2,
+            "abilityId": 10418402,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104184,
+            "index": 3,
+            "abilityId": 10418403,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -45214,6 +45250,116 @@
             "invokeLimitCount": 1,
             "abilityFortifyType": 16,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 10510601,
+            "addAbilityId": 10510611,
+            "name": "戦闘中、味方雷属性の攻撃力UP/ターン開始時、自身スキル威力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 22,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10510611,
+            "addAbilityId": 0,
+            "name": "拡張：ターン開始時効果",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 22,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10510602,
+            "addAbilityId": 10510621,
+            "name": "HP60%以下攻撃時、自身スキルゲージ増加/HP40%以下攻撃時、自身スキルゲージ増加/追撃",
+            "triggerType": 32,
+            "triggerValue": "60",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 22,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10510621,
+            "addAbilityId": 0,
+            "name": "拡張：HP40%以下攻撃時効果",
+            "triggerType": 32,
+            "triggerValue": "40",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 22,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10510603,
+            "addAbilityId": 0,
+            "name": "戦闘中、自身のHPに応じて攻撃/防御力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 22,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418401,
+            "addAbilityId": 10418411,
+            "name": "戦闘中、味方光属性の攻撃力UP/白朧の花装備時…",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418411,
+            "addAbilityId": 0,
+            "name": "拡張：白朧の花装備時効果",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418402,
+            "addAbilityId": 10418421,
+            "name": "スキルゲージMAXで被弾時、自身スキル威力UP/スキル発動時、自身にバリア付与",
+            "triggerType": 422,
+            "triggerValue": "1",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418421,
+            "addAbilityId": 0,
+            "name": "拡張：スキル発動時効果",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418403,
+            "addAbilityId": 10418431,
+            "name": "ターン開始時、自身スキルゲージ増加/白朧の花装備中…",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10418431,
+            "addAbilityId": 0,
+            "name": "拡張：白朧の花装備時効果",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 24,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -48252,6 +48398,18 @@
             "conditionGroup": 1,
             "conditionType": 172,
             "conditionValue": "1481:1:0"
+        },
+        {
+            "abilityId": 10418411,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1364:1:0"
+        },
+        {
+            "abilityId": 10418431,
+            "conditionGroup": 1,
+            "conditionType": 172,
+            "conditionValue": "1364:1:0"
         }
     ]
 }

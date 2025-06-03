@@ -20781,6 +20781,476 @@
             "releaseDate": ""
         },
         {
+            "characterId": 105106,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "にひー、濡れちゃった。でもさ、雨上がりの晴れた空って、なんかいいよね。空気が洗い流されて綺麗に見えるっていうか……ん？　キミ、どこ見てんの？",
+            "skinName": "normal",
+            "voiceFile": "def105106_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ね、キミって雨は好き？　アタシはけっこう好きかな。こう、雨の中を思いっきり走ったりすると気持ちよくない？　ずぶ濡れになったら、もうどうにでもなれー、って気分になって、なんか楽しいというか……分かる？",
+            "skinName": "normal",
+            "voiceFile": "def105106_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ね、キミって雨は好き？　アタシはけっこう好きかな。こう、雨の中を思いっきり走ったりすると気持ちよくない？　ずぶ濡れになったら、もうどうにでもなれー、って気分になって、なんか楽しいというか……分かる？",
+            "skinName": "normal",
+            "voiceFile": "def105106_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "んー、なんかアタシのこと、じっと見すぎじゃない？　どしたん、どしたん？　言われたからって急に目、逸らしちゃってさ。べつに、いいよ？　もっと見てくれても……キミなら、さ。にひ。",
+            "skinName": "smile",
+            "voiceFile": "def105106_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "にひー。キミと一緒にいると、なんかいろんなことが楽しく感じるなぁ……ね、キミはどう？　同じように思ってくれてたら、なんていうか、すごく嬉しい。お互いがお互いといる時間を大切に感じるなんて、素敵だよね。",
+            "skinName": "normal",
+            "voiceFile": "def105106_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "ちょっぱやで片付けてやりますか！",
+            "skinName": "normal",
+            "voiceFile": "def105106_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ゴメン、ダメっぽい……。",
+            "skinName": "normal",
+            "voiceFile": "def105106_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "にひー、堂々勝利。やったぜ。",
+            "skinName": "normal",
+            "voiceFile": "def105106_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "こんなところで、なにも諦めたくないのに……。",
+            "skinName": "normal",
+            "voiceFile": "def105106_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "これからも、キミと一緒にいろんなことがしたいな。",
+            "skinName": "normal",
+            "voiceFile": "def105106_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "キミといると、なんだろうね。なんでも楽しめる気がする。この気持ち……きっと、すごく特別なものだよね。",
+            "skinName": "normal",
+            "voiceFile": "def105106_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "きゃん！",
+            "skinName": "normal",
+            "voiceFile": "def105106_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "ちょっとぉ！？",
+            "skinName": "normal",
+            "voiceFile": "def105106_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ね。キミのためにオシャレしたんだよ、って言ったら、嬉しい？",
+            "skinName": "normal",
+            "voiceFile": "def105106_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "にひー。キミっておっぱい大好きだよね。視線、わかりやすいよ？",
+            "skinName": "normal",
+            "voiceFile": "def105106_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "いっぱい褒めてくれたら、サービスしちゃうぜー？　にひひ。",
+            "skinName": "smile",
+            "voiceFile": "def105106_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ペルフェは、もうちょっと体力つけたほうがいいと思うんだよね。",
+            "skinName": "sad",
+            "voiceFile": "def105106_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105106,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "あ、そうだ。今夜さ、一緒にお風呂入る？　背中流したげるよ。",
+            "skinName": "smile",
+            "voiceFile": "def105106_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "パパ。雨だよ、天気雨。晴れてるのに雨が降るなんて不思議だね……え、傘？　いらないよ。こうやって雨粒が肌に落ちて濡れる感触も知っておきたいから。そうやって、この瞬間をちゃんと記憶に残しておきたいの。",
+            "skinName": "normal",
+            "voiceFile": "def104184_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "雨って基本、憂鬱なものだって思ってた。でも、そうやって決めつけて遠ざけてたら、なにも知れないよね。雨が降らないと、花は枯れちゃう……そういう当たり前のこと、見落とさないようにしないとね。",
+            "skinName": "normal",
+            "voiceFile": "def104184_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "雨って基本、憂鬱なものだって思ってた。でも、そうやって決めつけて遠ざけてたら、なにも知れないよね。雨が降らないと、花は枯れちゃう……そういう当たり前のこと、見落とさないようにしないとね。",
+            "skinName": "normal",
+            "voiceFile": "def104184_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ねぇ、パーパ♪　今日の私の服、どう？　なんか、こう、おしとやかなお嬢様、って感じでかわいくない？　まあ、自分で言うのもなんだけど、私はおしとやかってタイプじゃないけどね。ふふっ。",
+            "skinName": "smile",
+            "voiceFile": "def104184_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "私、どんな時でもパパと一緒だと楽しいよ。だってパパはアイカにとってかけがえのない人だもん。それはつまり、私にとってもすごく大切な人ってこと。まあ、そういう理由抜きにしても、今は……ふふ、なんてね♪",
+            "skinName": "smile",
+            "voiceFile": "def104184_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "おっと、お邪魔虫の登場かな。",
+            "skinName": "normal",
+            "voiceFile": "def104184_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "これは、ちょっと予想外かも……。",
+            "skinName": "normal",
+            "voiceFile": "def104184_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "アイカやパパのことは私が守るから、もっと頼ってね。",
+            "skinName": "normal",
+            "voiceFile": "def104184_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "私は、こんなところで……ごめんね、アイカ……。",
+            "skinName": "normal",
+            "voiceFile": "def104184_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "これからもアイカを見守ってあげてね、パパ。私も傍にいるから。",
+            "skinName": "normal",
+            "voiceFile": "def104184_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "ね、パパ。ありふれた事も、珍しい景色も、これからもたくさん一緒に経験できたら……それって幸せだよね。",
+            "skinName": "normal",
+            "voiceFile": "def104184_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "ちょ、なにを……！",
+            "skinName": "normal",
+            "voiceFile": "def104184_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "うわわぁ！？",
+            "skinName": "normal",
+            "voiceFile": "def104184_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "じゃーん、今日の私は、お嬢様風だよ。どうどう、パパ、似合う？",
+            "skinName": "normal",
+            "voiceFile": "def104184_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "アイカの可愛さはまだまだ進化残してるから、覚悟しとけよー？",
+            "skinName": "smile",
+            "voiceFile": "def104184_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "私ね、アイカのもとに咲けてよかった。本当に、そう思うんだ。",
+            "skinName": "normal",
+            "voiceFile": "def104184_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ペルフェ、ルルイエを満喫しすぎじゃ……いや、まぁいいけどさ。",
+            "skinName": "unique",
+            "voiceFile": "def104184_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104184,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "パパ、パパ、デートしようよデート。いいでしょ？",
+            "skinName": "smile",
+            "voiceFile": "def104184_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "雨なんて濡れるし湿気がひどいし、良いことなんてひとつもない……ずっとそう思ってた。けど、雨上がりの景色は案外悪くないかもね。最近になって、なんとなく、そう思うようになったわ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "場所によるんでしょうけど、雨の日は気温が下がるから薄着はちょっと寒いし、かといってこういうちょっと厚手の服だと雨があがって晴れた後は蒸して暑くなるかもしれないし……雨の日の服選びって面倒だわ。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102054_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "場所によるんでしょうけど、雨の日は気温が下がるから薄着はちょっと寒いし、かといってこういうちょっと厚手の服だと雨があがって晴れた後は蒸して暑くなるかもしれないし……雨の日の服選びって面倒だわ。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102054_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "こういうゆったりした服だと身体が締め付けられるような感じもしないし、悪くないかもね。……ちょっとお前、なんで胸見てるのよ。まさか、締め付けられるほどないだろとか思ってたりしないわよね？　ねぇ？",
+            "skinName": "stand_a,anger",
+            "voiceFile": "def102054_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "わたしの暮らしてたところは天気が変わりやすくて、にわか雨も多かったのよ。それと比べたら、環境がしっかり管理されたルルイエは快適よね。まあ、快適なばかりが良いことではないかもしれないけれど。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "いろいろなものの見え方が、最近、変わってきた気がする……これは、誰かの影響かしら。まったく。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "天候の変化を感じられないのは、たまに味気なくも感じるわね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "雨の環境音で安眠できる人もいるらしいし、今度試してみたら？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "雨は面倒で好きじゃないけど、雨上がりの景色は悪くないわよね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102054_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "なんでマルタとマリアはいつもわたしに絡んでくるのよ……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102054_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102054,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "ん……この帽子、気を抜くとすぐ落ちそうになるわね……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102054_09.mp3",
+            "releaseDate": ""
+        },
+        {
             "characterId": 1,
             "sceneType": 2,
             "groupType": 1,
