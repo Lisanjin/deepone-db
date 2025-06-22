@@ -9240,6 +9240,32 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 102922,
+            "name": "陽向く誓夢",
+            "effectShowType": 4,
+            "spineDirectoryPath": "102922",
+            "spineName": "c02922_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104515,
+            "name": "燦下満ちる皓福",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104515",
+            "spineName": "c04515_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [

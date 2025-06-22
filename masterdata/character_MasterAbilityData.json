@@ -15298,6 +15298,42 @@
             "index": 3,
             "abilityId": 10418403,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 102922,
+            "index": 1,
+            "abilityId": 10292201,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 102922,
+            "index": 2,
+            "abilityId": 10292202,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 102922,
+            "index": 3,
+            "abilityId": 10292203,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104515,
+            "index": 1,
+            "abilityId": 10451501,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104515,
+            "index": 2,
+            "abilityId": 10451502,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 104515,
+            "index": 3,
+            "abilityId": 10451503,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -45359,6 +45395,86 @@
             "triggerValue": "0",
             "invokeLimitCount": 0,
             "abilityFortifyType": 24,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10292201,
+            "addAbilityId": 0,
+            "name": "ターン開始時、味方火属性の攻撃/防御力UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10292202,
+            "addAbilityId": 10292221,
+            "name": "敵スキル使用時、自身スキルゲージ増加/反撃/被状態異常時、味方火属性の状態異常解除/反撃",
+            "triggerType": 19,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10292221,
+            "addAbilityId": 0,
+            "name": "拡張：被状態異常時効果 ",
+            "triggerType": 442,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10292203,
+            "addAbilityId": 0,
+            "name": "味方ターン開始時、自身スキルゲージ増加/HP回復",
+            "triggerType": 4,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 19,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10451501,
+            "addAbilityId": 0,
+            "name": "戦闘中、味方風属性の攻撃力UP/自身スキル威力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10451502,
+            "addAbilityId": 0,
+            "name": "スキル発動時、味方風属性スキルゲージ増加/味方全体の状態異常解除",
+            "triggerType": 17,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10451503,
+            "addAbilityId": 10451531,
+            "name": "ターン開始時、自身スキルゲージ増加/戦闘中、自身状態異常耐性UP",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 21,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10451531,
+            "addAbilityId": 0,
+            "name": "拡張：戦闘中効果 ",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 21,
             "releaseDate": ""
         }
     ],

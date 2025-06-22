@@ -21251,6 +21251,476 @@
             "releaseDate": ""
         },
         {
+            "characterId": 102922,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "あなた様の隣をこのような衣装で歩くことは、この身には過ぎるほど光栄で……不釣り合いかもしれませんが、ロゼットめは少しでも長くこの幸福を感じていたいと、そのように思ってしまうのです。",
+            "skinName": "normal",
+            "voiceFile": "def102922_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "以前のロゼットめは、服装だけでこんなにも心持ちが変わるのだと思いもしませんでした。ですがこの格好であなた様と共にいると……それだけで、不思議と頬が緩んでしまいそうになって……。",
+            "skinName": "smile",
+            "voiceFile": "def102922_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "以前のロゼットめは、服装だけでこんなにも心持ちが変わるのだと思いもしませんでした。ですがこの格好であなた様と共にいると……それだけで、不思議と頬が緩んでしまいそうになって……。",
+            "skinName": "smile",
+            "voiceFile": "def102922_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "婚姻というのは国や文化によって形が違うそうですし、あなた様は複雑なお立場ですから、都合のいい形を選ぶのもよろしいかと……あなた様に不都合がなければロゼットめがお調べいたしましょうか？",
+            "skinName": "normal",
+            "voiceFile": "def102922_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ソーカ様より、ヒマワリの花言葉を教えていただいたのですが……自身で言うのは恐れ多いですが、ロゼットめの想いを表すのにこれ以上ない、素敵な花だと思います。",
+            "skinName": "smile",
+            "voiceFile": "def102922_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "どうかロゼットめにお任せください。",
+            "skinName": "normal",
+            "voiceFile": "def102922_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "これまで、なのでしょうか。",
+            "skinName": "normal",
+            "voiceFile": "def102922_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "これからもあなた様の道を照らしたい、そう思います。",
+            "skinName": "normal",
+            "voiceFile": "def102922_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "もっとあなた様を、お傍で支えたいと願っていたのに。",
+            "skinName": "normal",
+            "voiceFile": "def102922_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "どうぞこれからも、ロゼットめをお役立てください。",
+            "skinName": "normal",
+            "voiceFile": "def102922_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "これからもあなた様のお傍で、あなた様をお支えすることを誓わせてくださいますか？",
+            "skinName": "normal",
+            "voiceFile": "def102922_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "問題、ございません。",
+            "skinName": "normal",
+            "voiceFile": "def102922_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "このような……っ。",
+            "skinName": "normal",
+            "voiceFile": "def102922_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "これからも、どうか……お傍に、いさせてくださいませ。",
+            "skinName": "smile",
+            "voiceFile": "def102922_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あなた様も、こういったドレスはやはり特別に感じますか？",
+            "skinName": "normal",
+            "voiceFile": "def102922_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "この衣装、とても美しく、この身にはもったいないくらいで……。",
+            "skinName": "normal",
+            "voiceFile": "def102922_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "こんなロゼットめを司祭様が見たら、どう思うでしょうか。",
+            "skinName": "normal",
+            "voiceFile": "def102922_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102922,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "し、新婚ごっこ、ですか？　あなた様がお望みでしたら、喜んで。",
+            "skinName": "surprise",
+            "voiceFile": "def102922_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "私がウェディングドレスを着るなんて、少しおかしな感じがしますが……あなたから見て、どうですか？　あなたが魅力的だと思ってくれたら……私は、それが一番嬉しいのですけれど。",
+            "skinName": "normal",
+            "voiceFile": "def104515_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "あなたには、それこそお姉ちゃんに甘えるように寄りかかって欲しいと、そう思っているのですけれど……私は、まだまだ頼りないでしょうか……お姉ちゃんではなく、お嫁さんなら、もっと甘えてくれますか？",
+            "skinName": "normal",
+            "voiceFile": "def104515_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "あなたには、それこそお姉ちゃんに甘えるように寄りかかって欲しいと、そう思っているのですけれど……私は、まだまだ頼りないでしょうか……お姉ちゃんではなく、お嫁さんなら、もっと甘えてくれますか？",
+            "skinName": "normal",
+            "voiceFile": "def104515_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "こんなにきれいなドレス、私にはもったいなく感じてしまいますが……あなたがそうやって見惚れてくれるなら、ずっと着ていたいと、そんな風にも思ってしまいますね。",
+            "skinName": "smile",
+            "voiceFile": "def104515_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "自分の幸せよりも、今は、大切な人たちの幸せを願い、守りたい……そんなふうにも思っていたのですけれど、あなたを前にすると……一緒に幸せになりたいというわがままな気持ちも出てきてしまいますね。",
+            "skinName": "normal",
+            "voiceFile": "def104515_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "今日はお嫁さんとして頑張っちゃいますね？",
+            "skinName": "normal",
+            "voiceFile": "def104515_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "やはり、私などでは……。",
+            "skinName": "normal",
+            "voiceFile": "def104515_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "あなたのために、どんなことでもしてあげますからね。",
+            "skinName": "normal",
+            "voiceFile": "def104515_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "幸せを失いたくないと、そう思うのに……。",
+            "skinName": "normal",
+            "voiceFile": "def104515_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたの存在が、私の中でどんどん大きくなって……。",
+            "skinName": "normal",
+            "voiceFile": "def104515_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "お姉ちゃんでもお嫁さんでも……これからも、あなたを近くで支えていきたいんです。",
+            "skinName": "normal",
+            "voiceFile": "def104515_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "そんなっ……。",
+            "skinName": "normal",
+            "voiceFile": "def104515_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "この程度なら……っ。",
+            "skinName": "normal",
+            "voiceFile": "def104515_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "あなたの視線をひとりじめできるなんて、悪い気はしませんね。",
+            "skinName": "normal",
+            "voiceFile": "def104515_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "お姉ちゃんよりもお嫁さんの方が、甘えやすかったりする？",
+            "skinName": "smile",
+            "voiceFile": "def104515_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "もう……花嫁をあまりエッチな目で見てはだめですよ？",
+            "skinName": "smile",
+            "voiceFile": "def104515_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "私には、あなたのしてほしいこと、なんでも教えてほしいです。",
+            "skinName": "smile",
+            "voiceFile": "def104515_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104515,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "せっかくですから、あなたもタキシードとか着てみませんか？",
+            "skinName": "normal",
+            "voiceFile": "def104515_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "こういった色味の服を着る機会はあまりなかったのですが、おかしくはないでしょうか。わたくしが不格好な姿を見せてはあの子も恥ずかしいかもしれませんし、なにより、あなたに似合っていると思って欲しいですから。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "聖奠教の聖女として、婚姻を結ぶ信徒へ祝福を告げることはありましたが、正直、当時のわたくしには誰かと結ばれる幸せが理解できてはいなかったのです……ですが今は、それがとても幸せなことなのだと分かります。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "聖奠教の聖女として、婚姻を結ぶ信徒へ祝福を告げることはありましたが、正直、当時のわたくしには誰かと結ばれる幸せが理解できてはいなかったのです……ですが今は、それがとても幸せなことなのだと分かります。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "カティアも、いつか大切な人と結ばれ、花嫁衣装を着るのでしょうね……でも、その場合、お相手は……な、なんでしょうか、この気持ちは……嬉しいような、でも、ちょっと引っかかるような……一体、これは……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102354_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "誰かと結ばれること。そうありたいと願うこと。それは、とても素晴らしいことなのだと思います。わたくしは人だった頃、それを知らなくて……だからこそ、今は、決してその想いを蔑ろにしたくないと思うのです。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "周りに祝福されながら自分の愛する人と未来を誓う。わたくしも、そんな結婚には憧れてしまうのですよ？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ふふ、この服、ヴィーさんに似合うって言われちゃいました。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def102354_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "そ、そんなにまじまじと見つめられては……照れてしまいますね。",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def102354_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "花嫁……ふふ、今さらですが、少し憧れてしまいますね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "あの子を傍で見守れるなんて、今が、とても幸せです。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def102354_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102354,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "わたくしも、あなたと一緒にいたいと願って、いいのでしょうか？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102354_09.mp3",
+            "releaseDate": ""
+        },
+        {
             "characterId": 1,
             "sceneType": 2,
             "groupType": 1,
