@@ -9266,6 +9266,71 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 4,
             "releaseDate": ""
+        },
+        {
+            "skillId": 100219,
+            "name": "迷い断つ心剣",
+            "effectShowType": 4,
+            "spineDirectoryPath": "100219",
+            "spineName": "c00219_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 103813,
+            "name": "明日切り開く歩み",
+            "effectShowType": 4,
+            "spineDirectoryPath": "103813",
+            "spineName": "c03813_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 105703,
+            "name": "愛こぼれる杯",
+            "effectShowType": 4,
+            "spineDirectoryPath": "105703",
+            "spineName": "c05703_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 3,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 181607,
+            "name": "溢れる煌き",
+            "effectShowType": 4,
+            "spineDirectoryPath": "181607",
+            "spineName": "c81607_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 104809,
+            "name": "甘惑のポーズ",
+            "effectShowType": 4,
+            "spineDirectoryPath": "104809",
+            "spineName": "c04809_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 3,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [
