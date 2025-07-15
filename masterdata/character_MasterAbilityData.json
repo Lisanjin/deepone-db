@@ -15424,6 +15424,42 @@
             "index": 3,
             "abilityId": 10480903,
             "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103521,
+            "index": 1,
+            "abilityId": 10352101,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103521,
+            "index": 2,
+            "abilityId": 10352102,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 103521,
+            "index": 3,
+            "abilityId": 10352103,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105007,
+            "index": 1,
+            "abilityId": 10500701,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105007,
+            "index": 2,
+            "abilityId": 10500702,
+            "releaseDate": ""
+        },
+        {
+            "abilityGroupId": 105007,
+            "index": 3,
+            "abilityId": 10500703,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityMain": [
@@ -45896,6 +45932,116 @@
             "invokeLimitCount": 0,
             "abilityFortifyType": 16,
             "releaseDate": ""
+        },
+        {
+            "abilityId": 10352101,
+            "addAbilityId": 10352111,
+            "name": "戦闘中、味方全体の攻撃力UP/敵生存数4体以上の場合、ターン開始時先制攻撃",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352111,
+            "addAbilityId": 0,
+            "name": "拡張：敵生存数4体以上時効果 ",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352102,
+            "addAbilityId": 10352121,
+            "name": "敵討伐時、自身スキルゲージ増加/味方被ダメージ時、自身攻撃力UP/追撃",
+            "triggerType": 16,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352121,
+            "addAbilityId": 0,
+            "name": "拡張：味方被ダメージ時効果 ",
+            "triggerType": 413,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10352103,
+            "addAbilityId": 0,
+            "name": "戦闘中、味方全体HPに応じて攻撃力UP",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 23,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500701,
+            "addAbilityId": 10500711,
+            "name": "戦闘中、味方水属性の攻撃力UP/自身スキル威力UP/ターン開始時、敵全体と自身以外の味方全体の防御力/状態異常耐性DOWN",
+            "triggerType": 1,
+            "triggerValue": "1",
+            "invokeLimitCount": 1,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500711,
+            "addAbilityId": 0,
+            "name": "拡張：ターン開始時効果 ",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500702,
+            "addAbilityId": 10500721,
+            "name": "被ダメージ時、自身スキルゲージ増加/攻撃時、味方全体スキル威力UP/封印状態の敵攻撃時、味方全体スキル威力UP",
+            "triggerType": 412,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500721,
+            "addAbilityId": 10500722,
+            "name": "拡張：攻撃時効果",
+            "triggerType": 11,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500722,
+            "addAbilityId": 0,
+            "name": "拡張：封印状態敵攻撃時効果",
+            "triggerType": 33,
+            "triggerValue": "292",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
+        },
+        {
+            "abilityId": 10500703,
+            "addAbilityId": 0,
+            "name": "ターン開始時、自身スキルゲージ増加",
+            "triggerType": 2,
+            "triggerValue": "0",
+            "invokeLimitCount": 0,
+            "abilityFortifyType": 20,
+            "releaseDate": ""
         }
     ],
     "CharacterAbilityCondition": [
@@ -49030,6 +49176,12 @@
             "conditionGroup": 1,
             "conditionType": 172,
             "conditionValue": "1485:1:0"
+        },
+        {
+            "abilityId": 10352111,
+            "conditionGroup": 1,
+            "conditionType": 141,
+            "conditionValue": "1,0,4,6"
         }
     ]
 }

@@ -9331,6 +9331,32 @@
             "bgmVolumeAmount": 0.6,
             "skillFortifyType": 3,
             "releaseDate": ""
+        },
+        {
+            "skillId": 103521,
+            "name": "清流たゆたう夏果",
+            "effectShowType": 4,
+            "spineDirectoryPath": "103521",
+            "spineName": "c03521_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
+        },
+        {
+            "skillId": 105007,
+            "name": "夏過ごすひと時",
+            "effectShowType": 4,
+            "spineDirectoryPath": "105007",
+            "spineName": "c05007_eventkey",
+            "aniName": "animation",
+            "hitEffectName": "ef_hit",
+            "hitEffectAniName": "04",
+            "bgmVolumeAmount": 0.6,
+            "skillFortifyType": 4,
+            "releaseDate": ""
         }
     ],
     "CharacterSkillUpRate": [
