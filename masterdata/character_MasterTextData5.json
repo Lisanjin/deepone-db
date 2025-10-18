@@ -2565,7 +2565,7 @@
             "sceneType": 1,
             "groupType": 2,
             "title": "適合率MAX",
-            "text": "こんな恰好を、なんだかんだで受け入れてしまうのも、あなたといるせいなのでしょうね。（微笑）困った話だわ。",
+            "text": "こんな恰好を、なんだかんだで受け入れてしまうのも、あなたといるせいなのでしょうね。困った話だわ。",
             "skinName": "normal",
             "voiceFile": "def104309_20.mp3",
             "releaseDate": ""
@@ -24988,6 +24988,4106 @@
             "text": "大切なものを失くさないために、もっともっと強くならないとね。",
             "skinName": "normal",
             "voiceFile": "def104114_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "花火というのは世界中で見ることが出来るけれど、日本のものは特別華やかだそうよ。いつか、直接見てみたいわ……なんて、こんな風に能天気に未来への希望を口にできるようになったのも、誰かさんの影響かしらね。",
+            "skinName": "normal",
+            "voiceFile": "def103320_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "目に映る全てが疎ましく思えて、なにもかもを遠ざけようとしてきた……そんな私が今はこうして下郎と並んで花火鑑賞だなんて。人生というのは、なにが起こるかわからないものね。",
+            "skinName": "smile",
+            "voiceFile": "def103320_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "目に映る全てが疎ましく思えて、なにもかもを遠ざけようとしてきた……そんな私が今はこうして下郎と並んで花火鑑賞だなんて。人生というのは、なにが起こるかわからないものね。",
+            "skinName": "smile",
+            "voiceFile": "def103320_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "人を花火見物に連れ出しておいて、どうして花火以外のものばかり見ているのかしら。視線、さっきから私にばかり向けているのが、バレていないと思っていたの？　ほんとうに、どうしようもない下郎ね。ふふ。",
+            "skinName": "smile",
+            "voiceFile": "def103320_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "私の国では火祭りといって花火や爆竹をにぎやかに楽しむ催しがあるのだけれど、私はこうして静かに夜空に咲く花を見上げる方がいいわね。この方が、隣にいる誰かのことを、よりはっきりと感じられるもの。",
+            "skinName": "normal",
+            "voiceFile": "def103320_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "騒々しいのは好きではないの。",
+            "skinName": "normal",
+            "voiceFile": "def103320_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "見苦しいところを見せるわね……。",
+            "skinName": "normal",
+            "voiceFile": "def103320_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "動いたせいで、少し汗をかいてしまったかしら。",
+            "skinName": "normal",
+            "voiceFile": "def103320_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "景色がかすんで……なにも、見えなく……。",
+            "skinName": "normal",
+            "voiceFile": "def103320_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "下郎は本当に……いつもいつも、おせっかいだわ。ふふ。",
+            "skinName": "normal",
+            "voiceFile": "def103320_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "下郎が望むのなら……いつか、一緒に日本まで本物の花火を見に行ってあげてもいいかもね。",
+            "skinName": "normal",
+            "voiceFile": "def103320_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "そんな……っ。",
+            "skinName": "normal",
+            "voiceFile": "def103320_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "調子に乗りすぎだわ……。",
+            "skinName": "normal",
+            "voiceFile": "def103320_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "浴衣というのも、案外過ごしやすいかもしれないわね。",
+            "skinName": "normal",
+            "voiceFile": "def103320_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あら。下郎の視線は今日も忙しそうね？",
+            "skinName": "unique",
+            "voiceFile": "def103320_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "和傘って見た目もいいし、インテリアにもなりそうよね。",
+            "skinName": "normal",
+            "voiceFile": "def103320_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "女が髪型を変えたのに、感想のひとつも言えないのかしら？",
+            "skinName": "normal",
+            "voiceFile": "def103320_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103320,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "下郎も浴衣を着てみなさい。私だけというのも不公平だもの。",
+            "skinName": "smile",
+            "voiceFile": "def103320_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "夏祭りを、浴衣なんて着て、誰かと歩くだなんて……こんなの、想像したこともなかった。なんだか不思議で……変な気持ちだわ。この気持ちは、なんて表現したらいいのかしらね。",
+            "skinName": "normal",
+            "voiceFile": "def104312_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "楽しさとか、幸せとか、これまで目を逸らしてきたものにも、これからはちゃんと目を向けたい。失うことを恐れるよりも、大切な人たちとそういう時間を過ごせる未来を求めたい。今は、そう思うわ。",
+            "skinName": "normal",
+            "voiceFile": "def104312_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "楽しさとか、幸せとか、これまで目を逸らしてきたものにも、これからはちゃんと目を向けたい。失うことを恐れるよりも、大切な人たちとそういう時間を過ごせる未来を求めたい。今は、そう思うわ。",
+            "skinName": "normal",
+            "voiceFile": "def104312_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "リンゴ飴って、見た目のインパクトはあるけれど食べにくいわよね。かじると飴で唇べたべたになるし……もっと食べやすさとか考慮しても……まあ、おいしいけど。",
+            "skinName": "sad",
+            "voiceFile": "def104312_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "なによ。別に袖掴むくらい、いいでしょ。その……あれよ。あなたのことだから物珍しいもの見つけたらすぐどこか行っちゃいそうだし、はぐれたら面倒だもの。それだけだから、そのにやついた顔、やめなさいよ。",
+            "skinName": "shy",
+            "voiceFile": "def104312_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "手早く済ませましょうか。",
+            "skinName": "normal",
+            "voiceFile": "def104312_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "本当、情けないわよね……。",
+            "skinName": "normal",
+            "voiceFile": "def104312_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "ん……浴衣、崩れてないわよね？",
+            "skinName": "normal",
+            "voiceFile": "def104312_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "もう、なかったことになんて、したくないのに。",
+            "skinName": "normal",
+            "voiceFile": "def104312_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "一歩ずつ進んでいくわよ……どんなに不器用な歩き方でも。",
+            "skinName": "normal",
+            "voiceFile": "def104312_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "あの子たちに置いて行かれないよう、私も歩んでいかないと……でも、迷った時は、手くらい貸してよね。",
+            "skinName": "normal",
+            "voiceFile": "def104312_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "別に、このくらい……っ。",
+            "skinName": "normal",
+            "voiceFile": "def104312_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "いい度胸ね……っ！",
+            "skinName": "normal",
+            "voiceFile": "def104312_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "物珍しいからって、あまりじろじろ見るんじゃないわよ。",
+            "skinName": "unique",
+            "voiceFile": "def104312_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "きゃっ！　い、いきなり触らないでよ……もう。",
+            "skinName": "surprise",
+            "voiceFile": "def104312_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "浴衣ってはじめて着たけれど、まあ、悪くはないかもね。",
+            "skinName": "smile",
+            "voiceFile": "def104312_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "アイカやソーカとお祭り……ふたりの浴衣姿……アリね。",
+            "skinName": "anger",
+            "voiceFile": "def104312_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104312,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "少しくらいは、あの子たちに恥じない自分になれているのかしら。",
+            "skinName": "normal",
+            "voiceFile": "def104312_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "じゃーん、見て見てパパ、私の浴衣姿。どう、かわいいでしょ？　特別に、ぎゅーって抱きしめるのを許可しちゃいます。というわけで、ほーら、パパ♪　どーぞ♪",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def104156_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "パパと浴衣デートしたいなぁ。花火とか一緒にみたり……絶対に楽しいと思うな。あ、もちろん、パパも浴衣だからね？　浴衣のパパとイチャイチャ……ふふ、想像しただけでわくわくしてきちゃう。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def104156_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "パパと浴衣デートしたいなぁ。花火とか一緒にみたり……絶対に楽しいと思うな。あ、もちろん、パパも浴衣だからね？　浴衣のパパとイチャイチャ……ふふ、想像しただけでわくわくしてきちゃう。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def104156_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "日本の夏って暑くて湿気もひどいから地獄みたいって話はよく聞くけど、こういうお祭りとかは素敵な文化だよね。浴衣もかわいいし、日本の夏、結構いいかも。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "夏祭りって食べ物のお店が多いんだってね。お好み焼きにたこ焼き、焼きそば、かき氷とかも鉄板みたいだし……よし、ママに一通り作ってもらおう。ママなら間違いなく、屋台のより美味しいのが作れると思うんだよね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "パパと一緒にいると、胸の奥がどんどん熱を持つみたいで……不思議な感覚。でも、イヤじゃないよ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "パパにかわいいって言ってもらうと、キュンってしちゃうな。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "和服って脱がしやすそうだよね……ふふ、試してみる？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def104156_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "おー、水風船、けっこう面白いかも。",
+            "skinName": "stand_a,surprise",
+            "voiceFile": "def104156_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "パパは夏祭りの屋台だと、どれが好きとかってある？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104156,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "アイカが成長していくのを見るのは、嬉しいし、幸せだよ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def104156_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ねーえ？　お姉ちゃんとひと気のないところに行って、イイコト、しちゃわない？　なんて、冗談冗談。ふふ、キミはこういうキャラはお気に召さないかなぁ？",
+            "skinName": "unique",
+            "voiceFile": "def105202_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ねーえ？　お姉ちゃんとひと気のないところに行って、イイコト、しちゃわない？　なんて、冗談冗談。ふふ、キミはこういうキャラはお気に召さないかなぁ？",
+            "skinName": "unique",
+            "voiceFile": "def105202_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ルルイエに来る前？　一年くらいノワちゃんと行動してたよ。ノワちゃんってば、世界各地で問題に首を突っ込むから、いろいろ大変だったなあ。まぁ一番大変なのは、そんな行動を強制されるノワちゃん自身だろうけど。",
+            "skinName": "normal",
+            "voiceFile": "def105202_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "私、真っ向から魔術で勝負、っていうのはあんまり得意じゃないんだよね……元々、諜報向きというか……気配を隠したり、あと占いとかも得意だよ。どう？　恋占いとか興味ある？",
+            "skinName": "normal",
+            "voiceFile": "def105202_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "せっかくだし、いろいろお話したいな。キミのこと、教えて？",
+            "skinName": "smile",
+            "voiceFile": "def105202_24.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "一目惚れ、しちゃったかも……ふふ、冗談だと思う？",
+            "skinName": "normal",
+            "voiceFile": "def105202_25.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "んー……チューする？　なんてね。本気にしちゃった？",
+            "skinName": "unique",
+            "voiceFile": "def105202_26.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "あ、喉渇かない？　お茶でもいれよっか。",
+            "skinName": "normal",
+            "voiceFile": "def105202_27.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105200,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "キミからは、目が離せないね。いろんな意味で……んふふ♪",
+            "skinName": "normal",
+            "voiceFile": "def105202_28.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "はじめまして、ククル。ククル・八巴・トレセーナ。キミが噂の……ふふ、一緒にいたらどんなことが起こるか、少し楽しみ。これからよろしくね？",
+            "skinName": "normal",
+            "voiceFile": "def105204_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ねえ、キミのことどんなふうに呼んだらいい？　例えば……あ・な・た、とか？　ふふ、これはさすがにいろんな人に怒られちゃうかな。私としては、そういう展開もナシじゃないかもだけどね……んふふ♪",
+            "skinName": "smile",
+            "voiceFile": "def105204_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ねえ、キミのことどんなふうに呼んだらいい？　例えば……あ・な・た、とか？　ふふ、これはさすがにいろんな人に怒られちゃうかな。私としては、そういう展開もナシじゃないかもだけどね……んふふ♪",
+            "skinName": "smile",
+            "voiceFile": "def105204_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "こうして海の底にいると、少し息苦しい感じがしない？　地上が恋しいというか……って、キミは地上、一度も出たことないんだっけ？　ごめん、こんな話されても困っちゃうよね。",
+            "skinName": "surprise",
+            "voiceFile": "def105204_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "どうして、って自分でも不思議だけど、キミといると、なんでかな。胸の奥がドキドキして……キミの傍にいたいって、そんな風に思う……これがどういう気持ちなのか、キミは、どう思う？",
+            "skinName": "shy",
+            "voiceFile": "def105204_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "いいとこ、見せられたらいいけど。",
+            "skinName": "normal",
+            "voiceFile": "def105204_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "やっぱり厳しいかも……。",
+            "skinName": "normal",
+            "voiceFile": "def105204_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "キミのために、負けるわけにはいかないもんね。",
+            "skinName": "normal",
+            "voiceFile": "def105204_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "どうして、こういう展開になっちゃうんだろう……。",
+            "skinName": "normal",
+            "voiceFile": "def105204_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "胸の奥が熱くて……この感覚は、イヤじゃない、かな。",
+            "skinName": "normal",
+            "voiceFile": "def105204_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "今は、キミの傍にいたい……ううん、これからも、かな。そう思っても、迷惑じゃないかな？",
+            "skinName": "normal",
+            "voiceFile": "def105204_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "きゃっ！",
+            "skinName": "normal",
+            "voiceFile": "def105202_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "んん……！",
+            "skinName": "normal",
+            "voiceFile": "def105202_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "せっかくだし、いろいろお話したいな。キミのこと、教えて？",
+            "skinName": "smile",
+            "voiceFile": "def105202_24.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "一目惚れ、しちゃったかも……ふふ、冗談だと思う？",
+            "skinName": "normal",
+            "voiceFile": "def105202_25.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "んー……チューする？　なんてね。本気にしちゃった？",
+            "skinName": "unique",
+            "voiceFile": "def105202_26.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "あ、喉渇かない？　お茶でもいれよっか。",
+            "skinName": "normal",
+            "voiceFile": "def105202_27.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105204,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "キミからは、目が離せないね。いろんな意味で……んふふ♪",
+            "skinName": "normal",
+            "voiceFile": "def105202_28.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "私はもう、強さにこだわったりはしない。けれど、弱いままでいいとも思わない。大事なのは、守ることで、自分を貫くこと。そのために強さが必要なら、私は――……。",
+            "skinName": "normal",
+            "voiceFile": "def100220_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "人類が辿る進化を、そして、ありのまま歩んだ先の結末を見届けたい。まったく、七大原書というのはどれもろくなものではないわね。だってそれは、ちっぽけな命を観察する超越者の視点だもの。趣味が悪いわ。",
+            "skinName": "normal",
+            "voiceFile": "def100220_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "人類が辿る進化を、そして、ありのまま歩んだ先の結末を見届けたい。まったく、七大原書というのはどれもろくなものではないわね。だってそれは、ちっぽけな命を観察する超越者の視点だもの。趣味が悪いわ。",
+            "skinName": "normal",
+            "voiceFile": "def100220_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ナコト原書に振り回されて、次はまた別の七大原書？　まったく、こちらは才能も足りていない平凡だというのに、どうしてこう、とんでもない問題ばかり転がり込んでくるのかしらね。",
+            "skinName": "sad",
+            "voiceFile": "def100220_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "なにかに守ってもらわないと前に進めない。力を貸してもらわないと戦えない。そう思われるのは癪だけれど、手元に使える力があるのなら、困難を乗り越えるために使う。それだけね。",
+            "skinName": "normal",
+            "voiceFile": "def100220_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "さっさと片付けましょうか。",
+            "skinName": "normal",
+            "voiceFile": "def100220_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "私は、もう……。",
+            "skinName": "normal",
+            "voiceFile": "def100220_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "まったく、便利な力ね。薄気味悪いくらいに。",
+            "skinName": "normal",
+            "voiceFile": "def100220_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "まだ、目指すべき先があるのに、なんで……。",
+            "skinName": "normal",
+            "voiceFile": "def100220_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "こんな力でも、前に進むために必要なら利用させてもらうわ。",
+            "skinName": "normal",
+            "voiceFile": "def100220_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "どんな素晴らしい力を与えられても、心を許せる相手と一緒にいる事と比べてどれほどの意味があるのかしら。",
+            "skinName": "normal",
+            "voiceFile": "def100220_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "まだ……っ！",
+            "skinName": "normal",
+            "voiceFile": "def100220_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "やるじゃない……！",
+            "skinName": "normal",
+            "voiceFile": "def100220_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "得体のしれない力が宿っていると思うと、落ち着かないわね。",
+            "skinName": "sad",
+            "voiceFile": "def100220_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "目の色？　ああ……こういう変化も出るのね。",
+            "skinName": "normal",
+            "voiceFile": "def100220_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "ノワ・ヴァラード……また厄介そうな人間がやってきたものだわ。",
+            "skinName": "normal",
+            "voiceFile": "def100220_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "少し、ゆっくりしていきなさいよ……別に、いいでしょ？",
+            "skinName": "shy",
+            "voiceFile": "def100220_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100220,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "強さとか、力とか……今はもう、あまり執着もないのだけれど。",
+            "skinName": "normal",
+            "voiceFile": "def100220_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "私が願っているのは、たったひとつ……ほんとうに、ささやかな願い……終わりにしたいの。こんな、誰にも望まれない、誰からも拒絶される私自身を。",
+            "skinName": "normal",
+            "voiceFile": "def105705_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "生まれてからずっと、嫌悪され続けてきた。ロルグドゥアスの呪いによって世界は私を排斥する。嫉妬と傲慢に狂い、愛する者を殺めた愚かな女への当然の罰。でも、なぜ？　なぜ私がその罰を背負わないといけないの？",
+            "skinName": "sad",
+            "voiceFile": "def105705_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "生まれてからずっと、嫌悪され続けてきた。ロルグドゥアスの呪いによって世界は私を排斥する。嫉妬と傲慢に狂い、愛する者を殺めた愚かな女への当然の罰。でも、なぜ？　なぜ私がその罰を背負わないといけないの？",
+            "skinName": "sad",
+            "voiceFile": "def105705_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "世界で一番私が不幸だなんて、そんなことを言うつもりはない。けれど、私は、私を不幸だと思ってしまうの。それが事実なの。その不幸と決別したい……この願いだけは、誰にも否定させない。",
+            "skinName": "normal",
+            "voiceFile": "def105705_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ロルグドゥアスの呪いが通じない……この出会いは私にとって宝物。でも同時に思ってしまう。私だけがこの幸せに触れてしまっていいのかと。これまで不幸の中でいなくなっていった彼女たちは、それを許してくれるの？",
+            "skinName": "sad",
+            "voiceFile": "def105705_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "はやく、おわりにしましょう。",
+            "skinName": "normal",
+            "voiceFile": "def105705_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "もう、これで終わり……？",
+            "skinName": "normal",
+            "voiceFile": "def105705_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "勝って、その先で私は、何を得られるの……？",
+            "skinName": "normal",
+            "voiceFile": "def105705_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "こんな終わり方で、よかったのかな……。",
+            "skinName": "normal",
+            "voiceFile": "def105705_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたの傍にいると、私は少し、おかしくなってしまいそうだわ。",
+            "skinName": "normal",
+            "voiceFile": "def105705_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "これから、あなたが一緒にいてくれるなら……もしかしたら、私は未来を願えるの……？",
+            "skinName": "normal",
+            "voiceFile": "def105705_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "う、くっ……！",
+            "skinName": "normal",
+            "voiceFile": "def105705_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "こんな痛み……。",
+            "skinName": "normal",
+            "voiceFile": "def105705_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "あなたの目には、私は、どんなふうに映っているの？",
+            "skinName": "normal",
+            "voiceFile": "def105705_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "一緒にいたい……私が誰かに、そんな気持ちを抱くなんて……。",
+            "skinName": "sad",
+            "voiceFile": "def105705_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "嫉妬も、傲慢も、自分を滅ぼす感情よ……あなたも気を付けてね。",
+            "skinName": "normal",
+            "voiceFile": "def105705_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "誰かに何気ない視線を向けられる……それが、こんな幸せなんて。",
+            "skinName": "unique",
+            "voiceFile": "def105705_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105705,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "もう誰かに嫌われるのは、つらい……あなたは、私のこと……。",
+            "skinName": "sad",
+            "voiceFile": "def105705_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "この世界の私たちは、大切な人の手を決して手放したりはしないのでしょうね。けれど、知るべきです。世の中には、大切なものなどというものを持たない人間もいるのだということを。",
+            "skinName": "normal",
+            "voiceFile": "def100782_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "自分たちはそうして救われたから、きっと誰かも同じように救えるはずだ――尊い思いでしょう。けれど、勘違いも甚だしい。そもそも求めるものが違う異なる人間なのだと、その根本的な部分を忘れてはならないのです。",
+            "skinName": "normal",
+            "voiceFile": "def100782_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "自分たちはそうして救われたから、きっと誰かも同じように救えるはずだ――尊い思いでしょう。けれど、勘違いも甚だしい。そもそも求めるものが違う異なる人間なのだと、その根本的な部分を忘れてはならないのです。",
+            "skinName": "normal",
+            "voiceFile": "def100782_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ロルグドゥアス、そしてロザリーという名を焼き付けられた少女――憐れなものです。これまで、誰も彼女を彼女として見てこなかった。そんな空虚な彼女が終わりを願うことは正当だと、私は思いますよ。",
+            "skinName": "normal",
+            "voiceFile": "def100782_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ボードウィンの血というのは本当に忌々しい。本当に簡単な、一番大切なことほど見落として、取りこぼしてしまう。そういうどうしようもない人間たちです……そんなものに構うのですから、あなたも酔狂ですね。",
+            "skinName": "normal",
+            "voiceFile": "def100782_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "早々に終わらせましょう。",
+            "skinName": "normal",
+            "voiceFile": "def100782_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "こんなバカげたこと……。",
+            "skinName": "normal",
+            "voiceFile": "def100782_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "まったく。あまり私などに頼らないで欲しいものです。",
+            "skinName": "normal",
+            "voiceFile": "def100782_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "愚かしい結末ですね……どうしようもないほどに。",
+            "skinName": "normal",
+            "voiceFile": "def100782_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "本当に、あなたたちは眩しくて……目が、痛くなりますね。",
+            "skinName": "normal",
+            "voiceFile": "def100782_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "大切なものを取りこぼした私には、もうぬくもりに触れる資格はない。そう諦めさせてくれたら、楽なのに。",
+            "skinName": "normal",
+            "voiceFile": "def100782_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "くだらない……。",
+            "skinName": "normal",
+            "voiceFile": "def100782_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "ふざけた真似を……！",
+            "skinName": "normal",
+            "voiceFile": "def100782_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ボードウィンの血には、いつも辟易させられますね。",
+            "skinName": "normal",
+            "voiceFile": "def100782_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "大切だと思えるものがある。それは、とても幸運なことですよ。",
+            "skinName": "normal",
+            "voiceFile": "def100782_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "……あまり、近づかないでください。そういうのは少し困ります。",
+            "skinName": "sad",
+            "voiceFile": "def100782_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "こちらの私は最近あけすけ過ぎるというか……もっと節制を……。",
+            "skinName": "sad",
+            "voiceFile": "def100782_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100782,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "あなた……ボードウィンと一緒にいてよく面倒になりませんね？",
+            "skinName": "sad",
+            "voiceFile": "def100782_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "静かな場所であなたときれいな月を見ながらお酒を飲むなんて、ものすごく贅沢な感じがして、ついつい飲みすぎてしまいそうです。もう酔いつぶれちゃったら、介抱、してくださいね？",
+            "skinName": "normal",
+            "voiceFile": "def181511_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ふふ、せっかくのお月見なのに、どうしてそんなに私のことばかり見ているんですか？　なんて……実はさっきから私もあなたのこと気になっちゃってますから、あまり強くは言えませんね。",
+            "skinName": "smile",
+            "voiceFile": "def181511_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ふふ、せっかくのお月見なのに、どうしてそんなに私のことばかり見ているんですか？　なんて……実はさっきから私もあなたのこと気になっちゃってますから、あまり強くは言えませんね。",
+            "skinName": "smile",
+            "voiceFile": "def181511_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "この日本酒、とても豊かな味がして、おいしいですね。これまでは日本のお酒って飲む機会があまりなかったのですけれど、結構好きかもしれません。今度またこうやって一緒に日本のお酒、試してみません？",
+            "skinName": "normal",
+            "voiceFile": "def181511_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "日本では月にうさぎがいると言われるそうですけど、イギリスだと罪を犯した人が月に追放されたという逸話があるんですよ……女心を弄んじゃう悪い人も、気を付けた方がいいかもしれませんね？",
+            "skinName": "unique",
+            "voiceFile": "def181511_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "プチ、手早くお願い。",
+            "skinName": "normal",
+            "voiceFile": "def181511_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "少々、油断してしまったでしょうか……。",
+            "skinName": "normal",
+            "voiceFile": "def181511_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "ふふ、これでようやくデートの続きが出来そうですね。",
+            "skinName": "normal",
+            "voiceFile": "def181511_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "すみません……格好悪いところをお見せして。",
+            "skinName": "normal",
+            "voiceFile": "def181511_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "困りましたね、つい顔が緩んでしまって。本当に困りました。",
+            "skinName": "normal",
+            "voiceFile": "def181511_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "これからもこうして一緒の時間を過ごして、あなたにいろんな私を見てもらえたら……すごく、嬉しいです。",
+            "skinName": "normal",
+            "voiceFile": "def181511_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "いたっ……！",
+            "skinName": "normal",
+            "voiceFile": "def181511_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "まだ、これからです……！",
+            "skinName": "normal",
+            "voiceFile": "def181511_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "この衣装、ちょっと大胆な感じがしません……？",
+            "skinName": "shy",
+            "voiceFile": "def181511_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "着付けの勉強、しておいた方がいいかもしれませんね。",
+            "skinName": "smile",
+            "voiceFile": "def181511_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "次にプチに搭載する機能は日本舞踊で決まりですね。",
+            "skinName": "normal",
+            "voiceFile": "def181511_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "せっかくですし、この格好で一緒にデート、しちゃいませんか？",
+            "skinName": "unique",
+            "voiceFile": "def181511_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 181511,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "秋の夜長ともいいますし、長い夜、一緒に過ごしませんか？",
+            "skinName": "normal",
+            "voiceFile": "def181511_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "こうしてあなたと一緒にゆっくり過ごしていると、なんだか、これまでのことを思い出すわ。大変なこともあったけど、それ以上に幸せがあって……これからも、きっとそれは変わらない。ね、あなたもそう思わない？",
+            "skinName": "normal",
+            "voiceFile": "def100127_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "綺麗な月を、あなたと一緒に見上げて……また、思い出がひとつ増えて……ふふっ。何度も、何度でも伝えるわ。私、あなたと出会えて、あなたと一緒にいられて、幸せよ。",
+            "skinName": "smile",
+            "voiceFile": "def100127_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "綺麗な月を、あなたと一緒に見上げて……また、思い出がひとつ増えて……ふふっ。何度も、何度でも伝えるわ。私、あなたと出会えて、あなたと一緒にいられて、幸せよ。",
+            "skinName": "smile",
+            "voiceFile": "def100127_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "月なんて、これまで、何度だって見てきたはずなのに……あなたと見上げる月は、すごく特別に感じる。ああ、本当に……どうしようもないくらいに、月が綺麗ね。",
+            "skinName": "normal",
+            "voiceFile": "def100127_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "この格好、その、いろいろ見えすぎだし……そんなじっと見つめられると、少し、恥ずかしい……けど、あなたの視線をひとりじめできるのは、それはそれで、やっぱり嬉しくて……あの、見てるだけで、満足？",
+            "skinName": "shy",
+            "voiceFile": "def100127_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "もう、邪魔ばかり！",
+            "skinName": "normal",
+            "voiceFile": "def100127_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "まだ、私は……！",
+            "skinName": "normal",
+            "voiceFile": "def100127_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "あなたとの時間を、これ以上邪魔されたくないわ。",
+            "skinName": "normal",
+            "voiceFile": "def100127_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "こんなところで、失うわけにはいかないのに……。",
+            "skinName": "normal",
+            "voiceFile": "def100127_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたと一緒に過ごせるなら、どんな時間でも、宝物だわ。",
+            "skinName": "normal",
+            "voiceFile": "def100127_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "本当は月より、私を見ていてほしい……好き、大好き。あなたのことを、もっとひとりじめにしちゃいたい。",
+            "skinName": "normal",
+            "voiceFile": "def100127_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "っ、これくらい……！",
+            "skinName": "normal",
+            "voiceFile": "def100127_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "それは……！",
+            "skinName": "normal",
+            "voiceFile": "def100127_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "今夜……あなたの部屋、行ってもいい？",
+            "skinName": "shy",
+            "voiceFile": "def100127_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "わがままな気持ち、どんどん抑えられなくなっちゃってるかも。",
+            "skinName": "sad",
+            "voiceFile": "def100127_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "いつか、アイカやソーカとも一緒に月見とか、いいかもね。",
+            "skinName": "normal",
+            "voiceFile": "def100127_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "最近は和菓子作りに力を入れてて、今度作ってあげるわね。",
+            "skinName": "normal",
+            "voiceFile": "def100127_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100127,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "見たいなら、いくらでも見てもいいし……触っても、いいのよ？",
+            "skinName": "shy",
+            "voiceFile": "def100127_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "な、なんなのよこの服……和服って、こんなのだったかしら……丈は短いし妙にひらひらしているし……なんであたしがこんな格好をさせられないといけないのよ。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102154_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "月見なんて、ただ月を眺めるだけでしょう？　それになんの意味があるのかしら。そんなことをするくらいなら他にいくらでも有意義なことができるでしょうに。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102154_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "月見なんて、ただ月を眺めるだけでしょう？　それになんの意味があるのかしら。そんなことをするくらいなら他にいくらでも有意義なことができるでしょうに。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102154_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "さっきから妙に視線を感じるのだけれど、もしかしてあなたってこういう服が好きなわけ？　それなら、まあ……あなたを篭絡するためと思えば、少しくらいは我慢してあげてもいいかもね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102154_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "この服、和服の要素はあるけれどさすがに逸脱しすぎよね……ここまでくると和服というより、そういうテーマのアイドル衣装みたいで……アイドル……う、嫌な記憶が……っ。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102154_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "月見なんて興味ないけど、あなたがどうしてもというなら付き合ってあげてもいいわよ……特別に、ね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102154_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "あら、狼男のお出ましかしら？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def102154_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "気温が極端に変化する季節と比べれば、秋は悪くないわよね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def102154_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "舞夜のやつ、最近ますます馴れ馴れしくなってきたような……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102154_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ひゃぅっ！　あ、あなた、いきなりどこを触っているのよ……！",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def102154_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 102154,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "リボンとかフリルが多い服って、どうにも落ち着かないわ……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def102154_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "ふぅん。違う世界の誰かさんの影響を受けてこんな格好になっちゃったみたい。どう？　わたしがこうやって着飾ったところを見て、旦那様はどう思う？　ほら、組み伏せて滅茶苦茶にしたいなら、そうしてもいいよ？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ねえ、旦那様。都合のいい夢を見たいって思う？　くふ、ぁは、あはははっ、だとしたらほんとに考えが浅いよね。都合のいい夢ほどつまらないものはないのに。なんでも思い通りなんて、息苦しいだけなんだから。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def105052_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ねえ、旦那様。都合のいい夢を見たいって思う？　くふ、ぁは、あはははっ、だとしたらほんとに考えが浅いよね。都合のいい夢ほどつまらないものはないのに。なんでも思い通りなんて、息苦しいだけなんだから。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def105052_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "今のわたしは、違う結末を迎えたユイの可能性、その影。いつ光に照らされて消えてしまうのかな……ふふ、その時は、とびきり熱く、肌が爛れるような痛みと一緒に消えることができたら……なんてね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "この世界の人ってみんな能天気で頭の中がからっぽみたい。罪を犯した人間も、平然とそこらへんを歩いている。罪に罰がないまま見逃されてる、それが異常だっていい加減気付いた方がいいと思うけど。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "ああ、この世界は、わたしに罰を求めないこの場所は、まるで幸せな悪夢。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "あは、旦那様。今日はわたしに、なにをしたい？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def105052_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "幸せな夢なんかより、わたしは、絶望の夢を見たいの。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "違う世界なんて、違う可能性。そんなの、ほんとうに理不尽な話。",
+            "skinName": "stand_a,anger",
+            "voiceFile": "def105052_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "自分の幸せは、誰かの不幸かも。旦那様はそう考えたことはある？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def105052_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105052,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "あはっ。旦那様ってば、相変わらず間の抜けた顔してるよね。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def105052_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "ふふ、この衣装、違う世界から迷い込んだ”誰か”の想いが幻夢境の中に残っていた影響を受けてしまったみたい。なんとなく、伝わってくるわ。現実よりも夢を求めた、かわいらしい女の子の心が。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "夢の中に、理想を求める……あなたはそういうの、どう思う？　現実に立ち向かう勇気がないと否定するかしら。それとも、肯定する？　わたしは……そもそも夢って、なんだかよくわからないわ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "夢の中に、理想を求める……あなたはそういうの、どう思う？　現実に立ち向かう勇気がないと否定するかしら。それとも、肯定する？　わたしは……そもそも夢って、なんだかよくわからないわ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ふと、考えてみたの。もしも、自分のありかたを自由に決められるのなら、わたしはなにを願うんだろうって。でもね、想像できなかった。幸せな生き方、普通の人生……それは、わたしには遠すぎて、夢にすら描けない。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "こちらの世界のわたしは、きっといつかあなたを傷つける。あなたがミルヴァ・リンドマンにとって大きな存在になればなるほど、あれはその喪失に焦がれるの。自分の絶望を夢見る生き物なんて、まともではないわよね。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "あなたと出会えた先の結末……そこにはもしかしたら、夢にすら描けない可能性があるのかしら。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ふふっ。ねえ、このドレス、どうかしら？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def101360_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "なんでも叶う夢のような世界があったら、あなたはなにを願うの？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "ここではない遠い世界には違う道を選べたわたしもいるのかしら。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "この服装……下着、とってもエッチなデザインしてるのよ。ふふ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101360,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "この尻尾？　ふふ……触ってみる？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101360_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "この服、動きやすいのですが、ちょっと動くとすぐに食い込んでしまって……すみません、ちょっと直したいので、少しだけ向こうを向いていてもらえますか……？",
+            "skinName": "normal",
+            "voiceFile": "def104516_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "身体を動かして鍛えることは決して悪いことではないと思います。ですが、頑張りすぎは逆効果ですから、あまり無理はしないでくださいね……頑張るあなたの姿は、とても素敵ですけれど。",
+            "skinName": "smile",
+            "voiceFile": "def104516_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "身体を動かして鍛えることは決して悪いことではないと思います。ですが、頑張りすぎは逆効果ですから、あまり無理はしないでくださいね……頑張るあなたの姿は、とても素敵ですけれど。",
+            "skinName": "smile",
+            "voiceFile": "def104516_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "昔は運動をする機会などなかったので知りませんでしたが、こうして身体を動かし汗を流すというのは悪い気持ちではありませんね。疲労感が心地いい……かつての私は、そんな感覚も知りませんでした。",
+            "skinName": "normal",
+            "voiceFile": "def104516_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "あの、いまは汗をかいているから、あまり近くにきちゃ……その、汗くさいお姉ちゃんだなんて思われたら私……ひゃ、あ、もう、駄目って言っているのに……聞き分けの悪い子は、めっ、ってしちゃうわよ？",
+            "skinName": "shy",
+            "voiceFile": "def104516_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "準備運動は済んでいますよ。",
+            "skinName": "normal",
+            "voiceFile": "def104516_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "視界が揺れて……。",
+            "skinName": "normal",
+            "voiceFile": "def104516_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "お姉ちゃんの頑張ってるところ、見ていてくれた？",
+            "skinName": "normal",
+            "voiceFile": "def104516_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "少しくらい、あなたの力になりたかったのに……。",
+            "skinName": "normal",
+            "voiceFile": "def104516_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたのために私が出来ることがあったら、なんでも言ってね？",
+            "skinName": "normal",
+            "voiceFile": "def104516_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "もし疲れてしまったら、遠慮しないで言ってくださいね。あなたを支えてあげられるなら、私も嬉しいから。",
+            "skinName": "normal",
+            "voiceFile": "def104516_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "やりますね……っ。",
+            "skinName": "normal",
+            "voiceFile": "def104516_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "まだ、大丈夫です……！",
+            "skinName": "normal",
+            "voiceFile": "def104516_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ここまで脚が見えるのは……その、やはり落ち着きませんね。",
+            "skinName": "shy",
+            "voiceFile": "def104516_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "よかったら、トレーニング、ご一緒してもいいでしょうか。",
+            "skinName": "normal",
+            "voiceFile": "def104516_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "動きやすいように髪を結んでみたのだけど……気に入ってくれた？",
+            "skinName": "normal",
+            "voiceFile": "def104516_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "このジャージ、少しサイズが……ん、んんっ。",
+            "skinName": "shy",
+            "voiceFile": "def104516_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104516,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "疲れた時は、お姉ちゃんに甘えて来てね？",
+            "skinName": "smile",
+            "voiceFile": "def104516_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "訓練以外で運動ってしてこなかったけど、好きに走ったりするだけでも案外悪くないかもね。せっかくだしもう一回走ろうかな。ねえ、ペースは合わせるから、父さんも一緒にどう？",
+            "skinName": "normal",
+            "voiceFile": "def104115_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "この服、機能性を求めてこんなぴったりしたデザインなんだろうけど、密着しすぎて少し変な感じ……父さんしかいないし、いっそ脱いじゃおうかな。別に父さんになら見られても――なんて、さすがに冗談。多分。",
+            "skinName": "normal",
+            "voiceFile": "def104115_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "この服、機能性を求めてこんなぴったりしたデザインなんだろうけど、密着しすぎて少し変な感じ……父さんしかいないし、いっそ脱いじゃおうかな。別に父さんになら見られても――なんて、さすがに冗談。多分。",
+            "skinName": "normal",
+            "voiceFile": "def104115_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "父さん、今はあんまり近づいちゃ駄目かも。……だって、汗かいちゃってるから、におうかもしれないし……んんっ、駄目って言ってるのに、どうして頭撫でるの……まあ、汗、嫌じゃないなら、いいけど。",
+            "skinName": "shy",
+            "voiceFile": "def104115_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "戦いとは関係なしに身体を動かすって、なんていうか、不思議な感覚。生きるためじゃなく、競い合うために一生懸命になる……そういうの、なんかいいよね。わたしも、一生懸命になれるかな。",
+            "skinName": "normal",
+            "voiceFile": "def104115_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "大丈夫、準備運動ならバッチリ。",
+            "skinName": "normal",
+            "voiceFile": "def104115_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ごめん……調子よくなかったかも。",
+            "skinName": "normal",
+            "voiceFile": "def104115_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "少しだけ、汗かいちゃったかな。",
+            "skinName": "normal",
+            "voiceFile": "def104115_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "格好悪いところ、見られちゃった……。",
+            "skinName": "normal",
+            "voiceFile": "def104115_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "スポーツで身体を動かすのって気持ちいいんだね。知らなかった。",
+            "skinName": "normal",
+            "voiceFile": "def104115_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "どんどん知らないことを知れて、新しい気持ちを感じて……これからも、一緒にこんな時間、過ごしたいな。",
+            "skinName": "normal",
+            "voiceFile": "def104115_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "このくらい、別に……っ。",
+            "skinName": "normal",
+            "voiceFile": "def104115_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "やるね……。",
+            "skinName": "normal",
+            "voiceFile": "def104115_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "父さん、脚すごい見てるけど、好きなの？",
+            "skinName": "normal",
+            "voiceFile": "def104115_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あ、またジャージずり落ちて……サイズあってないのかな。",
+            "skinName": "normal",
+            "voiceFile": "def104115_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "今度、一緒に運動しようよ。父さん、なにしたい？",
+            "skinName": "normal",
+            "voiceFile": "def104115_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "白桜が写真写真ってうるさいから、一枚撮ってくれる？",
+            "skinName": "unique",
+            "voiceFile": "def104115_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104115,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "これから姉さんとトレーニングなんだけど、一緒にいく？",
+            "skinName": "normal",
+            "voiceFile": "def104115_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "フレー、フレー、おにーさん♪　なーんて、チアガールな莉瀬ちゃんの応援、かわいかったでしょ？　こんなにかわいいチアガールから応援されたら、おにーさんもメロメロのメロになっちゃうよねー？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "おにーさん、さっきから私のお腹すっごい見てるけど、そんなに気になるならちょっとくらいお触りしてもいいんだよ？　くびれとか、ちょっと自信あるんだ。なんといっても、鍛えてますから。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "おにーさん、さっきから私のお腹すっごい見てるけど、そんなに気になるならちょっとくらいお触りしてもいいんだよ？　くびれとか、ちょっと自信あるんだ。なんといっても、鍛えてますから。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "おにーさんに朗報です。なんと、おにーさんが勉強やトレーニングを頑張っているところを専属チアガールな莉瀬ちゃんが応援しちゃいます！　あ、でも莉瀬ちゃんに夢中になってそれどころじゃなくなっちゃうかも？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def103657_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "莉瀬ちゃん、身体能力にはそこそこ自信があるので、チアの技とかもちょっと練習すれば出来ると思うんだよね。おにーさんはどんなのが見たい？　やっぱり脚を大きくあげるやつとか？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "おにーさんが私のこと支えてくれるように、私もおにーさんのことを支えたいの。これからもずっと、ね？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "このハートのシール、かわいいけどちょっとエッチに見えない？",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "莉瀬ちゃん、今日はおにーさん専属のチアガールなのです。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def103657_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "んーふーふー。おにーさん、さっきからどこ見てるのかな？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def103657_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ポンポンって振った時の音がちょっと心地いいよね。大幣みたい。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def103657_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103657,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "これだけスカート短いと、やっぱり見えるかもって期待しちゃう？",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def103657_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "リィンちゃんのことはすごいと思ってるし、いつでも前を向いているところは尊敬してる。とはいえ、譲れないものはあるわけで……だからおにーさん？　今から莉瀬ちゃんと、あまあまのあまな夜、過ごしちゃおっか。",
+            "skinName": "normal",
+            "voiceFile": "def103611_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "おにーさん？　さっきから視線、どこ見てるのかな？　んーふーふー。私、リィンちゃんよりもおっぱいあるから、気になっちゃうよね？　でも、おにーさんなら見るだけじゃなくて、お触りだっておっけーだよ？",
+            "skinName": "smile",
+            "voiceFile": "def103611_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "おにーさん？　さっきから視線、どこ見てるのかな？　んーふーふー。私、リィンちゃんよりもおっぱいあるから、気になっちゃうよね？　でも、おにーさんなら見るだけじゃなくて、お触りだっておっけーだよ？",
+            "skinName": "smile",
+            "voiceFile": "def103611_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "実家にいた頃は夜なんてやることもないから、縁側で月を見上げたりしてたんだよね。ここの月もすっごくきれいな満月で見入っちゃいそうになるけど、おにーさんには、月よりも莉瀬ちゃんに夢中になってもらわないと。",
+            "skinName": "normal",
+            "voiceFile": "def103611_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ねえおにーさん聞いてよー。リィンちゃんと一緒に模擬戦やったら、思いっきり顔にパンチ入れられちゃって……莉瀬ちゃんの顔、へこんだりしてない？　ちゃんとかわいく見える？　ほらほら、もっと近くで確かめて？",
+            "skinName": "sad",
+            "voiceFile": "def103611_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "邪魔者は月までぶっとばしちゃおっか。",
+            "skinName": "normal",
+            "voiceFile": "def103611_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "これ、やっちゃったなぁ……。",
+            "skinName": "normal",
+            "voiceFile": "def103611_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "ご褒美は期待していいんだよね、おにーさん？",
+            "skinName": "normal",
+            "voiceFile": "def103611_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "リィンちゃんに見られたら、笑われちゃうかなぁ……。",
+            "skinName": "normal",
+            "voiceFile": "def103611_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "おにーさんのためなら、いくらでも頑張れちゃうんだから。",
+            "skinName": "normal",
+            "voiceFile": "def103611_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "おにーさんといるとね、自然と顔が緩んで、幸せだなーって、そんな気持ちになっちゃうんだ。",
+            "skinName": "normal",
+            "voiceFile": "def103611_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "ああ、もう……！",
+            "skinName": "normal",
+            "voiceFile": "def103611_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "これは、さすがに……っ。",
+            "skinName": "normal",
+            "voiceFile": "def103611_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "今夜はリィンちゃんの部屋で映画鑑賞会するんだー。",
+            "skinName": "smile",
+            "voiceFile": "def103611_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "月もだけど、星も季節ごとに違ったりして、見てて楽しいよね。",
+            "skinName": "normal",
+            "voiceFile": "def103611_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "ん－ふーふー♪　どう、おにーさん、似合う？",
+            "skinName": "smile",
+            "voiceFile": "def103611_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "うーん、こういうアレンジのきいた和服もアリだね。",
+            "skinName": "normal",
+            "voiceFile": "def103611_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103611,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "今日はこのまま、ゆっくりしていってね、おにーさん。",
+            "skinName": "normal",
+            "voiceFile": "def103611_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "私はずっと弱かった。誰かに手を引かれないと動けず、つらい現実から目を逸らし続けてきた。けれどこれからは違う。前を向いて、大切なものに手を伸ばし、しっかりと握りしめるわ。失いたくないと、そう思えたから。",
+            "skinName": "normal",
+            "voiceFile": "def104313_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "未来を願わなければ、いつ終わりが来ても痛みはないと、そんな勘違いをしていた。ただの強がりで、情けない言葉。けれどもうそんな言葉を口にするには、この手の中に握りしめたものが多くなりすぎてしまったわね。",
+            "skinName": "smile",
+            "voiceFile": "def104313_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "未来を願わなければ、いつ終わりが来ても痛みはないと、そんな勘違いをしていた。ただの強がりで、情けない言葉。けれどもうそんな言葉を口にするには、この手の中に握りしめたものが多くなりすぎてしまったわね。",
+            "skinName": "smile",
+            "voiceFile": "def104313_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "人はちっぽけな生き物だから、背負うものは少ない方がいい……ずっとそう思っていたけれど、大切なものはただの重荷なんかじゃなくて、その重みも感じられるから、踏ん張って、前に進むことが出来るのでしょうね。",
+            "skinName": "normal",
+            "voiceFile": "def104313_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "世界は理不尽で、苦しみや悲しみに溢れている。けれど幸せは、そんな世界の中にしか見つからない。だったら辛くても苦しくても手を伸ばし続けるしかない。私はもう、大切なものから目を逸らしたくないの。",
+            "skinName": "normal",
+            "voiceFile": "def104313_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "立ちはだかるなら、押し通るだけよ。",
+            "skinName": "normal",
+            "voiceFile": "def104313_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "こんなところで……！",
+            "skinName": "normal",
+            "voiceFile": "def104313_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "前を向くのをやめない。そう決めたのよ。",
+            "skinName": "normal",
+            "voiceFile": "def104313_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "あの子たちに、この手は、届かないの……？",
+            "skinName": "normal",
+            "voiceFile": "def104313_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あの子たちの幸せを守るために、これからも力を貸して。",
+            "skinName": "normal",
+            "voiceFile": "def104313_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "あなたといると、不思議と明るい未来を信じられる。あなたの能天気さがうつったのかしらね。",
+            "skinName": "normal",
+            "voiceFile": "def104313_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "この程度で……！",
+            "skinName": "normal",
+            "voiceFile": "def104313_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "どうして……っ。",
+            "skinName": "normal",
+            "voiceFile": "def104313_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "アイカの部屋に、あなたの下着が転がってたんだけど……。",
+            "skinName": "unique",
+            "voiceFile": "def104313_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "まあ、ここにいたいなら好きにすれば？",
+            "skinName": "normal",
+            "voiceFile": "def104313_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "なんだか距離、近くない……？　別にいいけど。",
+            "skinName": "shy",
+            "voiceFile": "def104313_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "甘くて飲みやすくて度数のないお酒とか、なにか知らない？",
+            "skinName": "normal",
+            "voiceFile": "def104313_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104313,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "アイカもソーカも、掃除はいいって言っても聞いてくれないのよ。",
+            "skinName": "sad",
+            "voiceFile": "def104313_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "んー、いいお湯だねぇ、日ごろの疲れとかも溶けていきそうなくらいだよ。それにしても、なんだかすごい熱心な視線も感じるなー？　って、慌てなくてもいいって。キミになら、見られるの、嬉しいし。にひ。",
+            "skinName": "normal",
+            "voiceFile": "def105107_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "前はさ、ひとりでのんびりお湯に浸かってると、なんか余計なこととか考えそうになる時があって……でも最近は違うんだ。ルルイエの大浴場だと基本誰かいて、賑やかだから、そういうこと考える雰囲気じゃないしね。",
+            "skinName": "normal",
+            "voiceFile": "def105107_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "前はさ、ひとりでのんびりお湯に浸かってると、なんか余計なこととか考えそうになる時があって……でも最近は違うんだ。ルルイエの大浴場だと基本誰かいて、賑やかだから、そういうこと考える雰囲気じゃないしね。",
+            "skinName": "normal",
+            "voiceFile": "def105107_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "なんと、実はアタシ、今めちゃくちゃ恥ずかしかったりします。だってほら、キミと混浴とか、さすがに照れるなって方が無理があるといいますか……もちろん、イヤじゃないんですけど……に、にひー。",
+            "skinName": "shy",
+            "voiceFile": "def105107_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "キミは、不完全で、たくさん間違っちゃうアタシのこと、そのままでいいって受け入れてくれるよね。そんな風にされたらアタシ、キミにいっぱい寄りかかっちゃうよ？　それでも……本当に、いいの？",
+            "skinName": "sad",
+            "voiceFile": "def105107_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "パパっとやっつけちゃうよー！",
+            "skinName": "normal",
+            "voiceFile": "def105107_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ああ……やっちゃったぁ。",
+            "skinName": "normal",
+            "voiceFile": "def105107_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "よっし終わりー。汗流してこよーっと。",
+            "skinName": "normal",
+            "voiceFile": "def105107_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "こんな結末……ペルフェに怒られちゃうかなあ……。",
+            "skinName": "normal",
+            "voiceFile": "def105107_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "足りないことだらけでも、それを理由に諦めたくはないかな。",
+            "skinName": "normal",
+            "voiceFile": "def105107_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "キミといると、自然と、ありのままでいられるっていうか……つい、キミの優しさに甘えちゃうなぁ。",
+            "skinName": "normal",
+            "voiceFile": "def105107_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "あたぁっ！？",
+            "skinName": "normal",
+            "voiceFile": "def105107_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "ちょっちやばいかも……。",
+            "skinName": "normal",
+            "voiceFile": "def105107_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "キミとの時間、これからも大切にしていきたいな。にひー。",
+            "skinName": "normal",
+            "voiceFile": "def105107_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "今度一緒にお風呂入ろっか。サービスで背中流したげるよ？",
+            "skinName": "smile",
+            "voiceFile": "def105107_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "キミっておっぱい好きだよねー。ガン見してるのバレバレだぞー？",
+            "skinName": "normal",
+            "voiceFile": "def105107_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "今はキミとのーんびり過ごしたい気分かも。",
+            "skinName": "normal",
+            "voiceFile": "def105107_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 105107,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "ペルフェをお風呂に誘ったんだけど、また断られちゃった……。",
+            "skinName": "unique",
+            "voiceFile": "def105107_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "お兄ちゃんとふたりで露天風呂なんて、すごく贅沢な気がして、幸せ……ねえお兄ちゃん。もう少しだけ近くにいってもいい？",
+            "skinName": "normal",
+            "voiceFile": "def103720_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "お兄ちゃん、気になっちゃうのはわからなくもないけど、さすがに、じぃっと見すぎかも……そんなに見られたら、なんだか、その……のぼせちゃいそうかも……ちょっとくらいは我慢してください。",
+            "skinName": "normal",
+            "voiceFile": "def103720_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "お兄ちゃん、気になっちゃうのはわからなくもないけど、さすがに、じぃっと見すぎかも……そんなに見られたら、なんだか、その……のぼせちゃいそうかも……ちょっとくらいは我慢してください。",
+            "skinName": "normal",
+            "voiceFile": "def103720_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "温泉の後は、フルーツ牛乳かコーヒー牛乳を飲むのが定番なんだって。腰に手を当てて一気に飲むのが正しい作法なんだって莉瀬が言ってたから、あとでお風呂出たら一緒に飲もうね。",
+            "skinName": "smile",
+            "voiceFile": "def103720_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "髪が長いから、お風呂上りに乾かすときはちょっと大変なの。いつもはノルンが手伝ってくれるんだけど、今日はお兄ちゃんが乾かしてくれる？　えへへ、やった。",
+            "skinName": "smile",
+            "voiceFile": "def103720_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "わたしも、頑張るから……！",
+            "skinName": "normal",
+            "voiceFile": "def103720_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ちょっとだけ、休憩……。",
+            "skinName": "normal",
+            "voiceFile": "def103720_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "お兄ちゃん。この後は、一緒にゆっくりできるかな？",
+            "skinName": "normal",
+            "voiceFile": "def103720_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "みんなとの未来を、守りたいのに……なんで……。",
+            "skinName": "normal",
+            "voiceFile": "def103720_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "たくさん頑張ったら、褒めてくれると嬉しいな。",
+            "skinName": "normal",
+            "voiceFile": "def103720_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "お兄ちゃんといると、身体も心も温かくて……ずっと一緒にいたいって気持ちで、胸がいっぱいになっちゃう。",
+            "skinName": "normal",
+            "voiceFile": "def103720_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "へ、平気だもん……！",
+            "skinName": "normal",
+            "voiceFile": "def103720_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "これくらい……っ。",
+            "skinName": "normal",
+            "voiceFile": "def103720_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "ルルイエは大浴場が何種類もあるけど、檜風呂がお気に入りかな。",
+            "skinName": "normal",
+            "voiceFile": "def103720_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "ねえお兄ちゃん、今日はお風呂、一緒に入ろう？",
+            "skinName": "normal",
+            "voiceFile": "def103720_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "えへへ。どうかな、こういう浴衣。似合ってる？",
+            "skinName": "smile",
+            "voiceFile": "def103720_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "お風呂に入る後だけじゃなく前にもお水飲んだ方がいいんだって。",
+            "skinName": "normal",
+            "voiceFile": "def103720_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 103720,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "お布団敷いて、みんなで一緒に寝るのも楽しそうだよね。",
+            "skinName": "normal",
+            "voiceFile": "def103720_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "あ、あれ……？　どうして浴衣、直してもすぐに乱れて……!　お、お見苦しいものを見せてしまってすみませんっ……あ、あの、どうしてそんなじっと見て……み、見すぎじゃ……あ、うぅぅ。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def101752_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "この浴衣、にゃんこの柄なんですよ。ほら見てください、とってもかわいいですよね。歩いてたり座ってたり、尻尾の向きも違ってて……はあぁ、にゃんこって、なんでこんなにかわいいんでしょう……。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def101752_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "この浴衣、にゃんこの柄なんですよ。ほら見てください、とってもかわいいですよね。歩いてたり座ってたり、尻尾の向きも違ってて……はあぁ、にゃんこって、なんでこんなにかわいいんでしょう……。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def101752_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "え、今度一緒にお風呂……ですか？　えっ、わたしと？　ええとその、嫌というわけではないのですが……でも、さすがに少し恥ずかしくて……す、少しだけ、覚悟を決める時間をもらえれば……。",
+            "skinName": "stand_a,surprise",
+            "voiceFile": "def101752_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "日本の温泉宿とかだと、こういう浴衣を着て寝るのが一般的なんですよね……ただ、大丈夫なんでしょうか？　こんな格好で寝たら、起きた時、大変なことになっているのでは……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def101752_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "あなたの傍は、安心して、胸の奥があたたかくなって……もう少しこのまま、なんて思ってしまいます。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def101752_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "お風呂でタバサさんに会うと、すごい顔で睨まれるんです……。",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def101752_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "その、浴衣って心もとないというか……大丈夫でしょうか。",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def101752_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "にゃんこ柄……ふふ、にゃんこがいっぱい……えへへ。",
+            "skinName": "stand_a,smile",
+            "voiceFile": "def101752_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "また着崩れて……浴衣って、上手に着るの、難しいんですね……。",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def101752_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 101752,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "恥ずかしいので、あまり胸ばかり見ないでいただけると……。",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def101752_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "父さんの視線、ちょっとエッチな感じ……まあ、無理もないのかな。わたし、別に父さんになら、いつでも、なにされたっていいよ？　ね、父さん……今、したいこと、ある？",
+            "skinName": "normal",
+            "voiceFile": "def104116_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ねえ、父さん。じーって見てるけど、なに考えてるか当ててあげようか。わたしを押し倒したいと思ってる……はずれ？　ふうん……ま、いっか。それならそれで、じゃあわたしが押し倒すから……なんてね。ふふっ。",
+            "skinName": "normal",
+            "voiceFile": "def104116_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ねえ、父さん。じーって見てるけど、なに考えてるか当ててあげようか。わたしを押し倒したいと思ってる……はずれ？　ふうん……ま、いっか。それならそれで、じゃあわたしが押し倒すから……なんてね。ふふっ。",
+            "skinName": "normal",
+            "voiceFile": "def104116_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "わたしはずっと、幸せっていう言葉が理解できなかった。でも、今はわかるよ。絶対に失いたくないって思うものが、たくさんあること……わたしは、それが幸せってことなんだと思う。",
+            "skinName": "smile",
+            "voiceFile": "def104116_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "わたしと姉さんは、いわゆる双子みたいなものだけど、けっこう違うところもあるんだよね。胸の大きさとかも……ねえ、父さん。どっちのほうが大きいか、触ってたしかめてみる？",
+            "skinName": "normal",
+            "voiceFile": "def104116_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "ん、すぐに終わらせちゃうから。",
+            "skinName": "normal",
+            "voiceFile": "def104116_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ちょっと、情けない、かな。",
+            "skinName": "normal",
+            "voiceFile": "def104116_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "わりと余裕だったかな。ね、褒めてよ、父さん。",
+            "skinName": "normal",
+            "voiceFile": "def104116_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "わたし、もっと、みんなと一緒に……。",
+            "skinName": "normal",
+            "voiceFile": "def104116_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "いつも、いろいろしてもらってるし……んー、とりあえず、触る？",
+            "skinName": "normal",
+            "voiceFile": "def104116_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "ねえ、父さん。これからも、一緒にいたい……ん、なんか、言葉にするの、少し恥ずかしいね。",
+            "skinName": "normal",
+            "voiceFile": "def104116_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "んっ。",
+            "skinName": "normal",
+            "voiceFile": "def104116_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "これは……。",
+            "skinName": "normal",
+            "voiceFile": "def104116_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "父さん、わたしとなにか、したいこととかある？",
+            "skinName": "normal",
+            "voiceFile": "def104116_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "……この後、暇？　とりあえず、お風呂いかない？",
+            "skinName": "normal",
+            "voiceFile": "def104116_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "こういう服は、なんとなく好きかも。",
+            "skinName": "smile",
+            "voiceFile": "def104116_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "父さんにかわいいって言われると、なんか、口元ゆるむ。",
+            "skinName": "shy",
+            "voiceFile": "def104116_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104116,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "今夜は姉さんが部屋に泊まりに来るんだけど、父さんも来る？",
+            "skinName": "normal",
+            "voiceFile": "def104116_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "ちょっとだけ、眠いかも……んー、おとうさん、おとうさん、ぎゅってして。それで、少しだけ、そのままでいたいな。おとうさんのこと、今は誰よりも近くに感じたくて……ダメ？",
+            "skinName": "normal",
+            "voiceFile": "def104218_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "新しい一日が始まって、たとえ小さなものでも、昨日までとは違う新しい幸せを見つけて……そうしたら、また明日が来るのが楽しみになる。そうやって繰り返す毎日が、わたし、幸せだよ。おとうさん。",
+            "skinName": "smile",
+            "voiceFile": "def104218_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "新しい一日が始まって、たとえ小さなものでも、昨日までとは違う新しい幸せを見つけて……そうしたら、また明日が来るのが楽しみになる。そうやって繰り返す毎日が、わたし、幸せだよ。おとうさん。",
+            "skinName": "smile",
+            "voiceFile": "def104218_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "おとうさんのシャツを借りて寝るとね、なんていうか、こう、すごく幸福感が高まるの。おとうさんのにおいとか感じられて、包まれてる感じして……でも、やっぱり直接おとうさんにぎゅってするのが、一番かな。",
+            "skinName": "normal",
+            "voiceFile": "def104218_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "わたし、きっとすごく贅沢者なんだと思う。今がすごく幸せだって感じているのに、それでも、全然満足できない。こんなんじゃ、足りないの。もっともっと……大切なひとたちと一緒に、もっと幸せになりたいな。",
+            "skinName": "normal",
+            "voiceFile": "def104218_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "もう、いっつも邪魔ばかり。",
+            "skinName": "normal",
+            "voiceFile": "def104218_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "まだ、こんなところじゃ……。",
+            "skinName": "normal",
+            "voiceFile": "def104218_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "うん、問題なし。おとうさん、終わったよ。",
+            "skinName": "normal",
+            "voiceFile": "def104218_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "幸せを諦めたくない……失いたくないのに……。",
+            "skinName": "normal",
+            "voiceFile": "def104218_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "おとうさんが傍にいると、わたし、すごく安心する。",
+            "skinName": "normal",
+            "voiceFile": "def104218_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "どうしよう。おとうさん大好きって気持ち、すごく込み上げてきて……とりあえず、ぎゅーってしよ？",
+            "skinName": "normal",
+            "voiceFile": "def104218_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "きゃっ！",
+            "skinName": "normal",
+            "voiceFile": "def104218_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "そんな……！",
+            "skinName": "normal",
+            "voiceFile": "def104218_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "写真とかで思い出を残しておくと、あとで見直せていいよね。",
+            "skinName": "normal",
+            "voiceFile": "def104218_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "あ……アイカの写真、もうアルバム七冊目埋まっちゃった。",
+            "skinName": "surprise",
+            "voiceFile": "def104218_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "そろそろざくろの部屋の掃除、しにいった方がいい頃かな。",
+            "skinName": "unique",
+            "voiceFile": "def104218_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ねえ、おとうさん。わたしが香水とかつけたら、どう思う？",
+            "skinName": "shy",
+            "voiceFile": "def104218_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104218,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "おとうさん、今日はなにか予定あるの？　一緒にいたいな。",
+            "skinName": "smile",
+            "voiceFile": "def104218_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "えっと……あなたに見つめられるの、イヤじゃない、けど……そんなふうにじっと見られると、私も、いろんな気持ち抑えられなくなっちゃいそうで……それでも、いいの？",
+            "skinName": "shy",
+            "voiceFile": "def100128_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "え、下着……？　あ、その……ちょっと大胆な感じもいいかな、って……あなたはこういうデザインの下着、好き？　もしあれなら……もうちょっと、ちゃんと見てもいいのよ？",
+            "skinName": "shy",
+            "voiceFile": "def100128_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "え、下着……？　あ、その……ちょっと大胆な感じもいいかな、って……あなたはこういうデザインの下着、好き？　もしあれなら……もうちょっと、ちゃんと見てもいいのよ？",
+            "skinName": "shy",
+            "voiceFile": "def100128_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ひゃんっ！　も、もう、今お尻さわったでしょ……むー、そんなとぼけちゃって……そんなイタズラしなくても、あなたが望むなら触らせてあげるのに……え？　それじゃダメって……そ、そうなの？",
+            "skinName": "surprise",
+            "voiceFile": "def100128_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "そう言えば、昔なにかの映画だったかな……恋愛は駆け引きだ、みたいな話があったんだけど……私はダメね。あなたを前にすると、駆け引きなんて絶対にできない……幸せすぎて、それどころじゃないもの。",
+            "skinName": "normal",
+            "voiceFile": "def100128_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "いつも邪魔ばかりなんだから……！",
+            "skinName": "normal",
+            "voiceFile": "def100128_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "まだ、諦めるわけには……。",
+            "skinName": "normal",
+            "voiceFile": "def100128_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "あなたと過ごす幸せを絶対に傷つけさせたりしないわ。",
+            "skinName": "normal",
+            "voiceFile": "def100128_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "私の想いも、心も、こんなところで……。",
+            "skinName": "normal",
+            "voiceFile": "def100128_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "あなたがここにいる。それだけで、私、たまらなく幸せなの。",
+            "skinName": "normal",
+            "voiceFile": "def100128_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "あなたの傍にいることが、私の願い……かわりに、私の全部は、あなたのものだから。",
+            "skinName": "normal",
+            "voiceFile": "def100128_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "そんな……！",
+            "skinName": "normal",
+            "voiceFile": "def100128_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "これなら、まだ……！",
+            "skinName": "normal",
+            "voiceFile": "def100128_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "あのね……今度、デートしたい……だめ？",
+            "skinName": "shy",
+            "voiceFile": "def100128_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "またブリジットに重い女って言われちゃった……。",
+            "skinName": "sad",
+            "voiceFile": "def100128_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "え、これ？　アイカとソーカのアルバムだけど、一緒に見る？",
+            "skinName": "normal",
+            "voiceFile": "def100128_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "その、理由はないんだけど……ぎゅってしても、いい？",
+            "skinName": "shy",
+            "voiceFile": "def100128_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 100128,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "なんだか、疲れた顔していない？　大丈夫？　無理はしないでね。",
+            "skinName": "normal",
+            "voiceFile": "def100128_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "前は、ありのままの自分を誰かに見せるなんて、こんなこと考えられなかった。でも今は……あなたの前でなら、少しくらい、格好をつけない私のままでいても……いいのかしら。",
+            "skinName": "normal",
+            "voiceFile": "def104314_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "私、ルルイエに来てから、多分、いろいろと考え方が変わったんだと思う。あなたと出会ったことで、私は……ん、やっぱり、なんでもない。こんなことを言葉にするのは……さすがに、気恥ずかしいもの。",
+            "skinName": "shy",
+            "voiceFile": "def104314_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "私、ルルイエに来てから、多分、いろいろと考え方が変わったんだと思う。あなたと出会ったことで、私は……ん、やっぱり、なんでもない。こんなことを言葉にするのは……さすがに、気恥ずかしいもの。",
+            "skinName": "shy",
+            "voiceFile": "def104314_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ラヴクラフト財団所属、強化魔術士、齊條ざくろ……そんな肩書きを着こまないと、私は私を証明できなかった。でも、今はそんなものがなくても私はここにいるんだって迷わず言えるわ。",
+            "skinName": "smile",
+            "voiceFile": "def104314_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ねえ……ちょっと、見すぎ。そんなに気になるわけ、その、私の……下着、とか……もう、本当にあなたって人は。ちなみに、なんだけど……あなたはこういうデザインのが、好みだったりするわけ……？",
+            "skinName": "shy",
+            "voiceFile": "def104314_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 0,
+            "title": "バトル開始",
+            "text": "はあ、また面倒事ね。",
+            "skinName": "normal",
+            "voiceFile": "def104314_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 2,
+            "title": "戦闘不能",
+            "text": "ふざけた話よ、こんな……。",
+            "skinName": "normal",
+            "voiceFile": "def104314_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 3,
+            "title": "勝利",
+            "text": "面倒は片付いたけれど、この後、どうする？",
+            "skinName": "normal",
+            "voiceFile": "def104314_11.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 4,
+            "title": "敗北",
+            "text": "今さら、終わりたくないと思うなんて……私は……。",
+            "skinName": "normal",
+            "voiceFile": "def104314_12.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 8,
+            "groupType": 0,
+            "title": "限界突破",
+            "text": "この先も、一緒にいるのがあなたなら……悪くは、ないかもね。",
+            "skinName": "normal",
+            "voiceFile": "def104314_14.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "本当に、おかしな話。いつからかしら……あなたが傍にいることに、安心を覚えるようになってしまったのは。",
+            "skinName": "normal",
+            "voiceFile": "def104314_20.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ1",
+            "text": "こんな……！",
+            "skinName": "normal",
+            "voiceFile": "def104314_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 9,
+            "groupType": 1,
+            "title": "ダメージ2",
+            "text": "やってくれたわね。",
+            "skinName": "normal",
+            "voiceFile": "def104314_09.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "おしゃれ、ねぇ……少しは気を遣った方がいいかしら。",
+            "skinName": "sad",
+            "voiceFile": "def104314_15.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "え、部屋の片づけ？　まあ、それはいいじゃない。",
+            "skinName": "unique",
+            "voiceFile": "def104314_16.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "アイカとソーカの写真……もうアルバム五冊目だわ。",
+            "skinName": "smile",
+            "voiceFile": "def104314_17.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "ここに来て、我ながら、随分と変わったものだわ。",
+            "skinName": "normal",
+            "voiceFile": "def104314_18.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 104314,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "少しくらいなら時間、あるんでしょう？　少し話でもしていく？",
+            "skinName": "smile",
+            "voiceFile": "def104314_19.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 7,
+            "groupType": 1,
+            "title": "入手時",
+            "text": "ボクはテンカイ……この世全ての歓びにして、キミたちの生きる目的そのものだ。まあ、難しいことは置いといておこう。ボクについて大事なのはひとつだけだ……ハッピーになろーぜ！　人類！",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def195751_01.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 2,
+            "groupType": 1,
+            "title": "マイページ1",
+            "text": "ボクは命の歓びそのもの。つまり、ボクを見つけられたキミは最高にハッピーな状態ということだね♪　ボクを見つけるのが上手なキミは、歓びを見落とすことなく生きているんだろう。実に素晴らしいことじゃないかあ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def195751_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ1",
+            "text": "ボクは命の歓びそのもの。つまり、ボクを見つけられたキミは最高にハッピーな状態ということだね♪　ボクを見つけるのが上手なキミは、歓びを見落とすことなく生きているんだろう。実に素晴らしいことじゃないかあ。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def195751_02.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ2",
+            "text": "ボクは瞬間的快楽が服を着て歩いてるような存在だよ？　ボクにカメラを持たせるなんて……そんなの、楽しそうな子を撮りまくるに決まってるじゃないか♪　というわけで、はいチーズ♪　いえいいえーい♪",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def195751_03.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 2,
+            "groupType": 0,
+            "title": "マイページ3",
+            "text": "ルルイエには、キミを生きるための歓びとしている子が数多く存在する。自分を大好きでいてくれる女の子がいっぱい居るのは幸せだろう？　うん？　たくさんのお嫁さんが居ることの、何がいけないのかな？",
+            "skinName": "stand_a,anger",
+            "voiceFile": "def195751_04.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 2,
+            "title": "適合率MAX",
+            "text": "歓びがある場所に、ボクはいる……キミたちが歓びを求める限り、ボクは力を貸すだろう。",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def195751_10.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス1",
+            "text": "今日もたくさんの人間に、ボクを見つけてもらえるといいなあ♪",
+            "skinName": "stand_a,normal",
+            "voiceFile": "def195751_05.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス2",
+            "text": "おっと、見つかっちゃったね♪　せっかくだし、構っておくれよ♪",
+            "skinName": "stand_a,shy",
+            "voiceFile": "def195751_06.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス3",
+            "text": "誰かの歓びを幸せに感じられるキミには、愛される才能があるよ。",
+            "skinName": "stand_a,anger",
+            "voiceFile": "def195751_07.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス4",
+            "text": "写真撮るよー……いいねぇ！　そのままセクシーポーズだぁ！",
+            "skinName": "stand_a,sad",
+            "voiceFile": "def195751_08.mp3",
+            "releaseDate": ""
+        },
+        {
+            "characterId": 195751,
+            "sceneType": 1,
+            "groupType": 1,
+            "title": "ルームボイス5",
+            "text": "おーい、パパくーん……ダメだ、思念を送ったのに無視されてる。",
+            "skinName": "stand_a,surprise",
+            "voiceFile": "def195751_09.mp3",
             "releaseDate": ""
         },
         {
