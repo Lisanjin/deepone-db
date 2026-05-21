@@ -26,5 +26,8 @@ utils.save_masterdata("equipment/getMasterData")
 utils.save_masterdata("equipment/getMasterEquipmentEffectData")
 utils.save_masterdata("equipment/getMasterEquipmentEffectData2")
 
+# utils.save_masterdata("room/getMasterData",save_bin=True)
+
+
 
 

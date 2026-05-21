@@ -5,7 +5,7 @@ from icecream import ic
 
 class Do_data_utils():
     def __init__(self):
-        self.bass_url = "https://tonofura-web-r.deepone-online.com/deep-one/api/"
+        self.bass_url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/"
         
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/244.178.44.111 Safari/537.36",
@@ -22,7 +22,7 @@ class Do_data_utils():
         self.masterdata = {}
     
     def get_md5_data(self):
-        url = "https://tonofura-web-r.deepone-online.com/deep-one/api/version/getMd5Data"
+        url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/version/getMd5Data"
         response = self.session.get(url)
         if response.status_code == 200:
             self.md5_data = response.json()
@@ -33,10 +33,13 @@ class Do_data_utils():
             print(f"Failed to get md5 data. Status code: {response.status_code}")
             return None
     
-    def get_masterdata(self,path):
+    def get_masterdata(self,path,save_bin=False):
         url = self.bass_url + path
         response = self.session.get(url)
         if response.status_code == 200:
+            if save_bin:
+                with open(f"masterdata/{path.replace('/', '_')}.msgpack", "wb") as f:
+                    f.write(response.content)
             self.masterdata[path] = msgpack.unpackb(response.content)
             return self.masterdata[path]
         else:
@@ -44,9 +47,9 @@ class Do_data_utils():
             print(url)
             return None
     
-    def save_masterdata(self,path):
+    def save_masterdata(self,path,save_bin=False):
         print(f"Saving masterdata: {path}")
-        self.get_masterdata(path)
+        self.get_masterdata(path, save_bin=save_bin)
         if path in self.masterdata:
             save_path = path.replace("/", "_").replace("get", "")
             with open(f"masterdata/{save_path}.json", "w",encoding="utf-8") as f:
