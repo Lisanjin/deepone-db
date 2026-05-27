@@ -26,6 +26,8 @@ async function loadJson(url) {
 }
 
 let abilityData = null;
+// 新增缓存变量
+let abilityMainCache = null;
 let abilityEffectList = null;
 
 async function get_AbilityGroup(abilityGroupId) {
@@ -33,6 +35,20 @@ async function get_AbilityGroup(abilityGroupId) {
     abilityData = await loadJson('masterdata/character_MasterAbilityData.json');
   }
   return abilityData.CharacterAbilityGroup.filter(group => group.abilityGroupId === abilityGroupId);
+}
+
+// 加载 CharacterAbilityMain 映射
+async function get_AbilityMainMap() {
+    if (abilityMainCache) return abilityMainCache;
+    if (!abilityData) {
+        abilityData = await loadJson('masterdata/character_MasterAbilityData.json');
+    }
+    const map = new Map();
+    for (const main of abilityData.CharacterAbilityMain) {
+        map.set(main.abilityId, main);
+    }
+    abilityMainCache = map;
+    return map;
 }
 
 async function get_AbilityEffect_list() {
@@ -91,28 +107,56 @@ function get_text(effects) {
   return effects.map(effect => {
     let text = effect.text;
     text = text.replace("{0}", Math.abs(effect.effectValue));
-    text = text.replace("{1-}", TARGET_TYPE_TEXT_CONVERT[effect.targetType]);
-    text = text.replace("{1}", effect.targetValue);
+    
+    let targetTypeText = TARGET_TYPE_TEXT_CONVERT[effect.targetType];
+    let targetValueProcessed = effect.targetValue;
+    const attributeTypes = [12, 22, 32];
+    if (attributeTypes.includes(effect.targetType)) {
+      targetValueProcessed = ATTRIBUTE_TEXT_CONVERT[effect.targetValue] || effect.targetValue;
+    }
+    
+    text = text.replace("{1-}", targetTypeText);
+    text = text.replace("{1}", targetValueProcessed);
     text = text.replace("{2}", effect.endValue);
     return text;
   }).join('\n');
 }
 
+// 递归获取能力文本（包含 addAbilityId 扩展）
+async function get_ability_text_recursive(abilityId, visited = new Set()) {
+    if (visited.has(abilityId)) return '';
+    visited.add(abilityId);
+
+    const effects = await get_effect(abilityId);
+    let text = get_text(effects);
+
+    const mainMap = await get_AbilityMainMap();
+    const mainData = mainMap.get(abilityId);
+    if (mainData && mainData.addAbilityId && mainData.addAbilityId !== 0) {
+        const addText = await get_ability_text_recursive(mainData.addAbilityId, visited);
+        if (addText) {
+          text = text ? `${text}。\n${addText}` : addText;
+        }
+    }
+    return text;
+}
+
+// 修改后的 get_effect_texts
 async function get_effect_texts(groupId) {
-  const abilityList = await get_AbilityGroup(groupId);
-  const effectTexts = [];
+    const abilityList = await get_AbilityGroup(groupId);
+    const effectTexts = [];
 
-  for (const ability of abilityList) {
-    const effects = await get_effect(ability.abilityId);
-    const text = get_text(effects);
-    effectTexts.push(text);
-  }
+    for (const ability of abilityList) {
+        const text = await get_ability_text_recursive(ability.abilityId);
+        effectTexts.push(text);
+    }
 
-  return effectTexts;
+    return effectTexts;
 }
 
 // Optional: 手动清除缓存（开发调试用）
 function clearAbilityCache() {
   abilityData = null;
   abilityEffectList = null;
+  abilityMainCache = null;   // 新增
 }
