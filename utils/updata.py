@@ -1,6 +1,6 @@
 from msgp2json import Do_data_utils
 
-utils = Do_data_utils()
+utils = Do_data_utils(test=False)
 utils.save_masterdata("character/getMasterData")
 utils.save_masterdata("character/getMasterCharacterMainData")
 
@@ -26,7 +26,7 @@ utils.save_masterdata("equipment/getMasterData")
 utils.save_masterdata("equipment/getMasterEquipmentEffectData")
 utils.save_masterdata("equipment/getMasterEquipmentEffectData2")
 
-# utils.save_masterdata("room/getMasterData",save_bin=True)
+utils.save_masterdata("room/getMasterData",save_bin=True)
 
 
 

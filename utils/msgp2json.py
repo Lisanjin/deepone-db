@@ -4,8 +4,13 @@ import requests
 from icecream import ic
 
 class Do_data_utils():
-    def __init__(self):
-        self.bass_url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/"
+    def __init__(self,test=False):
+        if test:
+            with open("test_url", "r",encoding="utf-8") as f:
+                test_url = f.read().strip()
+            self.bass_url = test_url
+        else:
+            self.bass_url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/"
         
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/244.178.44.111 Safari/537.36",
@@ -22,7 +27,9 @@ class Do_data_utils():
         self.masterdata = {}
     
     def get_md5_data(self):
-        url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/version/getMd5Data"
+        # url = "https://prod-web-r.tc.deepone-online.com/deep-one/api/version/getMd5Data"
+        url = f"{self.bass_url}version/getMd5Data"
+        
         response = self.session.get(url)
         if response.status_code == 200:
             self.md5_data = response.json()
@@ -35,6 +42,8 @@ class Do_data_utils():
     
     def get_masterdata(self,path,save_bin=False):
         url = self.bass_url + path
+        print(f"Getting masterdata: {path}")
+        print(url)
         response = self.session.get(url)
         if response.status_code == 200:
             if save_bin:
